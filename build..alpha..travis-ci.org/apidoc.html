@@ -1,0 +1,3075 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/Azure/azure-xplat-cli"
+
+    >azure-cli (v0.10.11)</a>
+</h1>
+<h4>Microsoft Azure Cross Platform Command Line tool</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.azure-cli">module azure-cli</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.autocomplete">
+            function <span class="apidocSignatureSpan">azure-cli.</span>autocomplete
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader">
+            function <span class="apidocSignatureSpan">azure-cli.</span>cmdLoader
+            <span class="apidocSignatureSpan">(topCmd, mode)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_">
+            function <span class="apidocSignatureSpan">azure-cli.</span>super_
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_">
+            function <span class="apidocSignatureSpan">azure-cli.</span>super_.super_
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">azure-cli.</span>autocomplete.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">azure-cli.</span>cmdLoader.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">azure-cli.</span>super_.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">azure-cli.</span>super_.super_.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.azure-cli.autocomplete">module azure-cli.autocomplete</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.autocomplete.autocomplete">
+            function <span class="apidocSignatureSpan">azure-cli.</span>autocomplete
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.azure-cli.autocomplete.prototype">module azure-cli.autocomplete.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.autocomplete.prototype.enableAutoComplete">
+            function <span class="apidocSignatureSpan">azure-cli.autocomplete.prototype.</span>enableAutoComplete
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.autocomplete.prototype.initFromCmdMetadata">
+            function <span class="apidocSignatureSpan">azure-cli.autocomplete.prototype.</span>initFromCmdMetadata
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.azure-cli.cmdLoader">module azure-cli.cmdLoader</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader.cmdLoader">
+            function <span class="apidocSignatureSpan">azure-cli.</span>cmdLoader
+            <span class="apidocSignatureSpan">(topCmd, mode)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.azure-cli.cmdLoader.prototype">module azure-cli.cmdLoader.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader.prototype._flatten">
+            function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>_flatten
+            <span class="apidocSignatureSpan">(arrays)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader.prototype._loadCmdsFromFolder">
+            function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>_loadCmdsFromFolder
+            <span class="apidocSignatureSpan">(scanPath, recursively)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader.prototype._loadCmdsFromNodeModules">
+            function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>_loadCmdsFromNodeModules
+            <span class="apidocSignatureSpan">(scanPath)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader.prototype._serializeCategory">
+            function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>_serializeCategory
+            <span class="apidocSignatureSpan">(category)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader.prototype._serializeIndividualEntity">
+            function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>_serializeIndividualEntity
+            <span class="apidocSignatureSpan">(entity)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader.prototype.cmdMetadataExists">
+            function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>cmdMetadataExists
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader.prototype.harvestModules">
+            function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>harvestModules
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader.prototype.harvestPlugins">
+            function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>harvestPlugins
+            <span class="apidocSignatureSpan">(topLevelOnly)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader.prototype.initFromCmdMetadata">
+            function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>initFromCmdMetadata
+            <span class="apidocSignatureSpan">(AzureCli)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.cmdLoader.prototype.saveCmdMetadata">
+            function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>saveCmdMetadata
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.azure-cli.super_">module azure-cli.super_</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_">
+            function <span class="apidocSignatureSpan">azure-cli.</span>super_
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.azure-cli.super_.prototype">module azure-cli.super_.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.categoryHelpInformation">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>categoryHelpInformation
+            <span class="apidocSignatureSpan">(containsJson)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.commandHelpInformation">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>commandHelpInformation
+            <span class="apidocSignatureSpan">(containsJson)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.fileRelatedOption">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>fileRelatedOption
+            <span class="apidocSignatureSpan">(flags, description)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.fullName">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>fullName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.getJSONMetadata">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>getJSONMetadata
+            <span class="apidocSignatureSpan">(isCategoryHelp)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.helpCategories">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpCategories
+            <span class="apidocSignatureSpan">(levels)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.helpCategoriesSummary">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpCategoriesSummary
+            <span class="apidocSignatureSpan">(showMore)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.helpCommands">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpCommands
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.helpComputeCategories">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpComputeCategories
+            <span class="apidocSignatureSpan">(levels, depth, catName)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.helpInformation">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpInformation
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.helpJSON">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpJSON
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.helpOptions">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpOptions
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.option">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>option
+            <span class="apidocSignatureSpan">(flags, description, fn, defaultValue)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.showCommandMode">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>showCommandMode
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.showMore">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>showMore
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.prototype.usage">
+            function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>usage
+            <span class="apidocSignatureSpan">(str)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.azure-cli.super_.super_">module azure-cli.super_.super_</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.super_">
+            function <span class="apidocSignatureSpan">azure-cli.super_.</span>super_
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.azure-cli.super_.super_.prototype">module azure-cli.super_.super_.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.action">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>action
+            <span class="apidocSignatureSpan">(fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.choose">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>choose
+            <span class="apidocSignatureSpan">(list, index, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.command">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>command
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.commandHelp">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>commandHelp
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.confirm">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>confirm
+            <span class="apidocSignatureSpan">(str, fn, verbose)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.description">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>description
+            <span class="apidocSignatureSpan">(str)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.helpInformation">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>helpInformation
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.largestOptionLength">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>largestOptionLength
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.missingArgument">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>missingArgument
+            <span class="apidocSignatureSpan">(name)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.normalize">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>normalize
+            <span class="apidocSignatureSpan">(args)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.option">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>option
+            <span class="apidocSignatureSpan">(flags, description, fn, defaultValue)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.optionFor">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>optionFor
+            <span class="apidocSignatureSpan">(arg)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.optionHelp">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>optionHelp
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.optionMissingArgument">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>optionMissingArgument
+            <span class="apidocSignatureSpan">(option, flag)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.outputHelp">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>outputHelp
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.parse">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>parse
+            <span class="apidocSignatureSpan">(argv)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.parseArgs">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>parseArgs
+            <span class="apidocSignatureSpan">(args, unknown)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.parseExpectedArgs">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>parseExpectedArgs
+            <span class="apidocSignatureSpan">(args)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.parseOptions">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>parseOptions
+            <span class="apidocSignatureSpan">(argv)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.password">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>password
+            <span class="apidocSignatureSpan">(str, mask, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.prompt">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>prompt
+            <span class="apidocSignatureSpan">(str, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.promptForDate">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>promptForDate
+            <span class="apidocSignatureSpan">(str, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.promptForNumber">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>promptForNumber
+            <span class="apidocSignatureSpan">(str, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.promptMultiLine">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>promptMultiLine
+            <span class="apidocSignatureSpan">(str, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.promptSingleLine">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>promptSingleLine
+            <span class="apidocSignatureSpan">(str, fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.unknownOption">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>unknownOption
+            <span class="apidocSignatureSpan">(flag)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.usage">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>usage
+            <span class="apidocSignatureSpan">(str)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.azure-cli.super_.super_.prototype.version">
+            function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>version
+            <span class="apidocSignatureSpan">(str, flags)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.azure-cli" id="apidoc.module.azure-cli">module azure-cli</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.autocomplete" id="apidoc.element.azure-cli.autocomplete">
+        function <span class="apidocSignatureSpan">azure-cli.</span>autocomplete
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function AutoComplete() {
+  this.mode = utilsCore.getMode();
+  this.cmdMetadataFile = path.join(__dirname, &#x27;plugins.&#x27; + this.mode + &#x27;.json&#x27;);
+  this.cmdBasePath = __dirname;
+  var loader = new CmdLoader(this, this.mode);
+  if (loader.cmdMetadataExists()) {
+    this.initFromCmdMetadata();
+  }
+
+  this.enableAutoComplete();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader" id="apidoc.element.azure-cli.cmdLoader">
+        function <span class="apidocSignatureSpan">azure-cli.</span>cmdLoader
+        <span class="apidocSignatureSpan">(topCmd, mode)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CmdLoader(topCmd, mode) {
+  this.topCmd = topCmd;
+  this.cmdMode = mode;
+  this.cmdMetadataFile = path.join(__dirname, &#x27;plugins.&#x27; + this.cmdMode  + &#x27;.json&#x27;);
+  this.cmdBasePath = __dirname;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_" id="apidoc.element.azure-cli.super_">
+        function <span class="apidocSignatureSpan">azure-cli.</span>super_
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ExtendedCommand(name) {
+  ExtendedCommand[&#x27;super_&#x27;].call(this, name);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_" id="apidoc.element.azure-cli.super_.super_">
+        function <span class="apidocSignatureSpan">azure-cli.</span>super_.super_
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Command(name) {
+  this.commands = [];
+  this.options = [];
+  this.args = [];
+  this.name = name;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.azure-cli.autocomplete" id="apidoc.module.azure-cli.autocomplete">module azure-cli.autocomplete</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.autocomplete.autocomplete" id="apidoc.element.azure-cli.autocomplete.autocomplete">
+        function <span class="apidocSignatureSpan">azure-cli.</span>autocomplete
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function AutoComplete() {
+  this.mode = utilsCore.getMode();
+  this.cmdMetadataFile = path.join(__dirname, &#x27;plugins.&#x27; + this.mode + &#x27;.json&#x27;);
+  this.cmdBasePath = __dirname;
+  var loader = new CmdLoader(this, this.mode);
+  if (loader.cmdMetadataExists()) {
+    this.initFromCmdMetadata();
+  }
+
+  this.enableAutoComplete();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.azure-cli.autocomplete.prototype" id="apidoc.module.azure-cli.autocomplete.prototype">module azure-cli.autocomplete.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.autocomplete.prototype.enableAutoComplete" id="apidoc.element.azure-cli.autocomplete.prototype.enableAutoComplete">
+        function <span class="apidocSignatureSpan">azure-cli.autocomplete.prototype.</span>enableAutoComplete
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">enableAutoComplete = function () {
+  var root = this;
+  var omelette = require(&#x27;omelette&#x27;);
+  root.autoComplete = omelette(&#x27;azure&#x27;);
+
+  function handleAutocomplete(fragment, word, line) {
+    var args = line.trim().split(&#x27; &#x27;)
+      .filter(function (a) {
+      return a !== &#x27;&#x27;;
+    }).map(function (c) {
+      return c.trim();
+    });
+
+    var currentCommand;
+    var arg;
+    var index;
+    var parentCategory;
+    var currentCategory;
+
+    // start from 1, so to discard &#x22;azure&#x22; word
+    for (index = 1, currentCategory = root; index &#x3c; args.length; index++) {
+      arg = args[index];
+      parentCategory = currentCategory;
+      currentCategory = currentCategory.categories[arg];
+      if (!currentCategory) {
+        break;
+      }
+    }
+
+    var tempCategory = currentCategory ? currentCategory : parentCategory;
+    var allSubCategoriesAndCommands = Object.keys(tempCategory.categories)
+      .concat(tempCategory.commands.map(function (c) { return c.name; }));
+
+    currentCommand = tempCategory.commands
+      .filter(function (c) {return c.name === arg;})[0];
+
+    //run out argument while have a valid category?
+    if (currentCategory) {
+      //return sub categories and command combind
+      return this.reply(allSubCategoriesAndCommands);
+    }
+
+    var allCommandOptions;
+    if (currentCommand) {
+      allCommandOptions = currentCommand.options.map(function (o) { return o.long; })
+          .concat(currentCommand.options.map(function (o) { return o.short; }));
+    }
+    //we are at the last arg, try match both categories and commands
+    if (index === args.length - 1) {
+      if (currentCommand) {
+        return this.reply(allCommandOptions);
+      } else {
+        return this.reply(allSubCategoriesAndCommands.filter(function (c) {
+          return utilsCore.stringStartsWith(c, arg);
+        }));
+      }
+    }
+
+    // try to match a command&#x27;s options
+    var lastArg = args[args.length - 1];
+    if (currentCommand &#x26;&#x26; utilsCore.stringStartsWith(lastArg, &#x27;-&#x27;)) {
+      var option = currentCommand.options
+        .filter(function (c) {
+          return c.fileRelatedOption &#x26;&#x26; (c.short === lastArg || c.long === lastArg);
+        })[0];
+
+      if (option) {
+        return this.reply(fs.readdirSync(process.cwd()));
+      } else {
+        return this.reply(
+          allCommandOptions.filter(function (c) { return c &#x26;&#x26; utilsCore.stringStartsWith(c, lastArg);}));
+      }
+    }
+    return this.reply([]);
+  }
+
+  root.autoComplete.on(&#x27;complete&#x27;, handleAutocomplete);
+  root.autoComplete.init();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+this.cmdMetadataFile = path.join(__dirname, &#x27;plugins.&#x27; + this.mode + &#x27;.json&#x27;);
+this.cmdBasePath = __dirname;
+var loader = new CmdLoader(this, this.mode);
+if (loader.cmdMetadataExists()) {
+  this.initFromCmdMetadata();
+}
+
+this.<span class="apidocCodeKeywordSpan">enableAutoComplete</span>();
+}
+
+_.extend(AutoComplete.prototype, {
+initFromCmdMetadata: function () {
+  var data = fs.readFileSync(this.cmdMetadataFile);
+  var cachedPlugins = JSON.parse(data);
+  this.commands = cachedPlugins.commands;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.autocomplete.prototype.initFromCmdMetadata" id="apidoc.element.azure-cli.autocomplete.prototype.initFromCmdMetadata">
+        function <span class="apidocSignatureSpan">azure-cli.autocomplete.prototype.</span>initFromCmdMetadata
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">initFromCmdMetadata = function () {
+  var data = fs.readFileSync(this.cmdMetadataFile);
+  var cachedPlugins = JSON.parse(data);
+  this.commands = cachedPlugins.commands;
+  this.categories = cachedPlugins.categories;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+function AutoComplete() {
+this.mode = utilsCore.getMode();
+this.cmdMetadataFile = path.join(__dirname, &#x27;plugins.&#x27; + this.mode + &#x27;.json&#x27;);
+this.cmdBasePath = __dirname;
+var loader = new CmdLoader(this, this.mode);
+if (loader.cmdMetadataExists()) {
+  this.<span class="apidocCodeKeywordSpan">initFromCmdMetadata</span>();
+}
+
+this.enableAutoComplete();
+}
+
+_.extend(AutoComplete.prototype, {
+initFromCmdMetadata: function () {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.azure-cli.cmdLoader" id="apidoc.module.azure-cli.cmdLoader">module azure-cli.cmdLoader</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader.cmdLoader" id="apidoc.element.azure-cli.cmdLoader.cmdLoader">
+        function <span class="apidocSignatureSpan">azure-cli.</span>cmdLoader
+        <span class="apidocSignatureSpan">(topCmd, mode)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CmdLoader(topCmd, mode) {
+  this.topCmd = topCmd;
+  this.cmdMode = mode;
+  this.cmdMetadataFile = path.join(__dirname, &#x27;plugins.&#x27; + this.cmdMode  + &#x27;.json&#x27;);
+  this.cmdBasePath = __dirname;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.azure-cli.cmdLoader.prototype" id="apidoc.module.azure-cli.cmdLoader.prototype">module azure-cli.cmdLoader.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader.prototype._flatten" id="apidoc.element.azure-cli.cmdLoader.prototype._flatten">
+        function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>_flatten
+        <span class="apidocSignatureSpan">(arrays)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_flatten = function (arrays) {
+  var result = [];
+  arrays.forEach(function (array) {
+    result = result.concat(array);
+  });
+  return result;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    return item.packageInfo &#x26;&#x26; item.packageInfo.plugins &#x26;&#x26; item.packageInfo.plugins[&#x27;azure-cli&#x27;];
+  }
+    catch (err) {
+    return false;
+  }
+});
+
+results = this.<span class="apidocCodeKeywordSpan">_flatten</span>(results.map(function (item) {
+  var plugins = item.packageInfo.plugins[&#x27;azure-cli&#x27;];
+  if (!_.isArray(plugins)) {
+    plugins = [plugins];
+  }
+
+  return plugins.map(function (relativePath) {
+    return {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader.prototype._loadCmdsFromFolder" id="apidoc.element.azure-cli.cmdLoader.prototype._loadCmdsFromFolder">
+        function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>_loadCmdsFromFolder
+        <span class="apidocSignatureSpan">(scanPath, recursively)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_loadCmdsFromFolder = function (scanPath, recursively) {
+  var results = utilsCore.getFiles(scanPath, recursively);
+
+  results = results.filter(function (filePath) {
+    var extname = path.extname(filePath);
+    if (filePath.substring(0, 5) === &#x27;tmp--&#x27;) {
+      return false;
+    } else if (extname !== &#x27;.js&#x27; &#x26;&#x26; extname !== &#x27;._js&#x27;) {
+      //Skip unrelated/temp files
+      return false;
+    }
+    return true;
+  });
+
+  if (process.env.PRECOMPILE_STREAMLINE_FILES) {
+    results = results.filter(function (filePath) {
+      if (filePath.substring(filePath.length - 4) === &#x27;._js&#x27;) {
+        return false;
+      }
+      return true;
+    });
+  }
+
+  // sort them so they load in a predictable order
+  results = results.sort();
+
+  // skip directories
+  results = results.filter(function (filePath) {
+    return fs.statSync(filePath).isFile();
+  });
+
+  // load modules
+  results = results.map(function (filePath) {
+    return require(filePath);
+  });
+
+  // look for exports.init
+  results = results.filter(function (entry) {
+    return entry.init !== undefined;
+  });
+  return results;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+this.cmdMetadataFile = path.join(__dirname, &#x27;plugins.&#x27; + this.cmdMode  + &#x27;.json&#x27;);
+this.cmdBasePath = __dirname;
+}
+
+_.extend(CmdLoader.prototype, {
+harvestPlugins: function (topLevelOnly) {
+  var self = this;
+  var plugins = this.<span class="apidocCodeKeywordSpan">_loadCmdsFromFolder</span>(path.join(this.cmdBasePath, &#x27;commands&#
+x27;), false);
+  plugins.forEach(function (plugin) { plugin.init(self.topCmd); });
+
+  if (!topLevelOnly) {
+    // Load mode specific plugins
+    var modePlugins = this._loadCmdsFromFolder(path.join(this.cmdBasePath, &#x27;commands&#x27;, this.cmdMode), true);
+    modePlugins.forEach(function (plugin) { plugin.init(self.topCmd); });
+  }
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader.prototype._loadCmdsFromNodeModules" id="apidoc.element.azure-cli.cmdLoader.prototype._loadCmdsFromNodeModules">
+        function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>_loadCmdsFromNodeModules
+        <span class="apidocSignatureSpan">(scanPath)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_loadCmdsFromNodeModules = function (scanPath) {
+  var results = fs.readdirSync(scanPath);
+
+  results = results.map(function (moduleName) {
+    return {
+      moduleName: moduleName,
+      modulePath: path.join(scanPath, moduleName)
+    };
+  });
+
+  results = results.filter(function (item) {
+    try {
+      item.moduleStat = fs.statSync(item.modulePath);
+    } catch (error) {
+      return false;
+    }
+    return item.moduleStat.isDirectory();
+  });
+
+  results = results.filter(function (item) {
+    item.packagePath = path.join(item.modulePath, &#x27;package.json&#x27;);
+    item.packageStat = utilsCore.pathExistsSync(item.packagePath) ? fs.statSync(item.packagePath) : undefined;
+    return item.packageStat &#x26;&#x26; item.packageStat.isFile();
+  });
+
+  results = results.filter(function (item) {
+    try {
+      item.packageInfo = JSON.parse(fs.readFileSync(item.packagePath));
+      return item.packageInfo &#x26;&#x26; item.packageInfo.plugins &#x26;&#x26; item.packageInfo.plugins[&#x27;azure-cli&#x27;];
+    }
+      catch (err) {
+      return false;
+    }
+  });
+
+  results = this._flatten(results.map(function (item) {
+    var plugins = item.packageInfo.plugins[&#x27;azure-cli&#x27;];
+    if (!_.isArray(plugins)) {
+      plugins = [plugins];
+    }
+
+    return plugins.map(function (relativePath) {
+      return {
+        context: item,
+        pluginPath: path.join(item.modulePath, relativePath)
+      };
+    });
+  }));
+
+  results = results.filter(function (item) {
+    item.plugin = require(item.pluginPath);
+    return item.plugin.init;
+  });
+
+  return results;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    }
+    harvestPaths.push(nextPath);
+    walkPath = nextPath;
+  }
+
+  var modules = [];
+  harvestPaths.forEach(function (harvestPath) {
+    modules = modules.concat(self.<span class="apidocCodeKeywordSpan">_loadCmdsFromNodeModules</span>(harvestPath));
+  });
+
+  modules.forEach(function (module) {
+    module.plugin.init(self.topCmd);
+  });
+},
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader.prototype._serializeCategory" id="apidoc.element.azure-cli.cmdLoader.prototype._serializeCategory">
+        function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>_serializeCategory
+        <span class="apidocSignatureSpan">(category)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_serializeCategory = function (category) {
+  var cat = this._serializeIndividualEntity(category);
+  cat.commands = [];
+  cat.categories = {};
+
+  if (category.commands) {
+    for (var i in category.commands) {
+      cat.commands.push(this._serializeIndividualEntity(category.commands[i]));
+    }
+  }
+
+  if (category.categories) {
+    for (var j in category.categories) {
+      var currentCategory = this._serializeCategory(category.categories[j]);
+      cat.categories[currentCategory.name] = currentCategory;
+    }
+  }
+
+  return cat;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  var plugins = initCategory(cachedPlugins);
+
+  this.topCmd.commands = plugins.commands;
+  this.topCmd.categories = plugins.categories;
+},
+
+saveCmdMetadata: function () {
+  var metadate = this.<span class="apidocCodeKeywordSpan">_serializeCategory</span>(this.topCmd);
+  fs.writeFileSync(this.cmdMetadataFile, JSON.stringify(metadate, null, 2));
+},
+
+cmdMetadataExists: function () {
+  return utilsCore.pathExistsSync(this.cmdMetadataFile);
+},
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader.prototype._serializeIndividualEntity" id="apidoc.element.azure-cli.cmdLoader.prototype._serializeIndividualEntity">
+        function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>_serializeIndividualEntity
+        <span class="apidocSignatureSpan">(entity)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_serializeIndividualEntity = function (entity) {
+  //TODO: split out the concept of category or command
+  var cmdOrCat = {};
+
+  if (entity.name) {
+    cmdOrCat.name = entity.name;
+  }
+
+  if (entity.description) {
+    cmdOrCat.description = entity.description();
+  }
+
+  if (entity.fullName) {
+    cmdOrCat.fullName = entity.fullName();
+  }
+
+  if (entity.usage) {
+    cmdOrCat.usage = entity.usage();
+  }
+
+  if (entity.filePath) {
+    //Normalize the file path, so that it can be used for both linux and windows.
+    cmdOrCat.filePath = path.relative(this.cmdBasePath, entity.filePath).split(&#x27;\\&#x27;).join(&#x27;/&#x27;);
+  }
+
+  if (entity.options) {
+    cmdOrCat.options = entity.options;
+  }
+
+  return cmdOrCat;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    cmdOrCat.options = entity.options;
+  }
+
+  return cmdOrCat;
+},
+
+_serializeCategory: function (category) {
+  var cat = this.<span class="apidocCodeKeywordSpan">_serializeIndividualEntity</span>(category);
+  cat.commands = [];
+  cat.categories = {};
+
+  if (category.commands) {
+    for (var i in category.commands) {
+      cat.commands.push(this._serializeIndividualEntity(category.commands[i]));
+    }
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader.prototype.cmdMetadataExists" id="apidoc.element.azure-cli.cmdLoader.prototype.cmdMetadataExists">
+        function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>cmdMetadataExists
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cmdMetadataExists = function () {
+  return utilsCore.pathExistsSync(this.cmdMetadataFile);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var utilsCore = require(&#x27;./util/utilsCore&#x27;);
+
+function AutoComplete() {
+  this.mode = utilsCore.getMode();
+  this.cmdMetadataFile = path.join(__dirname, &#x27;plugins.&#x27; + this.mode + &#x27;.json&#x27;);
+  this.cmdBasePath = __dirname;
+  var loader = new CmdLoader(this, this.mode);
+  if (loader.<span class="apidocCodeKeywordSpan">cmdMetadataExists</span>()) {
+    this.initFromCmdMetadata();
+  }
+
+  this.enableAutoComplete();
+}
+
+_.extend(AutoComplete.prototype, {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader.prototype.harvestModules" id="apidoc.element.azure-cli.cmdLoader.prototype.harvestModules">
+        function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>harvestModules
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">harvestModules = function () {
+  var self = this;
+
+  var basePath = path.dirname(__filename);
+
+  var walkPath = path.join(basePath, &#x27;../node_modules&#x27;);
+  var harvestPaths = [walkPath];
+
+  while (path.basename(walkPath) === &#x27;node_modules&#x27; &#x26;&#x26; path.dirname(walkPath) !== &#x27;npm&#x27;) {
+    var nextPath = path.join(walkPath, &#x27;../..&#x27;);
+    if (nextPath === walkPath) {
+      break;
+    }
+    harvestPaths.push(nextPath);
+    walkPath = nextPath;
+  }
+
+  var modules = [];
+  harvestPaths.forEach(function (harvestPath) {
+    modules = modules.concat(self._loadCmdsFromNodeModules(harvestPath));
+  });
+
+  modules.forEach(function (module) {
+    module.plugin.init(self.topCmd);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader.prototype.harvestPlugins" id="apidoc.element.azure-cli.cmdLoader.prototype.harvestPlugins">
+        function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>harvestPlugins
+        <span class="apidocSignatureSpan">(topLevelOnly)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">harvestPlugins = function (topLevelOnly) {
+  var self = this;
+  var plugins = this._loadCmdsFromFolder(path.join(this.cmdBasePath, &#x27;commands&#x27;), false);
+  plugins.forEach(function (plugin) { plugin.init(self.topCmd); });
+
+  if (!topLevelOnly) {
+    // Load mode specific plugins
+    var modePlugins = this._loadCmdsFromFolder(path.join(this.cmdBasePath, &#x27;commands&#x27;, this.cmdMode), true);
+    modePlugins.forEach(function (plugin) { plugin.init(self.topCmd); });
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader.prototype.initFromCmdMetadata" id="apidoc.element.azure-cli.cmdLoader.prototype.initFromCmdMetadata">
+        function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>initFromCmdMetadata
+        <span class="apidocSignatureSpan">(AzureCli)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">initFromCmdMetadata = function (AzureCli) {
+  var self = this;
+  var initCategory = function (category, parent) {
+    function process(entity, entityParent) {
+      var newEntity = new AzureCli(entity.name, entityParent);
+
+      if (entity.description) {
+        newEntity._description = entity.description;
+      }
+
+      //TODO, for some fields, we create wrapper functions here,
+      //so that existing code won&#x27;t break. We should get rid of them soon.
+      newEntity.description = function () {
+        return newEntity._description;
+      };
+
+      newEntity.fullName = function () {
+        return entity.fullName;
+      };
+
+      newEntity._usage = entity.usage;
+      newEntity.usage = function () {
+        return newEntity._usage;
+      };
+
+      newEntity.filePath = entity.filePath ?
+        path.resolve(self.cmdBasePath, entity.filePath) : entity.filePath;
+      newEntity.stub = true;
+
+      if (entity.options) {
+        for (var o in entity.options) {
+          newEntity.option(entity.options[o].flags, entity.options[o].description);
+        }
+      }
+
+      return newEntity;
+    }
+
+
+    var newCategory = category;
+    //can&#x27;t invoke &#x22;process&#x22; for top category, which would new
+    //up a top AzureCli and get us into an infinite loop.
+    if (parent) {
+      newCategory = process(category, parent);
+    }
+
+    for (var i = 0 ; i &#x3c; category.commands.length; i++) {
+      newCategory.commands[i] = (process(category.commands[i], newCategory));
+    }
+
+    if (!newCategory.categories) {
+      newCategory.categories = {};
+    }
+
+    for (var j in category.categories) {
+      newCategory.categories[j] = initCategory(category.categories[j], newCategory);
+    }
+
+    return newCategory;
+  };
+
+  var data = fs.readFileSync(this.cmdMetadataFile);
+  var cachedPlugins = JSON.parse(data);
+  var plugins = initCategory(cachedPlugins);
+
+  this.topCmd.commands = plugins.commands;
+  this.topCmd.categories = plugins.categories;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+function AutoComplete() {
+this.mode = utilsCore.getMode();
+this.cmdMetadataFile = path.join(__dirname, &#x27;plugins.&#x27; + this.mode + &#x27;.json&#x27;);
+this.cmdBasePath = __dirname;
+var loader = new CmdLoader(this, this.mode);
+if (loader.cmdMetadataExists()) {
+  this.<span class="apidocCodeKeywordSpan">initFromCmdMetadata</span>();
+}
+
+this.enableAutoComplete();
+}
+
+_.extend(AutoComplete.prototype, {
+initFromCmdMetadata: function () {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.cmdLoader.prototype.saveCmdMetadata" id="apidoc.element.azure-cli.cmdLoader.prototype.saveCmdMetadata">
+        function <span class="apidocSignatureSpan">azure-cli.cmdLoader.prototype.</span>saveCmdMetadata
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">saveCmdMetadata = function () {
+  var metadate = this._serializeCategory(this.topCmd);
+  fs.writeFileSync(this.cmdMetadataFile, JSON.stringify(metadate, null, 2));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.azure-cli.super_" id="apidoc.module.azure-cli.super_">module azure-cli.super_</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_" id="apidoc.element.azure-cli.super_.super_">
+        function <span class="apidocSignatureSpan">azure-cli.</span>super_
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Command(name) {
+  this.commands = [];
+  this.options = [];
+  this.args = [];
+  this.name = name;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.azure-cli.super_.prototype" id="apidoc.module.azure-cli.super_.prototype">module azure-cli.super_.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.categoryHelpInformation" id="apidoc.element.azure-cli.super_.prototype.categoryHelpInformation">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>categoryHelpInformation
+        <span class="apidocSignatureSpan">(containsJson)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">categoryHelpInformation = function (containsJson) {
+  var self = this;
+  if (containsJson) {
+    var result = self.getJSONMetadata(true);
+    if (!result) {
+      throw new Error(util.format(&#x27;Unable to provide help in JSON format for \&#x27;%s\&#x27;&#x27;, self.fullName()));
+    }
+    self.output.format({ json: true, level: &#x27;data&#x27; });
+    return self.output.json(result);
+  }
+  this.output.help(self.description());
+
+  if (this.name === &#x27;vm&#x27; || this.name === &#x27;vmss&#x27; || this.name === &#x27;acs&#x27; || this.name === &#x27;managed-disk&#x27; || this.name === &#x27;managed
+-snapshot&#x27; || this.name === &#x27;managed-image&#x27;) {
+    self.helpComputeCategories(-1, 0, this.name);
+    self.helpCommands();
+  } else {
+    self.helpCommands();
+    self.helpCategories(-1);
+  }
+
+  self.helpOptions();
+  self.showCommandMode();
+  return &#x27;&#x27;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.commandHelpInformation" id="apidoc.element.azure-cli.super_.prototype.commandHelpInformation">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>commandHelpInformation
+        <span class="apidocSignatureSpan">(containsJson)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">commandHelpInformation = function (containsJson) {
+  var self = this;
+  if (containsJson) {
+    var result = self.getJSONMetadata(false);
+    if (!result) {
+      throw new Error(util.format(&#x27;Unable to provide help in JSON format for \&#x27;%s\&#x27;&#x27;, self.fullName()));
+    }
+    self.output.format({ json: true, level: &#x27;data&#x27; });
+    return self.output.json(result);
+  }
+  if (self._detailedDescription) {
+    this.output.help(self.detailedDescription());
+  } else {
+    this.output.help(self.description());
+  }
+
+  this.output.help(&#x27;&#x27;);
+  this.output.help(&#x27;Usage:&#x27;, self.fullName() + &#x27; &#x27; + self.usage());
+
+  self.helpOptions();
+  self.showCommandMode();
+
+  return &#x27;&#x27;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.fileRelatedOption" id="apidoc.element.azure-cli.super_.prototype.fileRelatedOption">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>fileRelatedOption
+        <span class="apidocSignatureSpan">(flags, description)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fileRelatedOption = function (flags, description) {
+  this.option(flags, description);
+  this.options[this.options.length - 1].fileRelatedOption = true;
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.fullName" id="apidoc.element.azure-cli.super_.prototype.fullName">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>fullName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fullName = function () {
+  var name = this.name;
+  var scan = this.parent;
+  while (scan &#x26;&#x26; scan.parent !== undefined) {
+    name = scan.name ? scan.name + &#x27; &#x27; + name : name;
+    scan = scan.parent;
+  }
+
+  return name;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+if (entity.description) {
+  cmdOrCat.description = entity.description();
+}
+
+if (entity.fullName) {
+  cmdOrCat.fullName = entity.<span class="apidocCodeKeywordSpan">fullName</span>();
+}
+
+if (entity.usage) {
+  cmdOrCat.usage = entity.usage();
+}
+
+if (entity.filePath) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.getJSONMetadata" id="apidoc.element.azure-cli.super_.prototype.getJSONMetadata">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>getJSONMetadata
+        <span class="apidocSignatureSpan">(isCategoryHelp)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getJSONMetadata = function (isCategoryHelp) {
+  //Local function
+  function findItem(arr, item) {
+    var filteredArray = arr.filter(function (element) {
+      if (element.name === item) {
+        return element;
+      }
+    });
+    return filteredArray[0];
+  }
+  //Actual function definition
+  var self = this;
+  var cmdMetadatafile = path.join(__dirname, &#x27;..&#x27;, &#x27;plugins.&#x27; + utilsCore.getMode() + &#x27;.json&#x27;);
+  var data = fs.readFileSync(cmdMetadatafile);
+  var jsonInfo = {};
+  try {
+    jsonInfo = JSON.parse(data);
+  } catch (err) {
+    throw new Error(util.format(&#x27;Error occurred while parsing the json file \&#x27;%s\&#x27;: \n%s&#x27;,
+      cmdMetadatafile, util.inspect(err, { depth: null })));
+  }
+
+  var categories = jsonInfo.categories;
+  var cmdLookup = self.fullName().trim().split(&#x27; &#x27;);
+  var cats = cmdLookup;
+  var command = &#x27;&#x27;;
+  if (!isCategoryHelp) {
+    command = cmdLookup[cmdLookup.length - 1];
+    var topCmd = findItem(jsonInfo.commands, command);
+    if (topCmd) return topCmd;
+    cats = cmdLookup.slice(0, cmdLookup.length - 1);
+  }
+
+  for (var i = 0; i&#x3c; cats.length; i++) {
+    if (categories[cats[i]]) {
+      if (i === cats.length - 1) {
+        categories = categories[cats[i]];
+      } else {
+        categories = categories[cats[i]].categories;
+      }
+    }
+  }
+
+  if (!isCategoryHelp) {
+    return findItem(categories.commands, command);
+  } else {
+    return categories;
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.helpCategories" id="apidoc.element.azure-cli.super_.prototype.helpCategories">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpCategories
+        <span class="apidocSignatureSpan">(levels)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">helpCategories = function (levels) {
+  for (var name in this.categories) {
+    var cat = this.categories[name];
+
+    this.output.help(&#x27;&#x27;);
+
+    this.output.help(cat.description().cyan);
+
+    if (levels === -1 || levels &#x3e; 0) {
+      for (var index in cat.commands) {
+        var cmd = cat.commands[index];
+        this.output.help(&#x27; &#x27;, cmd.fullName() + &#x27; &#x27; + cmd.usage());
+      }
+
+      cat.helpCategories(levels !== -1 ? --levels : -1);
+    } else {
+      this.output.help(&#x27; &#x27;, cat.fullName());
+    }
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.helpCategoriesSummary" id="apidoc.element.azure-cli.super_.prototype.helpCategoriesSummary">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpCategoriesSummary
+        <span class="apidocSignatureSpan">(showMore)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">helpCategoriesSummary = function (showMore) {
+  var self = this;
+  var categories = [];
+  function scan(parent, levels, each) {
+    for (var name in parent.categories) {
+      var cat = parent.categories[name];
+
+      each(cat);
+
+      if (levels === -1 || levels &#x3e; 0) {
+        scan(cat, levels !== -1 ? --levels : -1, each);
+      }
+    }
+  }
+
+  scan(this, showMore ? -1 : 0, function (cat) { categories.push(cat); });
+  var maxLength = 14;
+
+  // Sort categories by alphabetical order
+  categories.sort(function (a, b) {
+    return (a.fullName() &#x3c;  b.fullName()) ? -1 : (a.fullName() &#x3e;  b.fullName()) ? 1 : 0;
+  });
+
+  categories.forEach(function (cat) {
+    if (maxLength &#x3c; cat.fullName().length)
+      maxLength = cat.fullName().length;
+  });
+
+  self.output.help(&#x27;&#x27;);
+  self.output.help(&#x27;Commands:&#x27;);
+  categories.forEach(function (cat) {
+    var name = cat.fullName();
+    while (name.length &#x3c; maxLength) {
+      name += &#x27; &#x27;;
+    }
+
+    self.output.help(&#x27;  &#x27; + name + &#x27; &#x27; + cat.description().cyan);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.helpCommands" id="apidoc.element.azure-cli.super_.prototype.helpCommands">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpCommands
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">helpCommands = function () {
+  var self = this;
+
+  this.commands.forEach(function (cmd) {
+    self.output.help(&#x27;&#x27;);
+    self.output.help(cmd.description().cyan);
+    self.output.help(&#x27; &#x27;, cmd.fullName() + &#x27; &#x27; + cmd.usage());
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.helpComputeCategories" id="apidoc.element.azure-cli.super_.prototype.helpComputeCategories">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpComputeCategories
+        <span class="apidocSignatureSpan">(levels, depth, catName)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">helpComputeCategories = function (levels, depth, catName) {
+  for (var name in this.categories) {
+    var cat = this.categories[name];
+    if (depth === 0) {
+      this.output.help(&#x27;&#x27;);
+      this.output.help(cat.description().cyan);
+    }
+
+    if (levels === -1 || levels &#x3e; 0) {
+      // Compress command names only for &#x27;vmss config&#x27; category, i.e.
+      // &#x27;vmss config sku set&#x27; &#x26; &#x27;vmss config sku delete&#x27; =&#x3e;
+      // &#x27;vmss config sku set|delete&#x27;
+      var index = 0;
+      var cmd = null;
+      if (depth &#x3e;= 1 &#x26;&#x26; utilsCore.stringStartsWith(cat.fullName(), catName + &#x27; config &#x27;)) {
+        var commandNames = [];
+        for (index in cat.commands) {
+          cmd = cat.commands[index];
+          commandNames.push(cmd.name);
+        }
+        this.output.help(&#x27; &#x27;, cat.fullName() + &#x27; &#x27; + commandNames.join(&#x27;|&#x27;) + &#x27; [options]&#x27;);
+      }
+      else {
+        for (index in cat.commands) {
+          cmd = cat.commands[index];
+          this.output.help(&#x27; &#x27;, cmd.fullName() + &#x27; &#x27; + cmd.usage());
+        }
+      }
+
+      cat.helpComputeCategories(levels !== -1 ? --levels : -1, depth + 1, catName);
+    } else {
+      this.output.help(&#x27; &#x27;, cat.fullName());
+    }
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.helpInformation" id="apidoc.element.azure-cli.super_.prototype.helpInformation">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpInformation
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">helpInformation = function () {
+  var self = this;
+
+  if (!self.parent) {
+    var raw = self.normalize(process.argv.slice(2));
+    var containsJson = raw.some(function (item) { return item === &#x27;--json&#x27;; });
+    if (containsJson) {
+      self.output.format({ json: true, level: &#x27;data&#x27; });
+      self.output.json(self.helpJSON());
+      return &#x27;&#x27;;
+    }
+    var packagePath = path.join(__dirname, &#x27;../../package.json&#x27;);
+    var packageInfo = JSON.parse(fs.readFileSync(packagePath));
+
+    if (raw.indexOf(&#x27;-v&#x27;) &#x3e;= 0) {
+      console.log(packageInfo.version);
+    } else if (raw.indexOf(&#x27;--version&#x27;) &#x3e;= 0) {
+      console.log(util.format(&#x27;%s (node: %s)&#x27;, packageInfo.version, process.versions.node));
+    } else {
+      self.setupCommandLogFormat(true);
+
+      self.output.info(&#x27;         _    _____   _ ___ ___&#x27;.cyan);
+      self.output.info(&#x27;        /_\\  |_  / | | | _ \\ __|&#x27;.cyan);
+      self.output.info(&#x27;  _ ___&#x27;.grey + &#x27;/ _ \\&#x27;.cyan + &#x27;__&#x27;.grey + &#x27;/ /| |_| |   / _|&#x27;.cyan + &#x27;___ _ _&#x27;.grey);
+      self.output.info(&#x27;(___  &#x27;.grey + &#x27;/_/ \\_\\/___|\\___/|_|_\\___|&#x27;.cyan + &#x27; _____)&#x27;.grey);
+      self.output.info(&#x27;   (_______ _ _)         _ ______ _)_ _ &#x27;.grey);
+      self.output.info(&#x27;          (______________ _ )   (___ _ _)&#x27;.grey);
+      self.output.info(&#x27;&#x27;);
+
+      self.output.info(&#x27;Microsoft Azure: Microsoft\&#x27;s Cloud Platform&#x27;);
+      self.output.info(&#x27;&#x27;);
+      self.output.info(&#x27;Tool version&#x27;, packageInfo.version);
+
+      self.helpCommands();
+      self.helpCategoriesSummary(self.showMore());
+      self.helpOptions();
+      self.showCommandMode();
+    }
+  } else {
+    self.output.help(self.description());
+    self.output.help(&#x27;&#x27;);
+    self.output.help(&#x27;Usage:&#x27;, self.fullName() + &#x27; &#x27; + self.usage());
+    self.helpOptions();
+    self.showCommandMode();
+  }
+
+  return &#x27;&#x27;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.helpJSON" id="apidoc.element.azure-cli.super_.prototype.helpJSON">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpJSON
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">helpJSON = function () {
+  var self = this;
+  var result = _.tap({}, function(res){
+    if(_.isNull(self.parent) || _.isUndefined(self.parent)){
+      res.name = pjson.name;
+      res.description = pjson.description;
+      res.author = pjson.author;
+      res.version = pjson.version;
+      res.contributors = pjson.contributors;
+      res.homepage = pjson.homepage;
+      res.licenses = pjson.licenses;
+    } else {
+      res.name = self.fullName();
+      res.description = self.description();
+    }
+    res.usage = self.usage();
+  });
+
+  if (this.categories &#x26;&#x26; Object.keys(this.categories).length &#x3e; 0) {
+    result.categories = {};
+
+    for (var name in this.categories) {
+      result.categories[name] = this.categories[name].helpJSON();
+    }
+  }
+
+  if (this.commands &#x26;&#x26; this.commands.length &#x3e; 0) {
+    result.commands = [];
+
+    this.commands.forEach(function (cmd) {
+      var command = {
+        name: cmd.fullName(),
+        description: cmd.description(),
+        options: cmd.options,
+        usage: cmd.usage()
+      };
+
+      result.commands.push(command);
+    });
+  }
+
+  return result;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.helpOptions" id="apidoc.element.azure-cli.super_.prototype.helpOptions">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>helpOptions
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">helpOptions = function () {
+  var self = this;
+  self.output.help(&#x27;&#x27;);
+  self.output.help(&#x27;Options:&#x27;);
+  self.optionHelp().split(&#x27;\n&#x27;).forEach(function (line) { self.output.help(&#x27; &#x27;, line); });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.option" id="apidoc.element.azure-cli.super_.prototype.option">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>option
+        <span class="apidocSignatureSpan">(flags, description, fn, defaultValue)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">option = function (flags, description, fn, defaultValue) {
+  var self = this;
+
+  var option = new commander.Option(flags, description);
+
+  // Remove preexistant option with same name
+  self.options = self.options.filter(function (o) {
+    return o.name() !== option.name() || o.long !== option.long;
+  });
+
+  var oname = option.name();
+  var name = utilsCore.camelcase(oname);
+
+  if (!self.optionValues) {
+    self.optionValues = {};
+  }
+
+  // default as 3rd arg
+  if (&#x27;function&#x27; !== typeof fn) {
+    defaultValue = fn;
+    fn = null;
+  }
+
+  // preassign default value only for --no-*, [optional], or &#x3c;required&#x3e;
+  if (false === option.bool || option.optional || option.required) {
+    // when --no-* we make sure default is true
+    if (false === option.bool) defaultValue = true;
+    // preassign only if we have a default
+    if (undefined !== defaultValue) self.optionValues[name] = defaultValue;
+  }
+
+  // register the option
+  this.options.push(option);
+
+  // when it&#x27;s passed assign the value
+  // and conditionally invoke the callback
+  this.on(oname, function (val) {
+    // coercion
+    if (val &#x26;&#x26; fn) val = fn(val);
+
+    // unassigned or bool
+    if (&#x27;boolean&#x27; === typeof self.optionValues[name] || &#x27;undefined&#x27; === typeof self.optionValues[name]) {
+      // if no value, bool true, and we have a default, then use it!
+      if (!val) {
+        self.optionValues[name] = option.bool ? defaultValue || true : false;
+      } else {
+        self.optionValues[name] = val;
+      }
+    } else if (val) {
+      // reassign
+      self.optionValues[name] = val;
+    }
+  });
+
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+  newEntity.filePath = entity.filePath ?
+    path.resolve(self.cmdBasePath, entity.filePath) : entity.filePath;
+  newEntity.stub = true;
+
+  if (entity.options) {
+    for (var o in entity.options) {
+      newEntity.<span class="apidocCodeKeywordSpan">option</span>(entity.options[o].flags, entity.options[o].description);
+    }
+  }
+
+  return newEntity;
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.showCommandMode" id="apidoc.element.azure-cli.super_.prototype.showCommandMode">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>showCommandMode
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">showCommandMode = function (){
+  this.output.help(&#x27;&#x27;);
+  var mode = this._mode;
+  if (!mode) {
+    mode = utilsCore.getMode();
+  }
+  var text = util.format(&#x27;Current Mode: %s (Azure %s Management)&#x27;, mode,
+    (mode === Constants.API_VERSIONS.ASM ? &#x27;Service&#x27; : &#x27;Resource&#x27;));
+  this.output.help(text);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.showMore" id="apidoc.element.azure-cli.super_.prototype.showMore">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>showMore
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">showMore = function () {
+  var raw = this.normalize(process.argv.slice(2));
+  return raw.indexOf(&#x27;--help&#x27;) &#x3e;= 0 || raw.indexOf(&#x27;-h&#x27;) &#x3e;= 0;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.prototype.usage" id="apidoc.element.azure-cli.super_.prototype.usage">
+        function <span class="apidocSignatureSpan">azure-cli.super_.prototype.</span>usage
+        <span class="apidocSignatureSpan">(str)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">usage = function (str) {
+  var ret;
+
+  if (str) {
+    ret = commander.Command.prototype.usage.call(this, str);
+  } else {
+    ret = commander.Command.prototype.usage.call(this);
+    ret = ret.replace(/,/g,&#x27; &#x27;);
+  }
+
+  return ret;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+if (entity.fullName) {
+  cmdOrCat.fullName = entity.fullName();
+}
+
+if (entity.usage) {
+  cmdOrCat.usage = entity.<span class="apidocCodeKeywordSpan">usage</span>();
+}
+
+if (entity.filePath) {
+  //Normalize the file path, so that it can be used for both linux and windows.
+  cmdOrCat.filePath = path.relative(this.cmdBasePath, entity.filePath).split(&#x27;\\&#x27;).join(&#x27;/&#x27;);
+}
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.azure-cli.super_.super_" id="apidoc.module.azure-cli.super_.super_">module azure-cli.super_.super_</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.super_" id="apidoc.element.azure-cli.super_.super_.super_">
+        function <span class="apidocSignatureSpan">azure-cli.super_.</span>super_
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Command(name) {
+  this.commands = [];
+  this.options = [];
+  this.args = [];
+  this.name = name;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.azure-cli.super_.super_.prototype" id="apidoc.module.azure-cli.super_.super_.prototype">module azure-cli.super_.super_.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.action" id="apidoc.element.azure-cli.super_.super_.prototype.action">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>action
+        <span class="apidocSignatureSpan">(fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">action = function (fn){
+  var self = this;
+  this.parent.on(this.name, function(args, unknown){
+    // Parse any so-far unknown options
+    unknown = unknown || [];
+    var parsed = self.parseOptions(unknown);
+
+    // Output help if necessary
+    outputHelpIfNecessary(self, parsed.unknown);
+
+    // If there are still any unknown options, then we simply
+    // die, unless someone asked for help, in which case we give it
+    // to them, and then we die.
+    if (parsed.unknown.length &#x3e; 0) {
+      self.unknownOption(parsed.unknown[0]);
+    }
+
+    // Leftover arguments need to be pushed back. Fixes issue #56
+    if (parsed.args.length) args = parsed.args.concat(args);
+
+    self.args.forEach(function(arg, i){
+      if (arg.required &#x26;&#x26; null == args[i]) {
+        self.missingArgument(arg.name);
+      }
+    });
+
+    // Always append ourselves to the end of the arguments,
+    // to make sure we match the number of arguments the user
+    // expects
+    if (self.args.length) {
+      args[self.args.length] = self;
+    } else {
+      args.push(self);
+    }
+
+    fn.apply(this, args);
+  });
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.choose" id="apidoc.element.azure-cli.super_.super_.prototype.choose">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>choose
+        <span class="apidocSignatureSpan">(list, index, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">choose = function (list, index, fn){
+  var self = this
+    , hasDefault = &#x27;number&#x27; == typeof index;
+
+  if (!hasDefault) {
+    fn = index;
+    index = null;
+  }
+
+  list.forEach(function(item, i){
+    if (hasDefault &#x26;&#x26; i == index) {
+      console.log(&#x27;* %d) %s&#x27;, i + 1, item);
+    } else {
+      console.log(&#x27;  %d) %s&#x27;, i + 1, item);
+    }
+  });
+
+  function again() {
+    self.prompt(&#x27;  : &#x27;, function(val){
+      val = parseInt(val, 10) - 1;
+      if (hasDefault &#x26;&#x26; isNaN(val)) val = index;
+
+      if (null == list[val]) {
+        again();
+      } else {
+        fn(val, list[val]);
+      }
+    });
+  }
+
+  again();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.command" id="apidoc.element.azure-cli.super_.super_.prototype.command">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>command
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">command = function (name){
+  var args = name.split(/ +/);
+  var cmd = new Command(args.shift());
+  this.commands.push(cmd);
+  cmd.parseExpectedArgs(args);
+  cmd.parent = this;
+  return cmd;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.commandHelp" id="apidoc.element.azure-cli.super_.super_.prototype.commandHelp">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>commandHelp
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">commandHelp = function (){
+  if (!this.commands.length) return &#x27;&#x27;;
+  return [
+      &#x27;&#x27;
+    , &#x27;  Commands:&#x27;
+    , &#x27;&#x27;
+    , this.commands.map(function(cmd){
+      var args = cmd.args.map(function(arg){
+        return arg.required
+          ? &#x27;&#x3c;&#x27; + arg.name + &#x27;&#x3e;&#x27;
+          : &#x27;[&#x27; + arg.name + &#x27;]&#x27;;
+      }).join(&#x27; &#x27;);
+
+      return cmd.name
+        + (cmd.options.length
+          ? &#x27; [options]&#x27;
+          : &#x27;&#x27;) + &#x27; &#x27; + args
+        + (cmd.description()
+          ? &#x27;\n&#x27; + cmd.description()
+          : &#x27;&#x27;);
+    }).join(&#x27;\n\n&#x27;).replace(/^/gm, &#x27;    &#x27;)
+    , &#x27;&#x27;
+  ].join(&#x27;\n&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.confirm" id="apidoc.element.azure-cli.super_.super_.prototype.confirm">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>confirm
+        <span class="apidocSignatureSpan">(str, fn, verbose)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">confirm = function (str, fn, verbose){
+  var self = this;
+  this.prompt(str, function(ok){
+    if (!ok.trim()) {
+      if (!verbose) str += &#x27;(yes or no) &#x27;;
+      return self.confirm(str, fn, true);
+    }
+    fn(parseBool(ok));
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.description" id="apidoc.element.azure-cli.super_.super_.prototype.description">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>description
+        <span class="apidocSignatureSpan">(str)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">description = function (str){
+  if (0 == arguments.length) return this._description;
+  this._description = str;
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var cmdOrCat = {};
+
+if (entity.name) {
+  cmdOrCat.name = entity.name;
+}
+
+if (entity.description) {
+  cmdOrCat.description = entity.<span class="apidocCodeKeywordSpan">description</span>();
+}
+
+if (entity.fullName) {
+  cmdOrCat.fullName = entity.fullName();
+}
+
+if (entity.usage) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.helpInformation" id="apidoc.element.azure-cli.super_.super_.prototype.helpInformation">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>helpInformation
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">helpInformation = function (){
+  return [
+      &#x27;&#x27;
+    , &#x27;  Usage: &#x27; + this.name + &#x27; &#x27; + this.usage()
+    , &#x27;&#x27; + this.commandHelp()
+    , &#x27;  Options:&#x27;
+    , &#x27;&#x27;
+    , &#x27;&#x27; + this.optionHelp().replace(/^/gm, &#x27;    &#x27;)
+    , &#x27;&#x27;
+    , &#x27;&#x27;
+  ].join(&#x27;\n&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.largestOptionLength" id="apidoc.element.azure-cli.super_.super_.prototype.largestOptionLength">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>largestOptionLength
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">largestOptionLength = function (){
+  return this.options.reduce(function(max, option){
+    return Math.max(max, option.flags.length);
+  }, 0);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.missingArgument" id="apidoc.element.azure-cli.super_.super_.prototype.missingArgument">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>missingArgument
+        <span class="apidocSignatureSpan">(name)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">missingArgument = function (name){
+  console.error();
+  console.error(&#x22;  error: missing required argument `%s&#x27;&#x22;, name);
+  console.error();
+  process.exit(1);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.normalize" id="apidoc.element.azure-cli.super_.super_.prototype.normalize">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>normalize
+        <span class="apidocSignatureSpan">(args)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">normalize = function (args){
+  var ret = []
+    , arg
+    , index;
+
+  for (var i = 0, len = args.length; i &#x3c; len; ++i) {
+    arg = args[i];
+    if (arg.length &#x3e; 1 &#x26;&#x26; &#x27;-&#x27; == arg[0] &#x26;&#x26; &#x27;-&#x27; != arg[1]) {
+      arg.slice(1).split(&#x27;&#x27;).forEach(function(c){
+        ret.push(&#x27;-&#x27; + c);
+      });
+    } else if (/^--/.test(arg) &#x26;&#x26; ~(index = arg.indexOf(&#x27;=&#x27;))) {
+      ret.push(arg.slice(0, index), arg.slice(index + 1));
+    } else {
+      ret.push(arg);
+    }
+  }
+
+  return ret;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.option" id="apidoc.element.azure-cli.super_.super_.prototype.option">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>option
+        <span class="apidocSignatureSpan">(flags, description, fn, defaultValue)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">option = function (flags, description, fn, defaultValue){
+  var self = this
+    , option = new Option(flags, description)
+    , oname = option.name()
+    , name = camelcase(oname);
+
+  // default as 3rd arg
+  if (&#x27;function&#x27; != typeof fn) defaultValue = fn, fn = null;
+
+  // preassign default value only for --no-*, [optional], or &#x3c;required&#x3e;
+  if (false == option.bool || option.optional || option.required) {
+    // when --no-* we make sure default is true
+    if (false == option.bool) defaultValue = true;
+    // preassign only if we have a default
+    if (undefined !== defaultValue) self[name] = defaultValue;
+  }
+
+  // register the option
+  this.options.push(option);
+
+  // when it&#x27;s passed assign the value
+  // and conditionally invoke the callback
+  this.on(oname, function(val){
+    // coercion
+    if (null != val &#x26;&#x26; fn) val = fn(val);
+
+    // unassigned or bool
+    if (&#x27;boolean&#x27; == typeof self[name] || &#x27;undefined&#x27; == typeof self[name]) {
+      // if no value, bool true, and we have a default, then use it!
+      if (null == val) {
+        self[name] = option.bool
+          ? defaultValue || true
+          : false;
+      } else {
+        self[name] = val;
+      }
+    } else if (null !== val) {
+      // reassign
+      self[name] = val;
+    }
+  });
+
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+  newEntity.filePath = entity.filePath ?
+    path.resolve(self.cmdBasePath, entity.filePath) : entity.filePath;
+  newEntity.stub = true;
+
+  if (entity.options) {
+    for (var o in entity.options) {
+      newEntity.<span class="apidocCodeKeywordSpan">option</span>(entity.options[o].flags, entity.options[o].description);
+    }
+  }
+
+  return newEntity;
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.optionFor" id="apidoc.element.azure-cli.super_.super_.prototype.optionFor">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>optionFor
+        <span class="apidocSignatureSpan">(arg)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">optionFor = function (arg){
+  for (var i = 0, len = this.options.length; i &#x3c; len; ++i) {
+    if (this.options[i].is(arg)) {
+      return this.options[i];
+    }
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.optionHelp" id="apidoc.element.azure-cli.super_.super_.prototype.optionHelp">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>optionHelp
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">optionHelp = function (){
+  var width = this.largestOptionLength();
+
+  // Prepend the help information
+  return [pad(&#x27;-h, --help&#x27;, width) + &#x27;  &#x27; + &#x27;output usage information&#x27;]
+    .concat(this.options.map(function(option){
+      return pad(option.flags, width)
+        + &#x27;  &#x27; + option.description;
+      }))
+    .join(&#x27;\n&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.optionMissingArgument" id="apidoc.element.azure-cli.super_.super_.prototype.optionMissingArgument">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>optionMissingArgument
+        <span class="apidocSignatureSpan">(option, flag)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">optionMissingArgument = function (option, flag){
+  console.error();
+  if (flag) {
+    console.error(&#x22;  error: option `%s&#x27; argument missing, got `%s&#x27;&#x22;, option.flags, flag);
+  } else {
+    console.error(&#x22;  error: option `%s&#x27; argument missing&#x22;, option.flags);
+  }
+  console.error();
+  process.exit(1);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.outputHelp" id="apidoc.element.azure-cli.super_.super_.prototype.outputHelp">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>outputHelp
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">outputHelp = function (){
+  process.stdout.write(this.helpInformation());
+  this.emit(&#x27;--help&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.parse" id="apidoc.element.azure-cli.super_.super_.prototype.parse">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>parse
+        <span class="apidocSignatureSpan">(argv)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">parse = function (argv){
+  // store raw args
+  this.rawArgs = argv;
+
+  // guess name
+  if (!this.name) this.name = basename(argv[1]);
+  // process argv
+  var parsed = this.parseOptions(this.normalize(argv.slice(2)));
+  this.args = parsed.args;
+  return this.parseArgs(this.args, parsed.unknown);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+this.enableAutoComplete();
+}
+
+_.extend(AutoComplete.prototype, {
+initFromCmdMetadata: function () {
+  var data = fs.readFileSync(this.cmdMetadataFile);
+  var cachedPlugins = JSON.<span class="apidocCodeKeywordSpan">parse</span>(data);
+  this.commands = cachedPlugins.commands;
+  this.categories = cachedPlugins.categories;
+},
+
+enableAutoComplete: function () {
+  var root = this;
+  var omelette = require(&#x27;omelette&#x27;);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.parseArgs" id="apidoc.element.azure-cli.super_.super_.prototype.parseArgs">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>parseArgs
+        <span class="apidocSignatureSpan">(args, unknown)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">parseArgs = function (args, unknown){
+  var cmds = this.commands
+    , len = cmds.length
+    , name;
+
+  if (args.length) {
+    name = args[0];
+    if (this.listeners(name).length) {
+      this.emit(args.shift(), args, unknown);
+    } else {
+      this.emit(&#x27;*&#x27;, args);
+    }
+  } else {
+    outputHelpIfNecessary(this, unknown);
+
+    // If there were no args and we have unknown options,
+    // then they are extraneous and we need to error.
+    if (unknown.length &#x3e; 0) {
+      this.unknownOption(unknown[0]);
+    }
+  }
+
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.parseExpectedArgs" id="apidoc.element.azure-cli.super_.super_.prototype.parseExpectedArgs">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>parseExpectedArgs
+        <span class="apidocSignatureSpan">(args)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">parseExpectedArgs = function (args){
+  if (!args.length) return;
+  var self = this;
+  args.forEach(function(arg){
+    switch (arg[0]) {
+      case &#x27;&#x3c;&#x27;:
+        self.args.push({ required: true, name: arg.slice(1, -1) });
+        break;
+      case &#x27;[&#x27;:
+        self.args.push({ required: false, name: arg.slice(1, -1) });
+        break;
+    }
+  });
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.parseOptions" id="apidoc.element.azure-cli.super_.super_.prototype.parseOptions">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>parseOptions
+        <span class="apidocSignatureSpan">(argv)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">parseOptions = function (argv){
+  var args = []
+    , len = argv.length
+    , literal
+    , option
+    , arg;
+
+  var unknownOptions = [];
+
+  // parse options
+  for (var i = 0; i &#x3c; len; ++i) {
+    arg = argv[i];
+
+    // literal args after --
+    if (&#x27;--&#x27; == arg) {
+      literal = true;
+      continue;
+    }
+
+    if (literal) {
+      args.push(arg);
+      continue;
+    }
+
+    // find matching Option
+    option = this.optionFor(arg);
+
+    // option is defined
+    if (option) {
+      // requires arg
+      if (option.required) {
+        arg = argv[++i];
+        if (null == arg) return this.optionMissingArgument(option);
+        if (&#x27;-&#x27; == arg[0]) return this.optionMissingArgument(option, arg);
+        this.emit(option.name(), arg);
+      // optional arg
+      } else if (option.optional) {
+        arg = argv[i+1];
+        if (null == arg || &#x27;-&#x27; == arg[0]) {
+          arg = null;
+        } else {
+          ++i;
+        }
+        this.emit(option.name(), arg);
+      // bool
+      } else {
+        this.emit(option.name());
+      }
+      continue;
+    }
+
+    // looks like an option
+    if (arg.length &#x3e; 1 &#x26;&#x26; &#x27;-&#x27; == arg[0]) {
+      unknownOptions.push(arg);
+
+      // If the next argument looks like it might be
+      // an argument for this option, we pass it on.
+      // If it isn&#x27;t, then it&#x27;ll simply be ignored
+      if (argv[i+1] &#x26;&#x26; &#x27;-&#x27; != argv[i+1][0]) {
+        unknownOptions.push(argv[++i]);
+      }
+      continue;
+    }
+
+    // arg
+    args.push(arg);
+  }
+
+  return { args: args, unknown: unknownOptions };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.password" id="apidoc.element.azure-cli.super_.super_.prototype.password">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>password
+        <span class="apidocSignatureSpan">(str, mask, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">password = function (str, mask, fn){
+  var self = this
+    , buf = &#x27;&#x27;;
+
+  // default mask
+  if (&#x27;function&#x27; == typeof mask) {
+    fn = mask;
+    mask = &#x27;&#x27;;
+  }
+
+  keypress(process.stdin);
+
+  function setRawMode(mode) {
+    if (process.stdin.setRawMode) {
+      process.stdin.setRawMode(mode);
+    } else {
+      tty.setRawMode(mode);
+    }
+  };
+  setRawMode(true);
+  process.stdout.write(str);
+
+  // keypress
+  process.stdin.on(&#x27;keypress&#x27;, function(c, key){
+    if (key &#x26;&#x26; &#x27;enter&#x27; == key.name) {
+      console.log();
+      process.stdin.pause();
+      process.stdin.removeAllListeners(&#x27;keypress&#x27;);
+      setRawMode(false);
+      if (!buf.trim().length) return self.password(str, mask, fn);
+      fn(buf);
+      return;
+    }
+
+    if (key &#x26;&#x26; key.ctrl &#x26;&#x26; &#x27;c&#x27; == key.name) {
+      console.log(&#x27;%s&#x27;, buf);
+      process.exit();
+    }
+
+    process.stdout.write(mask);
+    buf += c;
+  }).resume();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.prompt" id="apidoc.element.azure-cli.super_.super_.prototype.prompt">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>prompt
+        <span class="apidocSignatureSpan">(str, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">prompt = function (str, fn){
+  var self = this;
+
+  if (&#x27;string&#x27; == typeof str) {
+    if (/ $/.test(str)) return this.promptSingleLine.apply(this, arguments);
+    this.promptMultiLine(str, fn);
+  } else {
+    var keys = Object.keys(str)
+      , obj = {};
+
+    function next() {
+      var key = keys.shift()
+        , label = str[key];
+
+      if (!key) return fn(obj);
+      self.prompt(label, function(val){
+        obj[key] = val;
+        next();
+      });
+    }
+
+    next();
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.promptForDate" id="apidoc.element.azure-cli.super_.super_.prototype.promptForDate">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>promptForDate
+        <span class="apidocSignatureSpan">(str, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">promptForDate = function (str, fn){
+  var self = this;
+  this.promptSingleLine(str, function parseDate(val){
+    val = new Date(val);
+    if (isNaN(val.getTime())) return self.promptSingleLine(str + &#x27;(must be a date) &#x27;, parseDate);
+    fn(val);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.promptForNumber" id="apidoc.element.azure-cli.super_.super_.prototype.promptForNumber">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>promptForNumber
+        <span class="apidocSignatureSpan">(str, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">promptForNumber = function (str, fn){
+  var self = this;
+  this.promptSingleLine(str, function parseNumber(val){
+    val = Number(val);
+    if (isNaN(val)) return self.promptSingleLine(str + &#x27;(must be a number) &#x27;, parseNumber);
+    fn(val);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.promptMultiLine" id="apidoc.element.azure-cli.super_.super_.prototype.promptMultiLine">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>promptMultiLine
+        <span class="apidocSignatureSpan">(str, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">promptMultiLine = function (str, fn){
+  var buf = [];
+  console.log(str);
+  process.stdin.setEncoding(&#x27;utf8&#x27;);
+  process.stdin.on(&#x27;data&#x27;, function(val){
+    if (&#x27;\n&#x27; == val || &#x27;\r\n&#x27; == val) {
+      process.stdin.removeAllListeners(&#x27;data&#x27;);
+      fn(buf.join(&#x27;\n&#x27;));
+    } else {
+      buf.push(val.trimRight());
+    }
+  }).resume();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.promptSingleLine" id="apidoc.element.azure-cli.super_.super_.prototype.promptSingleLine">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>promptSingleLine
+        <span class="apidocSignatureSpan">(str, fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">promptSingleLine = function (str, fn){
+  if (&#x27;function&#x27; == typeof arguments[2]) {
+    return this[&#x27;promptFor&#x27; + (fn.name || fn)](str, arguments[2]);
+  }
+
+  process.stdout.write(str);
+  process.stdin.setEncoding(&#x27;utf8&#x27;);
+  process.stdin.once(&#x27;data&#x27;, function(val){
+    fn(val.trim());
+  }).resume();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.unknownOption" id="apidoc.element.azure-cli.super_.super_.prototype.unknownOption">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>unknownOption
+        <span class="apidocSignatureSpan">(flag)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">unknownOption = function (flag){
+  console.error();
+  console.error(&#x22;  error: unknown option `%s&#x27;&#x22;, flag);
+  console.error();
+  process.exit(1);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.usage" id="apidoc.element.azure-cli.super_.super_.prototype.usage">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>usage
+        <span class="apidocSignatureSpan">(str)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">usage = function (str){
+  var args = this.args.map(function(arg){
+    return arg.required
+      ? &#x27;&#x3c;&#x27; + arg.name + &#x27;&#x3e;&#x27;
+      : &#x27;[&#x27; + arg.name + &#x27;]&#x27;;
+  });
+
+  var usage = &#x27;[options&#x27;
+    + (this.commands.length ? &#x27;] [command&#x27; : &#x27;&#x27;)
+    + &#x27;]&#x27;
+    + (this.args.length ? &#x27; &#x27; + args : &#x27;&#x27;);
+  if (0 == arguments.length) return this._usage || usage;
+  this._usage = str;
+
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+if (entity.fullName) {
+  cmdOrCat.fullName = entity.fullName();
+}
+
+if (entity.usage) {
+  cmdOrCat.usage = entity.<span class="apidocCodeKeywordSpan">usage</span>();
+}
+
+if (entity.filePath) {
+  //Normalize the file path, so that it can be used for both linux and windows.
+  cmdOrCat.filePath = path.relative(this.cmdBasePath, entity.filePath).split(&#x27;\\&#x27;).join(&#x27;/&#x27;);
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.azure-cli.super_.super_.prototype.version" id="apidoc.element.azure-cli.super_.super_.prototype.version">
+        function <span class="apidocSignatureSpan">azure-cli.super_.super_.prototype.</span>version
+        <span class="apidocSignatureSpan">(str, flags)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">version = function (str, flags){
+  if (0 == arguments.length) return this._version;
+  this._version = str;
+  flags = flags || &#x27;-V, --version&#x27;;
+  this.option(flags, &#x27;output the version number&#x27;);
+  this.on(&#x27;version&#x27;, function(){
+    console.log(str);
+    process.exit(0);
+  });
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>

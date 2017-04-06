@@ -1,0 +1,2892 @@
+<svg height="46222" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="46222" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26"></tspan>
+<tspan x="10" y="42">&gt; npmdoc-azure-cli@0.0.1 test /home/travis/build/npmdoc/node-npmdoc-azure-cli</tspan>
+<tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
+<tspan x="10" y="74"></tspan>
+<tspan x="10" y="90"></tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-06T00:22:47Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
+<tspan x="10" y="122">azure-cli</tspan>
+<tspan x="10" y="138"></tspan>
+<tspan x="10" y="154"></tspan>
+<tspan x="10" y="170">covering $ /home/travis/.nvm/versions/node/v6.10.2/bin/node /home/travis/build/npmdoc/node-npmdo\</tspan>
+<tspan x="10" y="186">c-azure-cli/test.js</tspan>
+<tspan x="10" y="202">merging file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/test-report.json to tes\</tspan>
+<tspan x="10" y="218">t-report</tspan>
+<tspan x="10" y="234">&gt; server listening on http-port 35673</tspan>
+<tspan x="10" y="250"> account clear</tspan>
+<tspan x="10" y="266"> account env add</tspan>
+<tspan x="10" y="282"> account env delete</tspan>
+<tspan x="10" y="298"> account env list</tspan>
+<tspan x="10" y="314"> account env set</tspan>
+<tspan x="10" y="330"> account env show</tspan>
+<tspan x="10" y="346"> account list</tspan>
+<tspan x="10" y="362"> account set</tspan>
+<tspan x="10" y="378"> account show</tspan>
+<tspan x="10" y="394"> acs config agent-pool-profiles delete</tspan>
+<tspan x="10" y="410"> acs config agent-pool-profiles set</tspan>
+<tspan x="10" y="426"> acs config container-service delete</tspan>
+<tspan x="10" y="442"> acs config container-service set</tspan>
+<tspan x="10" y="458"> acs config create</tspan>
+<tspan x="10" y="474"> acs config custom-profile delete</tspan>
+<tspan x="10" y="490"> acs config custom-profile set</tspan>
+<tspan x="10" y="506"> acs config diagnostics-profile delete</tspan>
+<tspan x="10" y="522"> acs config diagnostics-profile set</tspan>
+<tspan x="10" y="538"> acs config linux-profile delete</tspan>
+<tspan x="10" y="554"> acs config linux-profile set</tspan>
+<tspan x="10" y="570"> acs config master-profile delete</tspan>
+<tspan x="10" y="586"> acs config master-profile set</tspan>
+<tspan x="10" y="602"> acs config orchestrator-profile delete</tspan>
+<tspan x="10" y="618"> acs config orchestrator-profile set</tspan>
+<tspan x="10" y="634"> acs config patch</tspan>
+<tspan x="10" y="650"> acs config public-keys delete</tspan>
+<tspan x="10" y="666"> acs config public-keys set</tspan>
+<tspan x="10" y="682"> acs config service-principal-profile delete</tspan>
+<tspan x="10" y="698"> acs config service-principal-profile set</tspan>
+<tspan x="10" y="714"> acs config ssh delete</tspan>
+<tspan x="10" y="730"> acs config ssh set</tspan>
+<tspan x="10" y="746"> acs config vm-diagnostics delete</tspan>
+<tspan x="10" y="762"> acs config vm-diagnostics set</tspan>
+<tspan x="10" y="778"> acs config windows-profile delete</tspan>
+<tspan x="10" y="794"> acs config windows-profile set</tspan>
+<tspan x="10" y="810"> acs create</tspan>
+<tspan x="10" y="826"> acs delete</tspan>
+<tspan x="10" y="842"> acs list</tspan>
+<tspan x="10" y="858"> acs scale</tspan>
+<tspan x="10" y="874"> acs show</tspan>
+<tspan x="10" y="890"> ad app create</tspan>
+<tspan x="10" y="906"> ad app delete</tspan>
+<tspan x="10" y="922"> ad app list</tspan>
+<tspan x="10" y="938"> ad app set</tspan>
+<tspan x="10" y="954"> ad app show</tspan>
+<tspan x="10" y="970"> ad group create</tspan>
+<tspan x="10" y="986"> ad group delete</tspan>
+<tspan x="10" y="1002"> ad group list</tspan>
+<tspan x="10" y="1018"> ad group member add</tspan>
+<tspan x="10" y="1034"> ad group member check</tspan>
+<tspan x="10" y="1050"> ad group member delete</tspan>
+<tspan x="10" y="1066"> ad group member list</tspan>
+<tspan x="10" y="1082"> ad group show</tspan>
+<tspan x="10" y="1098"> ad sp create</tspan>
+<tspan x="10" y="1114"> ad sp delete</tspan>
+<tspan x="10" y="1130"> ad sp list</tspan>
+<tspan x="10" y="1146"> ad sp set</tspan>
+<tspan x="10" y="1162"> ad sp show</tspan>
+<tspan x="10" y="1178"> ad user create</tspan>
+<tspan x="10" y="1194"> ad user delete</tspan>
+<tspan x="10" y="1210"> ad user list</tspan>
+<tspan x="10" y="1226"> ad user memberGroups list</tspan>
+<tspan x="10" y="1242"> ad user set</tspan>
+<tspan x="10" y="1258"> ad user show</tspan>
+<tspan x="10" y="1274"> appserviceplan create</tspan>
+<tspan x="10" y="1290"> appserviceplan delete</tspan>
+<tspan x="10" y="1306"> appserviceplan list</tspan>
+<tspan x="10" y="1322"> appserviceplan set</tspan>
+<tspan x="10" y="1338"> appserviceplan show</tspan>
+<tspan x="10" y="1354"> availset config availability-set delete</tspan>
+<tspan x="10" y="1370"> availset config availability-set set</tspan>
+<tspan x="10" y="1386"> availset config create</tspan>
+<tspan x="10" y="1402"> availset config patch</tspan>
+<tspan x="10" y="1418"> availset config sku delete</tspan>
+<tspan x="10" y="1434"> availset config sku set</tspan>
+<tspan x="10" y="1450"> availset config statuses delete</tspan>
+<tspan x="10" y="1466"> availset config statuses set</tspan>
+<tspan x="10" y="1482"> availset config virtual-machines delete</tspan>
+<tspan x="10" y="1498"> availset config virtual-machines set</tspan>
+<tspan x="10" y="1514"> availset create</tspan>
+<tspan x="10" y="1530"> availset create-or-update</tspan>
+<tspan x="10" y="1546"> availset delete</tspan>
+<tspan x="10" y="1562"> availset list</tspan>
+<tspan x="10" y="1578"> availset list-available-sizes</tspan>
+<tspan x="10" y="1594"> availset show</tspan>
+<tspan x="10" y="1610"> batch account create</tspan>
+<tspan x="10" y="1626"> batch account delete</tspan>
+<tspan x="10" y="1642"> batch account keys list</tspan>
+<tspan x="10" y="1658"> batch account keys renew</tspan>
+<tspan x="10" y="1674"> batch account list</tspan>
+<tspan x="10" y="1690"> batch account set</tspan>
+<tspan x="10" y="1706"> batch account show</tspan>
+<tspan x="10" y="1722"> batch account sync-autostorage-keys</tspan>
+<tspan x="10" y="1738"> batch application create</tspan>
+<tspan x="10" y="1754"> batch application delete</tspan>
+<tspan x="10" y="1770"> batch application list</tspan>
+<tspan x="10" y="1786"> batch application list-summary</tspan>
+<tspan x="10" y="1802"> batch application package activate</tspan>
+<tspan x="10" y="1818"> batch application package create</tspan>
+<tspan x="10" y="1834"> batch application package delete</tspan>
+<tspan x="10" y="1850"> batch application package show</tspan>
+<tspan x="10" y="1866"> batch application set</tspan>
+<tspan x="10" y="1882"> batch application show</tspan>
+<tspan x="10" y="1898"> batch application show-summary</tspan>
+<tspan x="10" y="1914"> batch certificate create</tspan>
+<tspan x="10" y="1930"> batch certificate delete</tspan>
+<tspan x="10" y="1946"> batch certificate list</tspan>
+<tspan x="10" y="1962"> batch certificate show</tspan>
+<tspan x="10" y="1978"> batch job create</tspan>
+<tspan x="10" y="1994"> batch job delete</tspan>
+<tspan x="10" y="2010"> batch job disable</tspan>
+<tspan x="10" y="2026"> batch job enable</tspan>
+<tspan x="10" y="2042"> batch job list</tspan>
+<tspan x="10" y="2058"> batch job prep-release-status list</tspan>
+<tspan x="10" y="2074"> batch job set</tspan>
+<tspan x="10" y="2090"> batch job show</tspan>
+<tspan x="10" y="2106"> batch job stop</tspan>
+<tspan x="10" y="2122"> batch job-schedule create</tspan>
+<tspan x="10" y="2138"> batch job-schedule delete</tspan>
+<tspan x="10" y="2154"> batch job-schedule disable</tspan>
+<tspan x="10" y="2170"> batch job-schedule enable</tspan>
+<tspan x="10" y="2186"> batch job-schedule list</tspan>
+<tspan x="10" y="2202"> batch job-schedule set</tspan>
+<tspan x="10" y="2218"> batch job-schedule show</tspan>
+<tspan x="10" y="2234"> batch job-schedule stop</tspan>
+<tspan x="10" y="2250"> batch location quotas show</tspan>
+<tspan x="10" y="2266"> batch node delete</tspan>
+<tspan x="10" y="2282"> batch node list</tspan>
+<tspan x="10" y="2298"> batch node reboot</tspan>
+<tspan x="10" y="2314"> batch node reimage</tspan>
+<tspan x="10" y="2330"> batch node remote-desktop show</tspan>
+<tspan x="10" y="2346"> batch node remote-login-settings show</tspan>
+<tspan x="10" y="2362"> batch node scheduling disable</tspan>
+<tspan x="10" y="2378"> batch node scheduling enable</tspan>
+<tspan x="10" y="2394"> batch node show</tspan>
+<tspan x="10" y="2410"> batch node-file delete</tspan>
+<tspan x="10" y="2426"> batch node-file download</tspan>
+<tspan x="10" y="2442"> batch node-file list</tspan>
+<tspan x="10" y="2458"> batch node-file show</tspan>
+<tspan x="10" y="2474"> batch node-user create</tspan>
+<tspan x="10" y="2490"> batch node-user delete</tspan>
+<tspan x="10" y="2506"> batch node-user set</tspan>
+<tspan x="10" y="2522"> batch pool all-stats show</tspan>
+<tspan x="10" y="2538"> batch pool autoscale disable</tspan>
+<tspan x="10" y="2554"> batch pool autoscale enable</tspan>
+<tspan x="10" y="2570"> batch pool autoscale evaluate</tspan>
+<tspan x="10" y="2586"> batch pool create</tspan>
+<tspan x="10" y="2602"> batch pool delete</tspan>
+<tspan x="10" y="2618"> batch pool list</tspan>
+<tspan x="10" y="2634"> batch pool node-agent-skus list</tspan>
+<tspan x="10" y="2650"> batch pool resize</tspan>
+<tspan x="10" y="2666"> batch pool set</tspan>
+<tspan x="10" y="2682"> batch pool show</tspan>
+<tspan x="10" y="2698"> batch pool usage-metrics list</tspan>
+<tspan x="10" y="2714"> batch task create</tspan>
+<tspan x="10" y="2730"> batch task delete</tspan>
+<tspan x="10" y="2746"> batch task list</tspan>
+<tspan x="10" y="2762"> batch task reactivate</tspan>
+<tspan x="10" y="2778"> batch task set</tspan>
+<tspan x="10" y="2794"> batch task show</tspan>
+<tspan x="10" y="2810"> batch task stop</tspan>
+<tspan x="10" y="2826"> batch task-file delete</tspan>
+<tspan x="10" y="2842"> batch task-file download</tspan>
+<tspan x="10" y="2858"> batch task-file list</tspan>
+<tspan x="10" y="2874"> batch task-file show</tspan>
+<tspan x="10" y="2890"> cdn customDomain create</tspan>
+<tspan x="10" y="2906"> cdn customDomain delete</tspan>
+<tspan x="10" y="2922"> cdn customDomain disableHttps</tspan>
+<tspan x="10" y="2938"> cdn customDomain enableHttps</tspan>
+<tspan x="10" y="2954"> cdn customDomain list</tspan>
+<tspan x="10" y="2970"> cdn customDomain show</tspan>
+<tspan x="10" y="2986"> cdn customDomain validate</tspan>
+<tspan x="10" y="3002"> cdn edgeNode list</tspan>
+<tspan x="10" y="3018"> cdn endpoint check</tspan>
+<tspan x="10" y="3034"> cdn endpoint checkUsage</tspan>
+<tspan x="10" y="3050"> cdn endpoint create</tspan>
+<tspan x="10" y="3066"> cdn endpoint delete</tspan>
+<tspan x="10" y="3082"> cdn endpoint list</tspan>
+<tspan x="10" y="3098"> cdn endpoint load</tspan>
+<tspan x="10" y="3114"> cdn endpoint purge</tspan>
+<tspan x="10" y="3130"> cdn endpoint set</tspan>
+<tspan x="10" y="3146"> cdn endpoint show</tspan>
+<tspan x="10" y="3162"> cdn endpoint start</tspan>
+<tspan x="10" y="3178"> cdn endpoint stop</tspan>
+<tspan x="10" y="3194"> cdn geofilter add</tspan>
+<tspan x="10" y="3210"> cdn geofilter delete</tspan>
+<tspan x="10" y="3226"> cdn geofilter list</tspan>
+<tspan x="10" y="3242"> cdn geofilter set</tspan>
+<tspan x="10" y="3258"> cdn origin set</tspan>
+<tspan x="10" y="3274"> cdn origin show</tspan>
+<tspan x="10" y="3290"> cdn profile checkUsage</tspan>
+<tspan x="10" y="3306"> cdn profile create</tspan>
+<tspan x="10" y="3322"> cdn profile delete</tspan>
+<tspan x="10" y="3338"> cdn profile list</tspan>
+<tspan x="10" y="3354"> cdn profile set</tspan>
+<tspan x="10" y="3370"> cdn profile show</tspan>
+<tspan x="10" y="3386"> cdn ssouri create</tspan>
+<tspan x="10" y="3402"> cdn usage list</tspan>
+<tspan x="10" y="3418"> config delete</tspan>
+<tspan x="10" y="3434"> config list</tspan>
+<tspan x="10" y="3450"> config mode</tspan>
+<tspan x="10" y="3466"> config set</tspan>
+<tspan x="10" y="3482"> datalake analytics account create</tspan>
+<tspan x="10" y="3498"> datalake analytics account datasource add</tspan>
+<tspan x="10" y="3514"> datalake analytics account datasource delete</tspan>
+<tspan x="10" y="3530"> datalake analytics account datasource set</tspan>
+<tspan x="10" y="3546"> datalake analytics account delete</tspan>
+<tspan x="10" y="3562"> datalake analytics account list</tspan>
+<tspan x="10" y="3578"> datalake analytics account set</tspan>
+<tspan x="10" y="3594"> datalake analytics account show</tspan>
+<tspan x="10" y="3610"> datalake analytics catalog credential create</tspan>
+<tspan x="10" y="3626"> datalake analytics catalog credential delete</tspan>
+<tspan x="10" y="3642"> datalake analytics catalog credential set</tspan>
+<tspan x="10" y="3658"> datalake analytics catalog list</tspan>
+<tspan x="10" y="3674"> datalake analytics catalog secret create</tspan>
+<tspan x="10" y="3690"> datalake analytics catalog secret delete</tspan>
+<tspan x="10" y="3706"> datalake analytics catalog secret set</tspan>
+<tspan x="10" y="3722"> datalake analytics job cancel</tspan>
+<tspan x="10" y="3738"> datalake analytics job create</tspan>
+<tspan x="10" y="3754"> datalake analytics job list</tspan>
+<tspan x="10" y="3770"> datalake analytics job show</tspan>
+<tspan x="10" y="3786"> datalake analytics job wait</tspan>
+<tspan x="10" y="3802"> datalake store account create</tspan>
+<tspan x="10" y="3818"> datalake store account delete</tspan>
+<tspan x="10" y="3834"> datalake store account list</tspan>
+<tspan x="10" y="3850"> datalake store account set</tspan>
+<tspan x="10" y="3866"> datalake store account show</tspan>
+<tspan x="10" y="3882"> datalake store filesystem addcontent</tspan>
+<tspan x="10" y="3898"> datalake store filesystem concat</tspan>
+<tspan x="10" y="3914"> datalake store filesystem create</tspan>
+<tspan x="10" y="3930"> datalake store filesystem delete</tspan>
+<tspan x="10" y="3946"> datalake store filesystem expiry set</tspan>
+<tspan x="10" y="3962"> datalake store filesystem export</tspan>
+<tspan x="10" y="3978"> datalake store filesystem import</tspan>
+<tspan x="10" y="3994"> datalake store filesystem list</tspan>
+<tspan x="10" y="4010"> datalake store filesystem move</tspan>
+<tspan x="10" y="4026"> datalake store filesystem read</tspan>
+<tspan x="10" y="4042"> datalake store filesystem show</tspan>
+<tspan x="10" y="4058"> datalake store firewall create</tspan>
+<tspan x="10" y="4074"> datalake store firewall delete</tspan>
+<tspan x="10" y="4090"> datalake store firewall list</tspan>
+<tspan x="10" y="4106"> datalake store firewall set</tspan>
+<tspan x="10" y="4122"> datalake store firewall show</tspan>
+<tspan x="10" y="4138"> datalake store permissions delete</tspan>
+<tspan x="10" y="4154"> datalake store permissions entry delete</tspan>
+<tspan x="10" y="4170"> datalake store permissions entry set</tspan>
+<tspan x="10" y="4186"> datalake store permissions set</tspan>
+<tspan x="10" y="4202"> datalake store permissions show</tspan>
+<tspan x="10" y="4218"> datalake store provider create</tspan>
+<tspan x="10" y="4234"> datalake store provider delete</tspan>
+<tspan x="10" y="4250"> datalake store provider list</tspan>
+<tspan x="10" y="4266"> datalake store provider set</tspan>
+<tspan x="10" y="4282"> datalake store provider show</tspan>
+<tspan x="10" y="4298"> feature list</tspan>
+<tspan x="10" y="4314"> feature register</tspan>
+<tspan x="10" y="4330"> feature show</tspan>
+<tspan x="10" y="4346"> group create</tspan>
+<tspan x="10" y="4362"> group delete</tspan>
+<tspan x="10" y="4378"> group deployment create</tspan>
+<tspan x="10" y="4394"> group deployment delete</tspan>
+<tspan x="10" y="4410"> group deployment list</tspan>
+<tspan x="10" y="4426"> group deployment operation list</tspan>
+<tspan x="10" y="4442"> group deployment show</tspan>
+<tspan x="10" y="4458"> group deployment stop</tspan>
+<tspan x="10" y="4474"> group deployment template download</tspan>
+<tspan x="10" y="4490"> group export</tspan>
+<tspan x="10" y="4506"> group list</tspan>
+<tspan x="10" y="4522"> group log show</tspan>
+<tspan x="10" y="4538"> group set</tspan>
+<tspan x="10" y="4554"> group show</tspan>
+<tspan x="10" y="4570"> group template download</tspan>
+<tspan x="10" y="4586"> group template list</tspan>
+<tspan x="10" y="4602"> group template show</tspan>
+<tspan x="10" y="4618"> group template validate</tspan>
+<tspan x="10" y="4634"> hdinsight cluster create</tspan>
+<tspan x="10" y="4650"> hdinsight cluster delete</tspan>
+<tspan x="10" y="4666"> hdinsight cluster disable-http-access</tspan>
+<tspan x="10" y="4682"> hdinsight cluster disable-rdp-access</tspan>
+<tspan x="10" y="4698"> hdinsight cluster enable-http-access</tspan>
+<tspan x="10" y="4714"> hdinsight cluster enable-rdp-access</tspan>
+<tspan x="10" y="4730"> hdinsight cluster list</tspan>
+<tspan x="10" y="4746"> hdinsight cluster resize</tspan>
+<tspan x="10" y="4762"> hdinsight cluster show</tspan>
+<tspan x="10" y="4778"> hdinsight config add-config-values</tspan>
+<tspan x="10" y="4794"> hdinsight config add-script-action</tspan>
+<tspan x="10" y="4810"> hdinsight config create</tspan>
+<tspan x="10" y="4826"> hdinsight script-action create</tspan>
+<tspan x="10" y="4842"> hdinsight script-action history list</tspan>
+<tspan x="10" y="4858"> hdinsight script-action history show</tspan>
+<tspan x="10" y="4874"> hdinsight script-action persisted delete</tspan>
+<tspan x="10" y="4890"> hdinsight script-action persisted list</tspan>
+<tspan x="10" y="4906"> hdinsight script-action persisted set</tspan>
+<tspan x="10" y="4922"> hdinsight script-action persisted show</tspan>
+<tspan x="10" y="4938"> help</tspan>
+<tspan x="10" y="4954"> insights alerts actions email create</tspan>
+<tspan x="10" y="4970"> insights alerts actions webhook create</tspan>
+<tspan x="10" y="4986"> insights alerts list</tspan>
+<tspan x="10" y="5002"> insights alerts rule delete</tspan>
+<tspan x="10" y="5018"> insights alerts rule list</tspan>
+<tspan x="10" y="5034"> insights alerts rule log set</tspan>
+<tspan x="10" y="5050"> insights alerts rule metric set</tspan>
+<tspan x="10" y="5066"> insights alerts rule webtest set</tspan>
+<tspan x="10" y="5082"> insights autoscale list</tspan>
+<tspan x="10" y="5098"> insights autoscale notifications create</tspan>
+<tspan x="10" y="5114"> insights autoscale notifications webhook create</tspan>
+<tspan x="10" y="5130"> insights autoscale profile create</tspan>
+<tspan x="10" y="5146"> insights autoscale rule create</tspan>
+<tspan x="10" y="5162"> insights autoscale setting delete</tspan>
+<tspan x="10" y="5178"> insights autoscale setting list</tspan>
+<tspan x="10" y="5194"> insights autoscale setting set</tspan>
+<tspan x="10" y="5210"> insights diagnostic get</tspan>
+<tspan x="10" y="5226"> insights diagnostic set</tspan>
+<tspan x="10" y="5242"> insights logprofile add</tspan>
+<tspan x="10" y="5258"> insights logprofile delete</tspan>
+<tspan x="10" y="5274"> insights logprofile get</tspan>
+<tspan x="10" y="5290"> insights logprofile list</tspan>
+<tspan x="10" y="5306"> insights logs list</tspan>
+<tspan x="10" y="5322"> insights metrics definition list</tspan>
+<tspan x="10" y="5338"> insights metrics list</tspan>
+<tspan x="10" y="5354"> insights usage list</tspan>
+<tspan x="10" y="5370"> iothub cloud-to-device-properties set</tspan>
+<tspan x="10" y="5386"> iothub connectionstring show</tspan>
+<tspan x="10" y="5402"> iothub create</tspan>
+<tspan x="10" y="5418"> iothub delete</tspan>
+<tspan x="10" y="5434"> iothub device export</tspan>
+<tspan x="10" y="5450"> iothub device import</tspan>
+<tspan x="10" y="5466"> iothub device-to-cloud-properties set</tspan>
+<tspan x="10" y="5482"> iothub ehconsumergroup create</tspan>
+<tspan x="10" y="5498"> iothub ehconsumergroup delete</tspan>
+<tspan x="10" y="5514"> iothub ehconsumergroup list</tspan>
+<tspan x="10" y="5530"> iothub file-upload-properties set</tspan>
+<tspan x="10" y="5546"> iothub ipfilter-rules list</tspan>
+<tspan x="10" y="5562"> iothub ipfilter-rules set</tspan>
+<tspan x="10" y="5578"> iothub job list</tspan>
+<tspan x="10" y="5594"> iothub job show</tspan>
+<tspan x="10" y="5610"> iothub key create</tspan>
+<tspan x="10" y="5626"> iothub key delete</tspan>
+<tspan x="10" y="5642"> iothub key list</tspan>
+<tspan x="10" y="5658"> iothub key show</tspan>
+<tspan x="10" y="5674"> iothub list</tspan>
+<tspan x="10" y="5690"> iothub opmon set</tspan>
+<tspan x="10" y="5706"> iothub opmon show</tspan>
+<tspan x="10" y="5722"> iothub show</tspan>
+<tspan x="10" y="5738"> iothub show-quota-metrics</tspan>
+<tspan x="10" y="5754"> iothub show-registry-stats</tspan>
+<tspan x="10" y="5770"> iothub sku list</tspan>
+<tspan x="10" y="5786"> iothub sku set</tspan>
+<tspan x="10" y="5802"> iothub sku show</tspan>
+<tspan x="10" y="5818"> iothub tags set</tspan>
+<tspan x="10" y="5834"> keyvault certificate administrator create</tspan>
+<tspan x="10" y="5850"> keyvault certificate contact add</tspan>
+<tspan x="10" y="5866"> keyvault certificate contact delete</tspan>
+<tspan x="10" y="5882"> keyvault certificate contact list</tspan>
+<tspan x="10" y="5898"> keyvault certificate create</tspan>
+<tspan x="10" y="5914"> keyvault certificate delete</tspan>
+<tspan x="10" y="5930"> keyvault certificate get</tspan>
+<tspan x="10" y="5946"> keyvault certificate import</tspan>
+<tspan x="10" y="5962"> keyvault certificate issuer create</tspan>
+<tspan x="10" y="5978"> keyvault certificate issuer delete</tspan>
+<tspan x="10" y="5994"> keyvault certificate issuer list</tspan>
+<tspan x="10" y="6010"> keyvault certificate issuer show</tspan>
+<tspan x="10" y="6026"> keyvault certificate list</tspan>
+<tspan x="10" y="6042"> keyvault certificate list-versions</tspan>
+<tspan x="10" y="6058"> keyvault certificate merge</tspan>
+<tspan x="10" y="6074"> keyvault certificate operation cancel</tspan>
+<tspan x="10" y="6090"> keyvault certificate operation delete</tspan>
+<tspan x="10" y="6106"> keyvault certificate operation show</tspan>
+<tspan x="10" y="6122"> keyvault certificate organization create</tspan>
+<tspan x="10" y="6138"> keyvault certificate policy create</tspan>
+<tspan x="10" y="6154"> keyvault certificate policy get</tspan>
+<tspan x="10" y="6170"> keyvault certificate policy set</tspan>
+<tspan x="10" y="6186"> keyvault certificate policy show</tspan>
+<tspan x="10" y="6202"> keyvault certificate set-attributes</tspan>
+<tspan x="10" y="6218"> keyvault certificate show</tspan>
+<tspan x="10" y="6234"> keyvault create</tspan>
+<tspan x="10" y="6250"> keyvault delete</tspan>
+<tspan x="10" y="6266"> keyvault delete-policy</tspan>
+<tspan x="10" y="6282"> keyvault key backup</tspan>
+<tspan x="10" y="6298"> keyvault key create</tspan>
+<tspan x="10" y="6314"> keyvault key delete</tspan>
+<tspan x="10" y="6330"> keyvault key import</tspan>
+<tspan x="10" y="6346"> keyvault key list</tspan>
+<tspan x="10" y="6362"> keyvault key list-versions</tspan>
+<tspan x="10" y="6378"> keyvault key restore</tspan>
+<tspan x="10" y="6394"> keyvault key set-attributes</tspan>
+<tspan x="10" y="6410"> keyvault key show</tspan>
+<tspan x="10" y="6426"> keyvault list</tspan>
+<tspan x="10" y="6442"> keyvault secret delete</tspan>
+<tspan x="10" y="6458"> keyvault secret get</tspan>
+<tspan x="10" y="6474"> keyvault secret list</tspan>
+<tspan x="10" y="6490"> keyvault secret list-versions</tspan>
+<tspan x="10" y="6506"> keyvault secret set</tspan>
+<tspan x="10" y="6522"> keyvault secret set-attributes</tspan>
+<tspan x="10" y="6538"> keyvault secret show</tspan>
+<tspan x="10" y="6554"> keyvault set-attributes</tspan>
+<tspan x="10" y="6570"> keyvault set-policy</tspan>
+<tspan x="10" y="6586"> keyvault show</tspan>
+<tspan x="10" y="6602"> lab auto-shutdown-policy delete</tspan>
+<tspan x="10" y="6618"> lab auto-shutdown-policy set</tspan>
+<tspan x="10" y="6634"> lab auto-shutdown-policy show</tspan>
+<tspan x="10" y="6650"> lab auto-start-policy delete</tspan>
+<tspan x="10" y="6666"> lab auto-start-policy set</tspan>
+<tspan x="10" y="6682"> lab auto-start-policy show</tspan>
+<tspan x="10" y="6698"> lab vm-size-policy delete</tspan>
+<tspan x="10" y="6714"> lab vm-size-policy set</tspan>
+<tspan x="10" y="6730"> lab vm-size-policy show</tspan>
+<tspan x="10" y="6746"> lab vms-per-lab-policy delete</tspan>
+<tspan x="10" y="6762"> lab vms-per-lab-policy set</tspan>
+<tspan x="10" y="6778"> lab vms-per-lab-policy show</tspan>
+<tspan x="10" y="6794"> lab vms-per-user-policy delete</tspan>
+<tspan x="10" y="6810"> lab vms-per-user-policy set</tspan>
+<tspan x="10" y="6826"> lab vms-per-user-policy show</tspan>
+<tspan x="10" y="6842"> location list</tspan>
+<tspan x="10" y="6858"> login</tspan>
+<tspan x="10" y="6874"> logout</tspan>
+<tspan x="10" y="6890"> managed-disk config create</tspan>
+<tspan x="10" y="6906"> managed-disk config creation-data delete</tspan>
+<tspan x="10" y="6922"> managed-disk config creation-data set</tspan>
+<tspan x="10" y="6938"> managed-disk config disk delete</tspan>
+<tspan x="10" y="6954"> managed-disk config disk set</tspan>
+<tspan x="10" y="6970"> managed-disk config disk-encryption-key delete</tspan>
+<tspan x="10" y="6986"> managed-disk config disk-encryption-key set</tspan>
+<tspan x="10" y="7002"> managed-disk config encryption-settings delete</tspan>
+<tspan x="10" y="7018"> managed-disk config encryption-settings set</tspan>
+<tspan x="10" y="7034"> managed-disk config image-reference delete</tspan>
+<tspan x="10" y="7050"> managed-disk config image-reference set</tspan>
+<tspan x="10" y="7066"> managed-disk config key-encryption-key delete</tspan>
+<tspan x="10" y="7082"> managed-disk config key-encryption-key set</tspan>
+<tspan x="10" y="7098"> managed-disk config patch</tspan>
+<tspan x="10" y="7114"> managed-disk config source-vault delete</tspan>
+<tspan x="10" y="7130"> managed-disk config source-vault set</tspan>
+<tspan x="10" y="7146"> managed-disk create</tspan>
+<tspan x="10" y="7162"> managed-disk delete</tspan>
+<tspan x="10" y="7178"> managed-disk grant-access</tspan>
+<tspan x="10" y="7194"> managed-disk grant-access-parameters create</tspan>
+<tspan x="10" y="7210"> managed-disk grant-access-parameters grant-access-data delete</tspan>
+<tspan x="10" y="7226"> managed-disk grant-access-parameters grant-access-data set</tspan>
+<tspan x="10" y="7242"> managed-disk grant-access-parameters patch</tspan>
+<tspan x="10" y="7258"> managed-disk list</tspan>
+<tspan x="10" y="7274"> managed-disk revoke-access</tspan>
+<tspan x="10" y="7290"> managed-disk show</tspan>
+<tspan x="10" y="7306"> managed-disk update</tspan>
+<tspan x="10" y="7322"> managed-disk update-parameters create</tspan>
+<tspan x="10" y="7338"> managed-disk update-parameters creation-data delete</tspan>
+<tspan x="10" y="7354"> managed-disk update-parameters creation-data set</tspan>
+<tspan x="10" y="7370"> managed-disk update-parameters disk-encryption-key delete</tspan>
+<tspan x="10" y="7386"> managed-disk update-parameters disk-encryption-key set</tspan>
+<tspan x="10" y="7402"> managed-disk update-parameters disk-update delete</tspan>
+<tspan x="10" y="7418"> managed-disk update-parameters disk-update set</tspan>
+<tspan x="10" y="7434"> managed-disk update-parameters encryption-settings delete</tspan>
+<tspan x="10" y="7450"> managed-disk update-parameters encryption-settings set</tspan>
+<tspan x="10" y="7466"> managed-disk update-parameters image-reference delete</tspan>
+<tspan x="10" y="7482"> managed-disk update-parameters image-reference set</tspan>
+<tspan x="10" y="7498"> managed-disk update-parameters key-encryption-key delete</tspan>
+<tspan x="10" y="7514"> managed-disk update-parameters key-encryption-key set</tspan>
+<tspan x="10" y="7530"> managed-disk update-parameters patch</tspan>
+<tspan x="10" y="7546"> managed-disk update-parameters source-vault delete</tspan>
+<tspan x="10" y="7562"> managed-disk update-parameters source-vault set</tspan>
+<tspan x="10" y="7578"> managed-image config create</tspan>
+<tspan x="10" y="7594"> managed-image config data-disks delete</tspan>
+<tspan x="10" y="7610"> managed-image config data-disks set</tspan>
+<tspan x="10" y="7626"> managed-image config image delete</tspan>
+<tspan x="10" y="7642"> managed-image config image set</tspan>
+<tspan x="10" y="7658"> managed-image config managed-disk delete</tspan>
+<tspan x="10" y="7674"> managed-image config managed-disk set</tspan>
+<tspan x="10" y="7690"> managed-image config os-disk delete</tspan>
+<tspan x="10" y="7706"> managed-image config os-disk set</tspan>
+<tspan x="10" y="7722"> managed-image config patch</tspan>
+<tspan x="10" y="7738"> managed-image config snapshot delete</tspan>
+<tspan x="10" y="7754"> managed-image config snapshot set</tspan>
+<tspan x="10" y="7770"> managed-image config source-virtual-machine delete</tspan>
+<tspan x="10" y="7786"> managed-image config source-virtual-machine set</tspan>
+<tspan x="10" y="7802"> managed-image config storage-profile delete</tspan>
+<tspan x="10" y="7818"> managed-image config storage-profile set</tspan>
+<tspan x="10" y="7834"> managed-image create</tspan>
+<tspan x="10" y="7850"> managed-image delete</tspan>
+<tspan x="10" y="7866"> managed-image list</tspan>
+<tspan x="10" y="7882"> managed-image show</tspan>
+<tspan x="10" y="7898"> managed-snapshot config create</tspan>
+<tspan x="10" y="7914"> managed-snapshot config creation-data delete</tspan>
+<tspan x="10" y="7930"> managed-snapshot config creation-data set</tspan>
+<tspan x="10" y="7946"> managed-snapshot config disk-encryption-key delete</tspan>
+<tspan x="10" y="7962"> managed-snapshot config disk-encryption-key set</tspan>
+<tspan x="10" y="7978"> managed-snapshot config encryption-settings delete</tspan>
+<tspan x="10" y="7994"> managed-snapshot config encryption-settings set</tspan>
+<tspan x="10" y="8010"> managed-snapshot config image-reference delete</tspan>
+<tspan x="10" y="8026"> managed-snapshot config image-reference set</tspan>
+<tspan x="10" y="8042"> managed-snapshot config key-encryption-key delete</tspan>
+<tspan x="10" y="8058"> managed-snapshot config key-encryption-key set</tspan>
+<tspan x="10" y="8074"> managed-snapshot config patch</tspan>
+<tspan x="10" y="8090"> managed-snapshot config snapshot delete</tspan>
+<tspan x="10" y="8106"> managed-snapshot config snapshot set</tspan>
+<tspan x="10" y="8122"> managed-snapshot config source-vault delete</tspan>
+<tspan x="10" y="8138"> managed-snapshot config source-vault set</tspan>
+<tspan x="10" y="8154"> managed-snapshot create</tspan>
+<tspan x="10" y="8170"> managed-snapshot delete</tspan>
+<tspan x="10" y="8186"> managed-snapshot grant-access</tspan>
+<tspan x="10" y="8202"> managed-snapshot grant-access-parameters create</tspan>
+<tspan x="10" y="8218"> managed-snapshot grant-access-parameters grant-access-data delete</tspan>
+<tspan x="10" y="8234"> managed-snapshot grant-access-parameters grant-access-data set</tspan>
+<tspan x="10" y="8250"> managed-snapshot grant-access-parameters patch</tspan>
+<tspan x="10" y="8266"> managed-snapshot list</tspan>
+<tspan x="10" y="8282"> managed-snapshot revoke-access</tspan>
+<tspan x="10" y="8298"> managed-snapshot show</tspan>
+<tspan x="10" y="8314"> managed-snapshot update</tspan>
+<tspan x="10" y="8330"> managed-snapshot update-parameters create</tspan>
+<tspan x="10" y="8346"> managed-snapshot update-parameters creation-data delete</tspan>
+<tspan x="10" y="8362"> managed-snapshot update-parameters creation-data set</tspan>
+<tspan x="10" y="8378"> managed-snapshot update-parameters disk-encryption-key delete</tspan>
+<tspan x="10" y="8394"> managed-snapshot update-parameters disk-encryption-key set</tspan>
+<tspan x="10" y="8410"> managed-snapshot update-parameters encryption-settings delete</tspan>
+<tspan x="10" y="8426"> managed-snapshot update-parameters encryption-settings set</tspan>
+<tspan x="10" y="8442"> managed-snapshot update-parameters image-reference delete</tspan>
+<tspan x="10" y="8458"> managed-snapshot update-parameters image-reference set</tspan>
+<tspan x="10" y="8474"> managed-snapshot update-parameters key-encryption-key delete</tspan>
+<tspan x="10" y="8490"> managed-snapshot update-parameters key-encryption-key set</tspan>
+<tspan x="10" y="8506"> managed-snapshot update-parameters patch</tspan>
+<tspan x="10" y="8522"> managed-snapshot update-parameters snapshot-update delete</tspan>
+<tspan x="10" y="8538"> managed-snapshot update-parameters snapshot-update set</tspan>
+<tspan x="10" y="8554"> managed-snapshot update-parameters source-vault delete</tspan>
+<tspan x="10" y="8570"> managed-snapshot update-parameters source-vault set</tspan>
+<tspan x="10" y="8586"> network application-gateway address-pool create</tspan>
+<tspan x="10" y="8602"> network application-gateway address-pool delete</tspan>
+<tspan x="10" y="8618"> network application-gateway address-pool list</tspan>
+<tspan x="10" y="8634"> network application-gateway address-pool set</tspan>
+<tspan x="10" y="8650"> network application-gateway address-pool show</tspan>
+<tspan x="10" y="8666"> network application-gateway auth-cert create</tspan>
+<tspan x="10" y="8682"> network application-gateway auth-cert delete</tspan>
+<tspan x="10" y="8698"> network application-gateway auth-cert list</tspan>
+<tspan x="10" y="8714"> network application-gateway auth-cert set</tspan>
+<tspan x="10" y="8730"> network application-gateway auth-cert show</tspan>
+<tspan x="10" y="8746"> network application-gateway backend-health show</tspan>
+<tspan x="10" y="8762"> network application-gateway create</tspan>
+<tspan x="10" y="8778"> network application-gateway delete</tspan>
+<tspan x="10" y="8794"> network application-gateway frontend-ip create</tspan>
+<tspan x="10" y="8810"> network application-gateway frontend-ip delete</tspan>
+<tspan x="10" y="8826"> network application-gateway frontend-ip list</tspan>
+<tspan x="10" y="8842"> network application-gateway frontend-ip set</tspan>
+<tspan x="10" y="8858"> network application-gateway frontend-ip show</tspan>
+<tspan x="10" y="8874"> network application-gateway frontend-port create</tspan>
+<tspan x="10" y="8890"> network application-gateway frontend-port delete</tspan>
+<tspan x="10" y="8906"> network application-gateway frontend-port list</tspan>
+<tspan x="10" y="8922"> network application-gateway frontend-port set</tspan>
+<tspan x="10" y="8938"> network application-gateway frontend-port show</tspan>
+<tspan x="10" y="8954"> network application-gateway http-listener create</tspan>
+<tspan x="10" y="8970"> network application-gateway http-listener delete</tspan>
+<tspan x="10" y="8986"> network application-gateway http-listener list</tspan>
+<tspan x="10" y="9002"> network application-gateway http-listener set</tspan>
+<tspan x="10" y="9018"> network application-gateway http-listener show</tspan>
+<tspan x="10" y="9034"> network application-gateway http-settings create</tspan>
+<tspan x="10" y="9050"> network application-gateway http-settings delete</tspan>
+<tspan x="10" y="9066"> network application-gateway http-settings list</tspan>
+<tspan x="10" y="9082"> network application-gateway http-settings set</tspan>
+<tspan x="10" y="9098"> network application-gateway http-settings show</tspan>
+<tspan x="10" y="9114"> network application-gateway list</tspan>
+<tspan x="10" y="9130"> network application-gateway probe create</tspan>
+<tspan x="10" y="9146"> network application-gateway probe delete</tspan>
+<tspan x="10" y="9162"> network application-gateway probe list</tspan>
+<tspan x="10" y="9178"> network application-gateway probe set</tspan>
+<tspan x="10" y="9194"> network application-gateway probe show</tspan>
+<tspan x="10" y="9210"> network application-gateway rule create</tspan>
+<tspan x="10" y="9226"> network application-gateway rule delete</tspan>
+<tspan x="10" y="9242"> network application-gateway rule list</tspan>
+<tspan x="10" y="9258"> network application-gateway rule set</tspan>
+<tspan x="10" y="9274"> network application-gateway rule show</tspan>
+<tspan x="10" y="9290"> network application-gateway set</tspan>
+<tspan x="10" y="9306"> network application-gateway show</tspan>
+<tspan x="10" y="9322"> network application-gateway ssl-cert create</tspan>
+<tspan x="10" y="9338"> network application-gateway ssl-cert delete</tspan>
+<tspan x="10" y="9354"> network application-gateway ssl-cert list</tspan>
+<tspan x="10" y="9370"> network application-gateway ssl-cert set</tspan>
+<tspan x="10" y="9386"> network application-gateway ssl-cert show</tspan>
+<tspan x="10" y="9402"> network application-gateway ssl-policy create</tspan>
+<tspan x="10" y="9418"> network application-gateway ssl-policy delete</tspan>
+<tspan x="10" y="9434"> network application-gateway ssl-policy show</tspan>
+<tspan x="10" y="9450"> network application-gateway start</tspan>
+<tspan x="10" y="9466"> network application-gateway stop</tspan>
+<tspan x="10" y="9482"> network application-gateway url-path-map create</tspan>
+<tspan x="10" y="9498"> network application-gateway url-path-map delete</tspan>
+<tspan x="10" y="9514"> network application-gateway url-path-map list</tspan>
+<tspan x="10" y="9530"> network application-gateway url-path-map rule create</tspan>
+<tspan x="10" y="9546"> network application-gateway url-path-map rule delete</tspan>
+<tspan x="10" y="9562"> network application-gateway url-path-map rule list</tspan>
+<tspan x="10" y="9578"> network application-gateway url-path-map rule set</tspan>
+<tspan x="10" y="9594"> network application-gateway url-path-map rule show</tspan>
+<tspan x="10" y="9610"> network application-gateway url-path-map set</tspan>
+<tspan x="10" y="9626"> network application-gateway url-path-map show</tspan>
+<tspan x="10" y="9642"> network application-gateway waf-config create</tspan>
+<tspan x="10" y="9658"> network application-gateway waf-config delete</tspan>
+<tspan x="10" y="9674"> network application-gateway waf-config show</tspan>
+<tspan x="10" y="9690"> network dns record-set add-record</tspan>
+<tspan x="10" y="9706"> network dns record-set create</tspan>
+<tspan x="10" y="9722"> network dns record-set delete</tspan>
+<tspan x="10" y="9738"> network dns record-set delete-record</tspan>
+<tspan x="10" y="9754"> network dns record-set list</tspan>
+<tspan x="10" y="9770"> network dns record-set set</tspan>
+<tspan x="10" y="9786"> network dns record-set set-soa-record</tspan>
+<tspan x="10" y="9802"> network dns record-set show</tspan>
+<tspan x="10" y="9818"> network dns zone clear</tspan>
+<tspan x="10" y="9834"> network dns zone create</tspan>
+<tspan x="10" y="9850"> network dns zone delete</tspan>
+<tspan x="10" y="9866"> network dns zone export</tspan>
+<tspan x="10" y="9882"> network dns zone import</tspan>
+<tspan x="10" y="9898"> network dns zone list</tspan>
+<tspan x="10" y="9914"> network dns zone set</tspan>
+<tspan x="10" y="9930"> network dns zone show</tspan>
+<tspan x="10" y="9946"> network express-route authorization create</tspan>
+<tspan x="10" y="9962"> network express-route authorization delete</tspan>
+<tspan x="10" y="9978"> network express-route authorization list</tspan>
+<tspan x="10" y="9994"> network express-route authorization set</tspan>
+<tspan x="10" y="10010"> network express-route authorization show</tspan>
+<tspan x="10" y="10026"> network express-route circuit create</tspan>
+<tspan x="10" y="10042"> network express-route circuit delete</tspan>
+<tspan x="10" y="10058"> network express-route circuit list</tspan>
+<tspan x="10" y="10074"> network express-route circuit set</tspan>
+<tspan x="10" y="10090"> network express-route circuit show</tspan>
+<tspan x="10" y="10106"> network express-route peering create</tspan>
+<tspan x="10" y="10122"> network express-route peering delete</tspan>
+<tspan x="10" y="10138"> network express-route peering list</tspan>
+<tspan x="10" y="10154"> network express-route peering set</tspan>
+<tspan x="10" y="10170"> network express-route peering show</tspan>
+<tspan x="10" y="10186"> network express-route provider list</tspan>
+<tspan x="10" y="10202"> network lb address-pool create</tspan>
+<tspan x="10" y="10218"> network lb address-pool delete</tspan>
+<tspan x="10" y="10234"> network lb address-pool list</tspan>
+<tspan x="10" y="10250"> network lb create</tspan>
+<tspan x="10" y="10266"> network lb delete</tspan>
+<tspan x="10" y="10282"> network lb frontend-ip create</tspan>
+<tspan x="10" y="10298"> network lb frontend-ip delete</tspan>
+<tspan x="10" y="10314"> network lb frontend-ip list</tspan>
+<tspan x="10" y="10330"> network lb frontend-ip set</tspan>
+<tspan x="10" y="10346"> network lb inbound-nat-pool create</tspan>
+<tspan x="10" y="10362"> network lb inbound-nat-pool delete</tspan>
+<tspan x="10" y="10378"> network lb inbound-nat-pool list</tspan>
+<tspan x="10" y="10394"> network lb inbound-nat-pool set</tspan>
+<tspan x="10" y="10410"> network lb inbound-nat-rule create</tspan>
+<tspan x="10" y="10426"> network lb inbound-nat-rule delete</tspan>
+<tspan x="10" y="10442"> network lb inbound-nat-rule list</tspan>
+<tspan x="10" y="10458"> network lb inbound-nat-rule set</tspan>
+<tspan x="10" y="10474"> network lb list</tspan>
+<tspan x="10" y="10490"> network lb probe create</tspan>
+<tspan x="10" y="10506"> network lb probe delete</tspan>
+<tspan x="10" y="10522"> network lb probe list</tspan>
+<tspan x="10" y="10538"> network lb probe set</tspan>
+<tspan x="10" y="10554"> network lb rule create</tspan>
+<tspan x="10" y="10570"> network lb rule delete</tspan>
+<tspan x="10" y="10586"> network lb rule list</tspan>
+<tspan x="10" y="10602"> network lb rule set</tspan>
+<tspan x="10" y="10618"> network lb set</tspan>
+<tspan x="10" y="10634"> network lb show</tspan>
+<tspan x="10" y="10650"> network local-gateway create</tspan>
+<tspan x="10" y="10666"> network local-gateway delete</tspan>
+<tspan x="10" y="10682"> network local-gateway list</tspan>
+<tspan x="10" y="10698"> network local-gateway set</tspan>
+<tspan x="10" y="10714"> network local-gateway show</tspan>
+<tspan x="10" y="10730"> network nic create</tspan>
+<tspan x="10" y="10746"> network nic delete</tspan>
+<tspan x="10" y="10762"> network nic effective-nsg list</tspan>
+<tspan x="10" y="10778"> network nic effective-route-table show</tspan>
+<tspan x="10" y="10794"> network nic ip-config address-pool create</tspan>
+<tspan x="10" y="10810"> network nic ip-config address-pool delete</tspan>
+<tspan x="10" y="10826"> network nic ip-config create</tspan>
+<tspan x="10" y="10842"> network nic ip-config delete</tspan>
+<tspan x="10" y="10858"> network nic ip-config inbound-nat-rule create</tspan>
+<tspan x="10" y="10874"> network nic ip-config inbound-nat-rule delete</tspan>
+<tspan x="10" y="10890"> network nic ip-config list</tspan>
+<tspan x="10" y="10906"> network nic ip-config set</tspan>
+<tspan x="10" y="10922"> network nic ip-config show</tspan>
+<tspan x="10" y="10938"> network nic list</tspan>
+<tspan x="10" y="10954"> network nic set</tspan>
+<tspan x="10" y="10970"> network nic show</tspan>
+<tspan x="10" y="10986"> network nsg create</tspan>
+<tspan x="10" y="11002"> network nsg delete</tspan>
+<tspan x="10" y="11018"> network nsg list</tspan>
+<tspan x="10" y="11034"> network nsg rule create</tspan>
+<tspan x="10" y="11050"> network nsg rule delete</tspan>
+<tspan x="10" y="11066"> network nsg rule list</tspan>
+<tspan x="10" y="11082"> network nsg rule set</tspan>
+<tspan x="10" y="11098"> network nsg rule show</tspan>
+<tspan x="10" y="11114"> network nsg set</tspan>
+<tspan x="10" y="11130"> network nsg show</tspan>
+<tspan x="10" y="11146"> network public-ip create</tspan>
+<tspan x="10" y="11162"> network public-ip delete</tspan>
+<tspan x="10" y="11178"> network public-ip list</tspan>
+<tspan x="10" y="11194"> network public-ip set</tspan>
+<tspan x="10" y="11210"> network public-ip show</tspan>
+<tspan x="10" y="11226"> network route-table create</tspan>
+<tspan x="10" y="11242"> network route-table delete</tspan>
+<tspan x="10" y="11258"> network route-table list</tspan>
+<tspan x="10" y="11274"> network route-table route create</tspan>
+<tspan x="10" y="11290"> network route-table route delete</tspan>
+<tspan x="10" y="11306"> network route-table route list</tspan>
+<tspan x="10" y="11322"> network route-table route set</tspan>
+<tspan x="10" y="11338"> network route-table route show</tspan>
+<tspan x="10" y="11354"> network route-table set</tspan>
+<tspan x="10" y="11370"> network route-table show</tspan>
+<tspan x="10" y="11386"> network traffic-manager endpoint create</tspan>
+<tspan x="10" y="11402"> network traffic-manager endpoint delete</tspan>
+<tspan x="10" y="11418"> network traffic-manager endpoint set</tspan>
+<tspan x="10" y="11434"> network traffic-manager endpoint show</tspan>
+<tspan x="10" y="11450"> network traffic-manager profile create</tspan>
+<tspan x="10" y="11466"> network traffic-manager profile delete</tspan>
+<tspan x="10" y="11482"> network traffic-manager profile is-dns-available</tspan>
+<tspan x="10" y="11498"> network traffic-manager profile list</tspan>
+<tspan x="10" y="11514"> network traffic-manager profile set</tspan>
+<tspan x="10" y="11530"> network traffic-manager profile show</tspan>
+<tspan x="10" y="11546"> network usage list</tspan>
+<tspan x="10" y="11562"> network vnet create</tspan>
+<tspan x="10" y="11578"> network vnet delete</tspan>
+<tspan x="10" y="11594"> network vnet list</tspan>
+<tspan x="10" y="11610"> network vnet peering create</tspan>
+<tspan x="10" y="11626"> network vnet peering delete</tspan>
+<tspan x="10" y="11642"> network vnet peering list</tspan>
+<tspan x="10" y="11658"> network vnet peering set</tspan>
+<tspan x="10" y="11674"> network vnet peering show</tspan>
+<tspan x="10" y="11690"> network vnet set</tspan>
+<tspan x="10" y="11706"> network vnet show</tspan>
+<tspan x="10" y="11722"> network vnet subnet create</tspan>
+<tspan x="10" y="11738"> network vnet subnet delete</tspan>
+<tspan x="10" y="11754"> network vnet subnet list</tspan>
+<tspan x="10" y="11770"> network vnet subnet set</tspan>
+<tspan x="10" y="11786"> network vnet subnet show</tspan>
+<tspan x="10" y="11802"> network vpn-connection create</tspan>
+<tspan x="10" y="11818"> network vpn-connection delete</tspan>
+<tspan x="10" y="11834"> network vpn-connection list</tspan>
+<tspan x="10" y="11850"> network vpn-connection set</tspan>
+<tspan x="10" y="11866"> network vpn-connection shared-key reset</tspan>
+<tspan x="10" y="11882"> network vpn-connection shared-key set</tspan>
+<tspan x="10" y="11898"> network vpn-connection shared-key show</tspan>
+<tspan x="10" y="11914"> network vpn-connection show</tspan>
+<tspan x="10" y="11930"> network vpn-gateway create</tspan>
+<tspan x="10" y="11946"> network vpn-gateway delete</tspan>
+<tspan x="10" y="11962"> network vpn-gateway list</tspan>
+<tspan x="10" y="11978"> network vpn-gateway revoked-cert create</tspan>
+<tspan x="10" y="11994"> network vpn-gateway revoked-cert delete</tspan>
+<tspan x="10" y="12010"> network vpn-gateway root-cert create</tspan>
+<tspan x="10" y="12026"> network vpn-gateway root-cert delete</tspan>
+<tspan x="10" y="12042"> network vpn-gateway set</tspan>
+<tspan x="10" y="12058"> network vpn-gateway show</tspan>
+<tspan x="10" y="12074"> network watcher configure-flow-log</tspan>
+<tspan x="10" y="12090"> network watcher create</tspan>
+<tspan x="10" y="12106"> network watcher delete</tspan>
+<tspan x="10" y="12122"> network watcher flow-log-status</tspan>
+<tspan x="10" y="12138"> network watcher ip-flow-verify</tspan>
+<tspan x="10" y="12154"> network watcher list</tspan>
+<tspan x="10" y="12170"> network watcher next-hop</tspan>
+<tspan x="10" y="12186"> network watcher packet-capture create</tspan>
+<tspan x="10" y="12202"> network watcher packet-capture delete</tspan>
+<tspan x="10" y="12218"> network watcher packet-capture list</tspan>
+<tspan x="10" y="12234"> network watcher packet-capture show</tspan>
+<tspan x="10" y="12250"> network watcher packet-capture status</tspan>
+<tspan x="10" y="12266"> network watcher packet-capture stop</tspan>
+<tspan x="10" y="12282"> network watcher security-group-view</tspan>
+<tspan x="10" y="12298"> network watcher show</tspan>
+<tspan x="10" y="12314"> network watcher topology</tspan>
+<tspan x="10" y="12330"> network watcher troubleshoot</tspan>
+<tspan x="10" y="12346"> network watcher troubleshoot-result</tspan>
+<tspan x="10" y="12362"> policy assignment create</tspan>
+<tspan x="10" y="12378"> policy assignment delete</tspan>
+<tspan x="10" y="12394"> policy assignment list</tspan>
+<tspan x="10" y="12410"> policy assignment set</tspan>
+<tspan x="10" y="12426"> policy assignment show</tspan>
+<tspan x="10" y="12442"> policy definition create</tspan>
+<tspan x="10" y="12458"> policy definition delete</tspan>
+<tspan x="10" y="12474"> policy definition list</tspan>
+<tspan x="10" y="12490"> policy definition set</tspan>
+<tspan x="10" y="12506"> policy definition show</tspan>
+<tspan x="10" y="12522"> portal</tspan>
+<tspan x="10" y="12538"> powerbi create</tspan>
+<tspan x="10" y="12554"> powerbi keys list</tspan>
+<tspan x="10" y="12570"> powerbi keys renew</tspan>
+<tspan x="10" y="12586"> powerbi list</tspan>
+<tspan x="10" y="12602"> powerbi workspaces list</tspan>
+<tspan x="10" y="12618"> provider list</tspan>
+<tspan x="10" y="12634"> provider operations show</tspan>
+<tspan x="10" y="12650"> provider register</tspan>
+<tspan x="10" y="12666"> provider show</tspan>
+<tspan x="10" y="12682"> provider unregister</tspan>
+<tspan x="10" y="12698"> quotas show</tspan>
+<tspan x="10" y="12714"> rediscache create</tspan>
+<tspan x="10" y="12730"> rediscache delete</tspan>
+<tspan x="10" y="12746"> rediscache delete-diagnostics</tspan>
+<tspan x="10" y="12762"> rediscache export</tspan>
+<tspan x="10" y="12778"> rediscache import</tspan>
+<tspan x="10" y="12794"> rediscache list</tspan>
+<tspan x="10" y="12810"> rediscache list-keys</tspan>
+<tspan x="10" y="12826"> rediscache renew-key</tspan>
+<tspan x="10" y="12842"> rediscache reset</tspan>
+<tspan x="10" y="12858"> rediscache set</tspan>
+<tspan x="10" y="12874"> rediscache set-diagnostics</tspan>
+<tspan x="10" y="12890"> rediscache show</tspan>
+<tspan x="10" y="12906"> resource create</tspan>
+<tspan x="10" y="12922"> resource delete</tspan>
+<tspan x="10" y="12938"> resource list</tspan>
+<tspan x="10" y="12954"> resource move</tspan>
+<tspan x="10" y="12970"> resource set</tspan>
+<tspan x="10" y="12986"> resource show</tspan>
+<tspan x="10" y="13002"> role assignment changelog list</tspan>
+<tspan x="10" y="13018"> role assignment create</tspan>
+<tspan x="10" y="13034"> role assignment delete</tspan>
+<tspan x="10" y="13050"> role assignment list</tspan>
+<tspan x="10" y="13066"> role create</tspan>
+<tspan x="10" y="13082"> role delete</tspan>
+<tspan x="10" y="13098"> role list</tspan>
+<tspan x="10" y="13114"> role set</tspan>
+<tspan x="10" y="13130"> role show</tspan>
+<tspan x="10" y="13146"> servermanagement gateway create</tspan>
+<tspan x="10" y="13162"> servermanagement gateway delete</tspan>
+<tspan x="10" y="13178"> servermanagement gateway list</tspan>
+<tspan x="10" y="13194"> servermanagement gateway show</tspan>
+<tspan x="10" y="13210"> servermanagement node create</tspan>
+<tspan x="10" y="13226"> servermanagement node delete</tspan>
+<tspan x="10" y="13242"> servermanagement node list</tspan>
+<tspan x="10" y="13258"> servermanagement node show</tspan>
+<tspan x="10" y="13274"> servermanagement powershell create</tspan>
+<tspan x="10" y="13290"> servermanagement powershell invoke</tspan>
+<tspan x="10" y="13306"> servermanagement session create</tspan>
+<tspan x="10" y="13322"> servermanagement session delete</tspan>
+<tspan x="10" y="13338"> servermanagement session show</tspan>
+<tspan x="10" y="13354"> servicefabric application create</tspan>
+<tspan x="10" y="13370"> servicefabric application delete</tspan>
+<tspan x="10" y="13386"> servicefabric application deployed health send</tspan>
+<tspan x="10" y="13402"> servicefabric application deployed health show</tspan>
+<tspan x="10" y="13418"> servicefabric application deployed show</tspan>
+<tspan x="10" y="13434"> servicefabric application health send</tspan>
+<tspan x="10" y="13450"> servicefabric application health show</tspan>
+<tspan x="10" y="13466"> servicefabric application manifest show</tspan>
+<tspan x="10" y="13482"> servicefabric application package copy</tspan>
+<tspan x="10" y="13498"> servicefabric application show</tspan>
+<tspan x="10" y="13514"> servicefabric application type register</tspan>
+<tspan x="10" y="13530"> servicefabric application type show</tspan>
+<tspan x="10" y="13546"> servicefabric application type unregister</tspan>
+<tspan x="10" y="13562"> servicefabric application upgrade resume</tspan>
+<tspan x="10" y="13578"> servicefabric application upgrade rollback</tspan>
+<tspan x="10" y="13594"> servicefabric application upgrade show</tspan>
+<tspan x="10" y="13610"> servicefabric application upgrade start</tspan>
+<tspan x="10" y="13626"> servicefabric application upgrade update</tspan>
+<tspan x="10" y="13642"> servicefabric cluster connect</tspan>
+<tspan x="10" y="13658"> servicefabric cluster health send</tspan>
+<tspan x="10" y="13674"> servicefabric cluster health show</tspan>
+<tspan x="10" y="13690"> servicefabric cluster load show</tspan>
+<tspan x="10" y="13706"> servicefabric cluster manifest show</tspan>
+<tspan x="10" y="13722"> servicefabric cluster show</tspan>
+<tspan x="10" y="13738"> servicefabric cluster upgrade show</tspan>
+<tspan x="10" y="13754"> servicefabric code package deployed show</tspan>
+<tspan x="10" y="13770"> servicefabric node disable</tspan>
+<tspan x="10" y="13786"> servicefabric node enable</tspan>
+<tspan x="10" y="13802"> servicefabric node health send</tspan>
+<tspan x="10" y="13818"> servicefabric node health show</tspan>
+<tspan x="10" y="13834"> servicefabric node load show</tspan>
+<tspan x="10" y="13850"> servicefabric node show</tspan>
+<tspan x="10" y="13866"> servicefabric node state delete</tspan>
+<tspan x="10" y="13882"> servicefabric partition health send</tspan>
+<tspan x="10" y="13898"> servicefabric partition health show</tspan>
+<tspan x="10" y="13914"> servicefabric partition load reset</tspan>
+<tspan x="10" y="13930"> servicefabric partition load show</tspan>
+<tspan x="10" y="13946"> servicefabric partition repair</tspan>
+<tspan x="10" y="13962"> servicefabric partition show</tspan>
+<tspan x="10" y="13978"> servicefabric replica deployed detail</tspan>
+<tspan x="10" y="13994"> servicefabric replica deployed show</tspan>
+<tspan x="10" y="14010"> servicefabric replica health send</tspan>
+<tspan x="10" y="14026"> servicefabric replica health show</tspan>
+<tspan x="10" y="14042"> servicefabric replica load show</tspan>
+<tspan x="10" y="14058"> servicefabric replica show</tspan>
+<tspan x="10" y="14074"> servicefabric service create</tspan>
+<tspan x="10" y="14090"> servicefabric service delete</tspan>
+<tspan x="10" y="14106"> servicefabric service description show</tspan>
+<tspan x="10" y="14122"> servicefabric service group create</tspan>
+<tspan x="10" y="14138"> servicefabric service group delete</tspan>
+<tspan x="10" y="14154"> servicefabric service group description show</tspan>
+<tspan x="10" y="14170"> servicefabric service group member show</tspan>
+<tspan x="10" y="14186"> servicefabric service group template create</tspan>
+<tspan x="10" y="14202"> servicefabric service group update</tspan>
+<tspan x="10" y="14218"> servicefabric service health send</tspan>
+<tspan x="10" y="14234"> servicefabric service health show</tspan>
+<tspan x="10" y="14250"> servicefabric service manifest show</tspan>
+<tspan x="10" y="14266"> servicefabric service package deployed health send</tspan>
+<tspan x="10" y="14282"> servicefabric service package deployed health show</tspan>
+<tspan x="10" y="14298"> servicefabric service package deployed show</tspan>
+<tspan x="10" y="14314"> servicefabric service resolve</tspan>
+<tspan x="10" y="14330"> servicefabric service show</tspan>
+<tspan x="10" y="14346"> servicefabric service template create</tspan>
+<tspan x="10" y="14362"> servicefabric service type deployed show</tspan>
+<tspan x="10" y="14378"> servicefabric service type show</tspan>
+<tspan x="10" y="14394"> servicefabric service update</tspan>
+<tspan x="10" y="14410"> storage account check</tspan>
+<tspan x="10" y="14426"> storage account connectionstring show</tspan>
+<tspan x="10" y="14442"> storage account create</tspan>
+<tspan x="10" y="14458"> storage account delete</tspan>
+<tspan x="10" y="14474"> storage account keys list</tspan>
+<tspan x="10" y="14490"> storage account keys renew</tspan>
+<tspan x="10" y="14506"> storage account list</tspan>
+<tspan x="10" y="14522"> storage account sas create</tspan>
+<tspan x="10" y="14538"> storage account set</tspan>
+<tspan x="10" y="14554"> storage account show</tspan>
+<tspan x="10" y="14570"> storage account usage show</tspan>
+<tspan x="10" y="14586"> storage blob copy show</tspan>
+<tspan x="10" y="14602"> storage blob copy start</tspan>
+<tspan x="10" y="14618"> storage blob copy stop</tspan>
+<tspan x="10" y="14634"> storage blob delete</tspan>
+<tspan x="10" y="14650"> storage blob download</tspan>
+<tspan x="10" y="14666"> storage blob lease acquire</tspan>
+<tspan x="10" y="14682"> storage blob lease break</tspan>
+<tspan x="10" y="14698"> storage blob lease change</tspan>
+<tspan x="10" y="14714"> storage blob lease release</tspan>
+<tspan x="10" y="14730"> storage blob lease renew</tspan>
+<tspan x="10" y="14746"> storage blob list</tspan>
+<tspan x="10" y="14762"> storage blob sas create</tspan>
+<tspan x="10" y="14778"> storage blob show</tspan>
+<tspan x="10" y="14794"> storage blob snapshot</tspan>
+<tspan x="10" y="14810"> storage blob update</tspan>
+<tspan x="10" y="14826"> storage blob upload</tspan>
+<tspan x="10" y="14842"> storage container create</tspan>
+<tspan x="10" y="14858"> storage container delete</tspan>
+<tspan x="10" y="14874"> storage container lease acquire</tspan>
+<tspan x="10" y="14890"> storage container lease break</tspan>
+<tspan x="10" y="14906"> storage container lease change</tspan>
+<tspan x="10" y="14922"> storage container lease release</tspan>
+<tspan x="10" y="14938"> storage container lease renew</tspan>
+<tspan x="10" y="14954"> storage container list</tspan>
+<tspan x="10" y="14970"> storage container policy create</tspan>
+<tspan x="10" y="14986"> storage container policy delete</tspan>
+<tspan x="10" y="15002"> storage container policy list</tspan>
+<tspan x="10" y="15018"> storage container policy set</tspan>
+<tspan x="10" y="15034"> storage container policy show</tspan>
+<tspan x="10" y="15050"> storage container sas create</tspan>
+<tspan x="10" y="15066"> storage container set</tspan>
+<tspan x="10" y="15082"> storage container show</tspan>
+<tspan x="10" y="15098"> storage cors delete</tspan>
+<tspan x="10" y="15114"> storage cors set</tspan>
+<tspan x="10" y="15130"> storage cors show</tspan>
+<tspan x="10" y="15146"> storage directory create</tspan>
+<tspan x="10" y="15162"> storage directory delete</tspan>
+<tspan x="10" y="15178"> storage file copy show</tspan>
+<tspan x="10" y="15194"> storage file copy start</tspan>
+<tspan x="10" y="15210"> storage file copy stop</tspan>
+<tspan x="10" y="15226"> storage file delete</tspan>
+<tspan x="10" y="15242"> storage file download</tspan>
+<tspan x="10" y="15258"> storage file list</tspan>
+<tspan x="10" y="15274"> storage file sas create</tspan>
+<tspan x="10" y="15290"> storage file upload</tspan>
+<tspan x="10" y="15306"> storage logging set</tspan>
+<tspan x="10" y="15322"> storage logging show</tspan>
+<tspan x="10" y="15338"> storage metrics set</tspan>
+<tspan x="10" y="15354"> storage metrics show</tspan>
+<tspan x="10" y="15370"> storage queue create</tspan>
+<tspan x="10" y="15386"> storage queue delete</tspan>
+<tspan x="10" y="15402"> storage queue list</tspan>
+<tspan x="10" y="15418"> storage queue policy create</tspan>
+<tspan x="10" y="15434"> storage queue policy delete</tspan>
+<tspan x="10" y="15450"> storage queue policy list</tspan>
+<tspan x="10" y="15466"> storage queue policy set</tspan>
+<tspan x="10" y="15482"> storage queue policy show</tspan>
+<tspan x="10" y="15498"> storage queue sas create</tspan>
+<tspan x="10" y="15514"> storage queue show</tspan>
+<tspan x="10" y="15530"> storage share create</tspan>
+<tspan x="10" y="15546"> storage share delete</tspan>
+<tspan x="10" y="15562"> storage share list</tspan>
+<tspan x="10" y="15578"> storage share policy create</tspan>
+<tspan x="10" y="15594"> storage share policy delete</tspan>
+<tspan x="10" y="15610"> storage share policy list</tspan>
+<tspan x="10" y="15626"> storage share policy set</tspan>
+<tspan x="10" y="15642"> storage share policy show</tspan>
+<tspan x="10" y="15658"> storage share sas create</tspan>
+<tspan x="10" y="15674"> storage share set</tspan>
+<tspan x="10" y="15690"> storage share show</tspan>
+<tspan x="10" y="15706"> storage table create</tspan>
+<tspan x="10" y="15722"> storage table delete</tspan>
+<tspan x="10" y="15738"> storage table list</tspan>
+<tspan x="10" y="15754"> storage table policy create</tspan>
+<tspan x="10" y="15770"> storage table policy delete</tspan>
+<tspan x="10" y="15786"> storage table policy list</tspan>
+<tspan x="10" y="15802"> storage table policy set</tspan>
+<tspan x="10" y="15818"> storage table policy show</tspan>
+<tspan x="10" y="15834"> storage table sas create</tspan>
+<tspan x="10" y="15850"> storage table show</tspan>
+<tspan x="10" y="15866"> tag create</tspan>
+<tspan x="10" y="15882"> tag delete</tspan>
+<tspan x="10" y="15898"> tag list</tspan>
+<tspan x="10" y="15914"> tag show</tspan>
+<tspan x="10" y="15930"> telemetry</tspan>
+<tspan x="10" y="15946"> usage list</tspan>
+<tspan x="10" y="15962"> vm capture</tspan>
+<tspan x="10" y="15978"> vm config additional-unattend-content delete</tspan>
+<tspan x="10" y="15994"> vm config additional-unattend-content set</tspan>
+<tspan x="10" y="16010"> vm config availability-set delete</tspan>
+<tspan x="10" y="16026"> vm config availability-set set</tspan>
+<tspan x="10" y="16042"> vm config boot-diagnostics delete</tspan>
+<tspan x="10" y="16058"> vm config boot-diagnostics set</tspan>
+<tspan x="10" y="16074"> vm config create</tspan>
+<tspan x="10" y="16090"> vm config data-disks delete</tspan>
+<tspan x="10" y="16106"> vm config data-disks set</tspan>
+<tspan x="10" y="16122"> vm config diagnostics-profile delete</tspan>
+<tspan x="10" y="16138"> vm config diagnostics-profile set</tspan>
+<tspan x="10" y="16154"> vm config disk-encryption-key delete</tspan>
+<tspan x="10" y="16170"> vm config disk-encryption-key set</tspan>
+<tspan x="10" y="16186"> vm config disks delete</tspan>
+<tspan x="10" y="16202"> vm config disks set</tspan>
+<tspan x="10" y="16218"> vm config encryption-settings delete</tspan>
+<tspan x="10" y="16234"> vm config encryption-settings set</tspan>
+<tspan x="10" y="16250"> vm config extension-handlers delete</tspan>
+<tspan x="10" y="16266"> vm config extension-handlers set</tspan>
+<tspan x="10" y="16282"> vm config extensions delete</tspan>
+<tspan x="10" y="16298"> vm config extensions set</tspan>
+<tspan x="10" y="16314"> vm config hardware-profile delete</tspan>
+<tspan x="10" y="16330"> vm config hardware-profile set</tspan>
+<tspan x="10" y="16346"> vm config image delete</tspan>
+<tspan x="10" y="16362"> vm config image-reference delete</tspan>
+<tspan x="10" y="16378"> vm config image-reference set</tspan>
+<tspan x="10" y="16394"> vm config instance-view delete</tspan>
+<tspan x="10" y="16410"> vm config instance-view set</tspan>
+<tspan x="10" y="16426"> vm config key-encryption-key delete</tspan>
+<tspan x="10" y="16442"> vm config key-encryption-key set</tspan>
+<tspan x="10" y="16458"> vm config linux-configuration delete</tspan>
+<tspan x="10" y="16474"> vm config linux-configuration set</tspan>
+<tspan x="10" y="16490"> vm config listeners delete</tspan>
+<tspan x="10" y="16506"> vm config listeners set</tspan>
+<tspan x="10" y="16522"> vm config managed-disk delete</tspan>
+<tspan x="10" y="16538"> vm config managed-disk set</tspan>
+<tspan x="10" y="16554"> vm config network-interfaces delete</tspan>
+<tspan x="10" y="16570"> vm config network-interfaces set</tspan>
+<tspan x="10" y="16586"> vm config network-profile delete</tspan>
+<tspan x="10" y="16602"> vm config network-profile set</tspan>
+<tspan x="10" y="16618"> vm config os-disk delete</tspan>
+<tspan x="10" y="16634"> vm config os-disk set</tspan>
+<tspan x="10" y="16650"> vm config os-profile delete</tspan>
+<tspan x="10" y="16666"> vm config os-profile set</tspan>
+<tspan x="10" y="16682"> vm config patch</tspan>
+<tspan x="10" y="16698"> vm config plan delete</tspan>
+<tspan x="10" y="16714"> vm config plan set</tspan>
+<tspan x="10" y="16730"> vm config public-keys delete</tspan>
+<tspan x="10" y="16746"> vm config public-keys set</tspan>
+<tspan x="10" y="16762"> vm config resources delete</tspan>
+<tspan x="10" y="16778"> vm config resources set</tspan>
+<tspan x="10" y="16794"> vm config secrets delete</tspan>
+<tspan x="10" y="16810"> vm config secrets set</tspan>
+<tspan x="10" y="16826"> vm config source-vault delete</tspan>
+<tspan x="10" y="16842"> vm config source-vault set</tspan>
+<tspan x="10" y="16858"> vm config ssh delete</tspan>
+<tspan x="10" y="16874"> vm config ssh set</tspan>
+<tspan x="10" y="16890"> vm config status delete</tspan>
+<tspan x="10" y="16906"> vm config status set</tspan>
+<tspan x="10" y="16922"> vm config statuses delete</tspan>
+<tspan x="10" y="16938"> vm config statuses set</tspan>
+<tspan x="10" y="16954"> vm config storage-profile delete</tspan>
+<tspan x="10" y="16970"> vm config storage-profile set</tspan>
+<tspan x="10" y="16986"> vm config substatuses delete</tspan>
+<tspan x="10" y="17002"> vm config substatuses set</tspan>
+<tspan x="10" y="17018"> vm config vault-certificates delete</tspan>
+<tspan x="10" y="17034"> vm config vault-certificates set</tspan>
+<tspan x="10" y="17050"> vm config vhd delete</tspan>
+<tspan x="10" y="17066"> vm config vhd set</tspan>
+<tspan x="10" y="17082"> vm config virtual-machine delete</tspan>
+<tspan x="10" y="17098"> vm config virtual-machine set</tspan>
+<tspan x="10" y="17114"> vm config vm-agent delete</tspan>
+<tspan x="10" y="17130"> vm config vm-agent set</tspan>
+<tspan x="10" y="17146"> vm config win-rm delete</tspan>
+<tspan x="10" y="17162"> vm config win-rm set</tspan>
+<tspan x="10" y="17178"> vm config windows-configuration delete</tspan>
+<tspan x="10" y="17194"> vm config windows-configuration set</tspan>
+<tspan x="10" y="17210"> vm convert-to-managed-disks</tspan>
+<tspan x="10" y="17226"> vm create</tspan>
+<tspan x="10" y="17242"> vm create-or-update</tspan>
+<tspan x="10" y="17258"> vm deallocate</tspan>
+<tspan x="10" y="17274"> vm delete</tspan>
+<tspan x="10" y="17290"> vm delete-backup</tspan>
+<tspan x="10" y="17306"> vm disable-disk-encryption</tspan>
+<tspan x="10" y="17322"> vm disk attach</tspan>
+<tspan x="10" y="17338"> vm disk attach-new</tspan>
+<tspan x="10" y="17354"> vm disk detach</tspan>
+<tspan x="10" y="17370"> vm disk list</tspan>
+<tspan x="10" y="17386"> vm docker create</tspan>
+<tspan x="10" y="17402"> vm enable-aem</tspan>
+<tspan x="10" y="17418"> vm enable-diag</tspan>
+<tspan x="10" y="17434"> vm enable-disk-encryption</tspan>
+<tspan x="10" y="17450"> vm extension get</tspan>
+<tspan x="10" y="17466"> vm extension get-chef</tspan>
+<tspan x="10" y="17482"> vm extension set</tspan>
+<tspan x="10" y="17498"> vm extension set-chef</tspan>
+<tspan x="10" y="17514"> vm extension-image list</tspan>
+<tspan x="10" y="17530"> vm extension-image list-publishers</tspan>
+<tspan x="10" y="17546"> vm extension-image list-types</tspan>
+<tspan x="10" y="17562"> vm extension-image list-versions</tspan>
+<tspan x="10" y="17578"> vm extension-image show</tspan>
+<tspan x="10" y="17594"> vm generalize</tspan>
+<tspan x="10" y="17610"> vm get-instance-view</tspan>
+<tspan x="10" y="17626"> vm get-serial-output</tspan>
+<tspan x="10" y="17642"> vm image list</tspan>
+<tspan x="10" y="17658"> vm image list-offers</tspan>
+<tspan x="10" y="17674"> vm image list-publishers</tspan>
+<tspan x="10" y="17690"> vm image list-skus</tspan>
+<tspan x="10" y="17706"> vm image show</tspan>
+<tspan x="10" y="17722"> vm list</tspan>
+<tspan x="10" y="17738"> vm list-ip-address</tspan>
+<tspan x="10" y="17754"> vm list-usage</tspan>
+<tspan x="10" y="17770"> vm quick-create</tspan>
+<tspan x="10" y="17786"> vm redeploy</tspan>
+<tspan x="10" y="17802"> vm reset-access</tspan>
+<tspan x="10" y="17818"> vm restart</tspan>
+<tspan x="10" y="17834"> vm secret add</tspan>
+<tspan x="10" y="17850"> vm secret delete</tspan>
+<tspan x="10" y="17866"> vm set</tspan>
+<tspan x="10" y="17882"> vm show</tspan>
+<tspan x="10" y="17898"> vm show-disk-encryption-status</tspan>
+<tspan x="10" y="17914"> vm sizes</tspan>
+<tspan x="10" y="17930"> vm start</tspan>
+<tspan x="10" y="17946"> vm stop</tspan>
+<tspan x="10" y="17962"> vmss config additional-unattend-content delete</tspan>
+<tspan x="10" y="17978"> vmss config additional-unattend-content set</tspan>
+<tspan x="10" y="17994"> vmss config application-gateway-backend-address-pools delete</tspan>
+<tspan x="10" y="18010"> vmss config application-gateway-backend-address-pools set</tspan>
+<tspan x="10" y="18026"> vmss config create</tspan>
+<tspan x="10" y="18042"> vmss config data-disks delete</tspan>
+<tspan x="10" y="18058"> vmss config data-disks set</tspan>
+<tspan x="10" y="18074"> vmss config extension-profile delete</tspan>
+<tspan x="10" y="18090"> vmss config extension-profile set</tspan>
+<tspan x="10" y="18106"> vmss config extensions delete</tspan>
+<tspan x="10" y="18122"> vmss config extensions set</tspan>
+<tspan x="10" y="18138"> vmss config image delete</tspan>
+<tspan x="10" y="18154"> vmss config image set</tspan>
+<tspan x="10" y="18170"> vmss config image-reference delete</tspan>
+<tspan x="10" y="18186"> vmss config image-reference set</tspan>
+<tspan x="10" y="18202"> vmss config ip-configurations delete</tspan>
+<tspan x="10" y="18218"> vmss config ip-configurations set</tspan>
+<tspan x="10" y="18234"> vmss config linux-configuration delete</tspan>
+<tspan x="10" y="18250"> vmss config linux-configuration set</tspan>
+<tspan x="10" y="18266"> vmss config listeners delete</tspan>
+<tspan x="10" y="18282"> vmss config listeners set</tspan>
+<tspan x="10" y="18298"> vmss config load-balancer-backend-address-pools delete</tspan>
+<tspan x="10" y="18314"> vmss config load-balancer-backend-address-pools set</tspan>
+<tspan x="10" y="18330"> vmss config load-balancer-inbound-nat-pools delete</tspan>
+<tspan x="10" y="18346"> vmss config load-balancer-inbound-nat-pools set</tspan>
+<tspan x="10" y="18362"> vmss config managed-disk delete</tspan>
+<tspan x="10" y="18378"> vmss config managed-disk set</tspan>
+<tspan x="10" y="18394"> vmss config network-interface-configurations delete</tspan>
+<tspan x="10" y="18410"> vmss config network-interface-configurations set</tspan>
+<tspan x="10" y="18426"> vmss config network-profile delete</tspan>
+<tspan x="10" y="18442"> vmss config network-profile set</tspan>
+<tspan x="10" y="18458"> vmss config os-disk delete</tspan>
+<tspan x="10" y="18474"> vmss config os-disk set</tspan>
+<tspan x="10" y="18490"> vmss config os-profile delete</tspan>
+<tspan x="10" y="18506"> vmss config os-profile set</tspan>
+<tspan x="10" y="18522"> vmss config patch</tspan>
+<tspan x="10" y="18538"> vmss config plan delete</tspan>
+<tspan x="10" y="18554"> vmss config plan set</tspan>
+<tspan x="10" y="18570"> vmss config public-keys delete</tspan>
+<tspan x="10" y="18586"> vmss config public-keys set</tspan>
+<tspan x="10" y="18602"> vmss config secrets delete</tspan>
+<tspan x="10" y="18618"> vmss config secrets set</tspan>
+<tspan x="10" y="18634"> vmss config sku delete</tspan>
+<tspan x="10" y="18650"> vmss config sku set</tspan>
+<tspan x="10" y="18666"> vmss config source-vault delete</tspan>
+<tspan x="10" y="18682"> vmss config source-vault set</tspan>
+<tspan x="10" y="18698"> vmss config ssh delete</tspan>
+<tspan x="10" y="18714"> vmss config ssh set</tspan>
+<tspan x="10" y="18730"> vmss config storage-profile delete</tspan>
+<tspan x="10" y="18746"> vmss config storage-profile set</tspan>
+<tspan x="10" y="18762"> vmss config subnet delete</tspan>
+<tspan x="10" y="18778"> vmss config subnet set</tspan>
+<tspan x="10" y="18794"> vmss config upgrade-policy delete</tspan>
+<tspan x="10" y="18810"> vmss config upgrade-policy set</tspan>
+<tspan x="10" y="18826"> vmss config vault-certificates delete</tspan>
+<tspan x="10" y="18842"> vmss config vault-certificates set</tspan>
+<tspan x="10" y="18858"> vmss config vhd-containers delete</tspan>
+<tspan x="10" y="18874"> vmss config vhd-containers set</tspan>
+<tspan x="10" y="18890"> vmss config virtual-machine-profile delete</tspan>
+<tspan x="10" y="18906"> vmss config virtual-machine-profile set</tspan>
+<tspan x="10" y="18922"> vmss config virtual-machine-scale-set delete</tspan>
+<tspan x="10" y="18938"> vmss config virtual-machine-scale-set set</tspan>
+<tspan x="10" y="18954"> vmss config win-rm delete</tspan>
+<tspan x="10" y="18970"> vmss config win-rm set</tspan>
+<tspan x="10" y="18986"> vmss config windows-configuration delete</tspan>
+<tspan x="10" y="19002"> vmss config windows-configuration set</tspan>
+<tspan x="10" y="19018"> vmss create</tspan>
+<tspan x="10" y="19034"> vmss deallocate</tspan>
+<tspan x="10" y="19050"> vmss delete</tspan>
+<tspan x="10" y="19066"> vmss delete-instances</tspan>
+<tspan x="10" y="19082"> vmss get-instance-view</tspan>
+<tspan x="10" y="19098"> vmss list</tspan>
+<tspan x="10" y="19114"> vmss list-skus</tspan>
+<tspan x="10" y="19130"> vmss power-off</tspan>
+<tspan x="10" y="19146"> vmss quick-create</tspan>
+<tspan x="10" y="19162"> vmss reimage</tspan>
+<tspan x="10" y="19178"> vmss reimage-all</tspan>
+<tspan x="10" y="19194"> vmss restart</tspan>
+<tspan x="10" y="19210"> vmss scale</tspan>
+<tspan x="10" y="19226"> vmss show</tspan>
+<tspan x="10" y="19242"> vmss start</tspan>
+<tspan x="10" y="19258"> vmss update-instances</tspan>
+<tspan x="10" y="19274"> vmssvm deallocate</tspan>
+<tspan x="10" y="19290"> vmssvm delete</tspan>
+<tspan x="10" y="19306"> vmssvm get-instance-view</tspan>
+<tspan x="10" y="19322"> vmssvm list</tspan>
+<tspan x="10" y="19338"> vmssvm power-off</tspan>
+<tspan x="10" y="19354"> vmssvm reimage</tspan>
+<tspan x="10" y="19370"> vmssvm reimage-all</tspan>
+<tspan x="10" y="19386"> vmssvm restart</tspan>
+<tspan x="10" y="19402"> vmssvm show</tspan>
+<tspan x="10" y="19418"> vmssvm start</tspan>
+<tspan x="10" y="19434"> webapp config appsettings delete</tspan>
+<tspan x="10" y="19450"> webapp config appsettings list</tspan>
+<tspan x="10" y="19466"> webapp config appsettings set</tspan>
+<tspan x="10" y="19482"> webapp config container delete</tspan>
+<tspan x="10" y="19498"> webapp config container list</tspan>
+<tspan x="10" y="19514"> webapp config container set</tspan>
+<tspan x="10" y="19530"> webapp config hostnames add</tspan>
+<tspan x="10" y="19546"> webapp config hostnames delete</tspan>
+<tspan x="10" y="19562"> webapp config hostnames list</tspan>
+<tspan x="10" y="19578"> webapp config set</tspan>
+<tspan x="10" y="19594"> webapp config show</tspan>
+<tspan x="10" y="19610"> webapp create</tspan>
+<tspan x="10" y="19626"> webapp delete</tspan>
+<tspan x="10" y="19642"> webapp list</tspan>
+<tspan x="10" y="19658"> webapp publishingprofile show</tspan>
+<tspan x="10" y="19674"> webapp restart</tspan>
+<tspan x="10" y="19690"> webapp show</tspan>
+<tspan x="10" y="19706"> webapp start</tspan>
+<tspan x="10" y="19722"> webapp stop</tspan>
+<tspan x="10" y="19738">created apidoc file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="19754"></tspan>
+<tspan x="10" y="19770"></tspan>
+<tspan x="10" y="19786">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/el\</tspan>
+<tspan x="10" y="19802">ectron.15b40a469710.173a9e5e9a759.html</tspan>
+<tspan x="10" y="19818"></tspan>
+<tspan x="10" y="19834">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="19850">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="19866">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="19882"></tspan>
+<tspan x="10" y="19898">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/el\</tspan>
+<tspan x="10" y="19914">ectron.15b40a46a310.b5ead2e48fe5a.html</tspan>
+<tspan x="10" y="19930"></tspan>
+<tspan x="10" y="19946">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="19962">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="19978">npm ERR! Linux 4.4.0-51-generic</tspan>
+<tspan x="10" y="19994">npm ERR! argv "/home/travis/.nvm/versions/node/v6.10.2/bin/node" "/home/travis/.nvm/versions/nod\</tspan>
+<tspan x="10" y="20010">e/v6.10.2/bin/npm" "link" "../azure-sdk-for-node/lib/common"</tspan>
+<tspan x="10" y="20026">npm ERR! node v6.10.2</tspan>
+<tspan x="10" y="20042">npm ERR! npm  v3.10.10</tspan>
+<tspan x="10" y="20058">npm ERR! code EINVALIDTYPE</tspan>
+<tspan x="10" y="20074"></tspan>
+<tspan x="10" y="20090">npm ERR! typeerror Error: Argument #2: Expected array but got string</tspan>
+<tspan x="10" y="20106">npm ERR! typeerror     at EventEmitter.install (/home/travis/.nvm/versions/node/v6.10.2/lib/node\</tspan>
+<tspan x="10" y="20122">_modules/npm/lib/install.js:181:3)</tspan>
+<tspan x="10" y="20138">npm ERR! typeerror     at Object.commandCache.(anonymous function) (/home/travis/.nvm/versions/n\</tspan>
+<tspan x="10" y="20154">ode/v6.10.2/lib/node_modules/npm/lib/npm.js:124:13)</tspan>
+<tspan x="10" y="20170">npm ERR! typeerror     at /home/travis/.nvm/versions/node/v6.10.2/lib/node_modules/npm/lib/link.\</tspan>
+<tspan x="10" y="20186">js:93:24</tspan>
+<tspan x="10" y="20202">npm ERR! typeerror     at /home/travis/.nvm/versions/node/v6.10.2/lib/node_modules/npm/node_modu\</tspan>
+<tspan x="10" y="20218">les/graceful-fs/polyfills.js:264:29</tspan>
+<tspan x="10" y="20234">npm ERR! typeerror     at FSReqWrap.oncomplete (fs.js:123:15)</tspan>
+<tspan x="10" y="20250">npm ERR! typeerror This is an error with npm itself. Please report this error at:</tspan>
+<tspan x="10" y="20266">npm ERR! typeerror     &lt;https://github.com/npm/npm/issues&gt;</tspan>
+<tspan x="10" y="20282"></tspan>
+<tspan x="10" y="20298">npm ERR! Please include the following file with any support request:</tspan>
+<tspan x="10" y="20314">npm ERR!     /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/azure-cli/npm-debug.lo\</tspan>
+<tspan x="10" y="20330">g</tspan>
+<tspan x="10" y="20346"></tspan>
+<tspan x="10" y="20362">{ Error: Command failed: npm link ../azure-sdk-for-node/lib/common</tspan>
+<tspan x="10" y="20378">npm ERR! Linux 4.4.0-51-generic</tspan>
+<tspan x="10" y="20394">npm ERR! argv "/home/travis/.nvm/versions/node/v6.10.2/bin/node" "/home/travis/.nvm/versions/nod\</tspan>
+<tspan x="10" y="20410">e/v6.10.2/bin/npm" "link" "../azure-sdk-for-node/lib/common"</tspan>
+<tspan x="10" y="20426">npm ERR! node v6.10.2</tspan>
+<tspan x="10" y="20442">npm ERR! npm  v3.10.10</tspan>
+<tspan x="10" y="20458">npm ERR! code EINVALIDTYPE</tspan>
+<tspan x="10" y="20474"></tspan>
+<tspan x="10" y="20490">npm ERR! typeerror Error: Argument #2: Expected array but got string</tspan>
+<tspan x="10" y="20506">npm ERR! typeerror     at EventEmitter.install (/home/travis/.nvm/versions/node/v6.10.2/lib/node\</tspan>
+<tspan x="10" y="20522">_modules/npm/lib/install.js:181:3)</tspan>
+<tspan x="10" y="20538">npm ERR! typeerror     at Object.commandCache.(anonymous function) (/home/travis/.nvm/versions/n\</tspan>
+<tspan x="10" y="20554">ode/v6.10.2/lib/node_modules/npm/lib/npm.js:124:13)</tspan>
+<tspan x="10" y="20570">npm ERR! typeerror     at /home/travis/.nvm/versions/node/v6.10.2/lib/node_modules/npm/lib/link.\</tspan>
+<tspan x="10" y="20586">js:93:24</tspan>
+<tspan x="10" y="20602">npm ERR! typeerror     at /home/travis/.nvm/versions/node/v6.10.2/lib/node_modules/npm/node_modu\</tspan>
+<tspan x="10" y="20618">les/graceful-fs/polyfills.js:264:29</tspan>
+<tspan x="10" y="20634">npm ERR! typeerror     at FSReqWrap.oncomplete (fs.js:123:15)</tspan>
+<tspan x="10" y="20650">npm ERR! typeerror This is an error with npm itself. Please report this error at:</tspan>
+<tspan x="10" y="20666">npm ERR! typeerror     &lt;https://github.com/npm/npm/issues&gt;</tspan>
+<tspan x="10" y="20682"></tspan>
+<tspan x="10" y="20698">npm ERR! Please include the following file with any support request:</tspan>
+<tspan x="10" y="20714">npm ERR!     /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/azure-cli/npm-debug.lo\</tspan>
+<tspan x="10" y="20730">g</tspan>
+<tspan x="10" y="20746"></tspan>
+<tspan x="10" y="20762">    at ChildProcess.exithandler (child_process.js:204:12)</tspan>
+<tspan x="10" y="20778">    at emitTwo (events.js:106:13)</tspan>
+<tspan x="10" y="20794">    at ChildProcess.emit (events.js:191:7)</tspan>
+<tspan x="10" y="20810">    at maybeClose (internal/child_process.js:886:16)</tspan>
+<tspan x="10" y="20826">    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)</tspan>
+<tspan x="10" y="20842">  killed: false,</tspan>
+<tspan x="10" y="20858">  code: 1,</tspan>
+<tspan x="10" y="20874">  signal: null,</tspan>
+<tspan x="10" y="20890">  cmd: 'npm link ../azure-sdk-for-node/lib/common' }</tspan>
+<tspan x="10" y="20906">merging file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/test-report.json to tes\</tspan>
+<tspan x="10" y="20922">t-report</tspan>
+<tspan x="10" y="20938">merging file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/test-report.json to tes\</tspan>
+<tspan x="10" y="20954">t-report</tspan>
+<tspan x="10" y="20970">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="20986">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="21002">[4973:0406/002250:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="21018">[4973:0406/002250:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="21034">[4964:0406/002250:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="21050">[4964:0406/002250:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="21066">[5009:0406/002250:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="21082">in process gpu-process. </tspan>
+<tspan x="10" y="21098">[4993:0406/002250:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="21114">in process gpu-process. </tspan>
+<tspan x="10" y="21130">[4973:0406/002250:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="21146"></tspan>
+<tspan x="10" y="21162">browserTest - opened url http://127.0.0.1:35673?modeTest=1</tspan>
+<tspan x="10" y="21178"></tspan>
+<tspan x="10" y="21194"></tspan>
+<tspan x="10" y="21210">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="21226"></tspan>
+<tspan x="10" y="21242">[4973:0406/002252:INFO:CONSOLE(250)] "----------|-----------|-----------|-----------|-----------\</tspan>
+<tspan x="10" y="21258">|</tspan>
+<tspan x="10" y="21274">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="21290">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="21306">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="21322">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="21338">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="21354">", source: file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/electron.15b40a46a310.b5ea\</tspan>
+<tspan x="10" y="21370">d2e48fe5a.html (250)</tspan>
+<tspan x="10" y="21386">[4973:0406/002252:INFO:CONSOLE(250)] "created coverage file:///tmp/build/coverage.html/index.htm\</tspan>
+<tspan x="10" y="21402">l", source: file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/electron.15b40a46a310.b5e\</tspan>
+<tspan x="10" y="21418">ad2e48fe5a.html (250)</tspan>
+<tspan x="10" y="21434"></tspan>
+<tspan x="10" y="21450">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/b\</tspan>
+<tspan x="10" y="21466">uild/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-azure-cli_2Ft\</tspan>
+<tspan x="10" y="21482">mp_2Fbuild_2Fapidoc.html.png</tspan>
+<tspan x="10" y="21498"></tspan>
+<tspan x="10" y="21514">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/b\</tspan>
+<tspan x="10" y="21530">uild/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-azure-cli_2Ft\</tspan>
+<tspan x="10" y="21546">mp_2Fbuild_2Fapidoc.html.html</tspan>
+<tspan x="10" y="21562"></tspan>
+<tspan x="10" y="21578">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/b\</tspan>
+<tspan x="10" y="21594">uild/screenCapture.npmTest.browser..png</tspan>
+<tspan x="10" y="21610"></tspan>
+<tspan x="10" y="21626">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/b\</tspan>
+<tspan x="10" y="21642">uild/screenCapture.npmTest.browser..html</tspan>
+<tspan x="10" y="21658"></tspan>
+<tspan x="10" y="21674">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/apidoc.htm\</tspan>
+<tspan x="10" y="21690">l</tspan>
+<tspan x="10" y="21706"></tspan>
+<tspan x="10" y="21722"></tspan>
+<tspan x="10" y="21738">browserTest - exit-code 0 - http://127.0.0.1:35673?modeTest=1</tspan>
+<tspan x="10" y="21754"></tspan>
+<tspan x="10" y="21770"></tspan>
+<tspan x="10" y="21786">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/coverage.\</tspan>
+<tspan x="10" y="21802">npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="21818"></tspan>
+<tspan x="10" y="21834"></tspan>
+<tspan x="10" y="21850">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/test-\</tspan>
+<tspan x="10" y="21866">report.npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="21882"></tspan>
+<tspan x="10" y="21898">[node test-case 4 of 6 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="21914"></tspan>
+<tspan x="10" y="21930">testCase testCase_buildApidoc_default failed</tspan>
+<tspan x="10" y="21946">onTimeout - timeout-error - 30000 ms - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="21962">Error: onTimeout - timeout-error - 30000 ms - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="21978">    at Timeout._onTimeout (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2\</tspan>
+<tspan x="10" y="21994">/lib.utility2.js:4139:25)</tspan>
+<tspan x="10" y="22010">    at ontimeout (timers.js:380:14)</tspan>
+<tspan x="10" y="22026">    at tryOnTimeout (timers.js:244:5)</tspan>
+<tspan x="10" y="22042">    at Timer.listOnTimeout (timers.js:214:5)</tspan>
+<tspan x="10" y="22058">Error</tspan>
+<tspan x="10" y="22074">    at Object.local.onTimeout (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/util\</tspan>
+<tspan x="10" y="22090">ity2/lib.utility2.js:4136:29)</tspan>
+<tspan x="10" y="22106">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:542\</tspan>
+<tspan x="10" y="22122">3:38</tspan>
+<tspan x="10" y="22138">    at onEach2 (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utilit\</tspan>
+<tspan x="10" y="22154">y2.js:4051:21)</tspan>
+<tspan x="10" y="22170">    at Object.local.onParallelList (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules\</tspan>
+<tspan x="10" y="22186">/utility2/lib.utility2.js:4077:13)</tspan>
+<tspan x="10" y="22202">    at Object.local.testRunDefault (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules\</tspan>
+<tspan x="10" y="22218">/utility2/lib.utility2.js:5378:19)</tspan>
+<tspan x="10" y="22234">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:531\</tspan>
+<tspan x="10" y="22250">9:35</tspan>
+<tspan x="10" y="22266">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:395\</tspan>
+<tspan x="10" y="22282">1:17</tspan>
+<tspan x="10" y="22298">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:480\</tspan>
+<tspan x="10" y="22314">4:29</tspan>
+<tspan x="10" y="22330">    at Array.forEach (native)</tspan>
+<tspan x="10" y="22346">[node test-case 5 of 6 failed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="22362"></tspan>
+<tspan x="10" y="22378">testCase testCase_buildApp_default failed</tspan>
+<tspan x="10" y="22394">onTimeout - timeout-error - 30000 ms - testCase_buildApp_default</tspan>
+<tspan x="10" y="22410">Error: onTimeout - timeout-error - 30000 ms - testCase_buildApp_default</tspan>
+<tspan x="10" y="22426">    at Timeout._onTimeout (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2\</tspan>
+<tspan x="10" y="22442">/lib.utility2.js:4139:25)</tspan>
+<tspan x="10" y="22458">    at ontimeout (timers.js:380:14)</tspan>
+<tspan x="10" y="22474">    at tryOnTimeout (timers.js:244:5)</tspan>
+<tspan x="10" y="22490">    at Timer.listOnTimeout (timers.js:214:5)</tspan>
+<tspan x="10" y="22506">Error</tspan>
+<tspan x="10" y="22522">    at Object.local.onTimeout (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/util\</tspan>
+<tspan x="10" y="22538">ity2/lib.utility2.js:4136:29)</tspan>
+<tspan x="10" y="22554">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:542\</tspan>
+<tspan x="10" y="22570">3:38</tspan>
+<tspan x="10" y="22586">    at onEach2 (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utilit\</tspan>
+<tspan x="10" y="22602">y2.js:4051:21)</tspan>
+<tspan x="10" y="22618">    at Object.local.onParallelList (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules\</tspan>
+<tspan x="10" y="22634">/utility2/lib.utility2.js:4077:13)</tspan>
+<tspan x="10" y="22650">    at Object.local.testRunDefault (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules\</tspan>
+<tspan x="10" y="22666">/utility2/lib.utility2.js:5378:19)</tspan>
+<tspan x="10" y="22682">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:531\</tspan>
+<tspan x="10" y="22698">9:35</tspan>
+<tspan x="10" y="22714">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:395\</tspan>
+<tspan x="10" y="22730">1:17</tspan>
+<tspan x="10" y="22746">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:480\</tspan>
+<tspan x="10" y="22762">4:29</tspan>
+<tspan x="10" y="22778">    at Array.forEach (native)</tspan>
+<tspan x="10" y="22794">[node test-case 6 of 6 failed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="22810"></tspan>
+<tspan x="10" y="22826">testCase testCase_buildApidoc_default failed</tspan>
+<tspan x="10" y="22842">callback in testCase testCase_buildApidoc_default called multiple times</tspan>
+<tspan x="10" y="22858">Error: callback in testCase testCase_buildApidoc_default called multiple times</tspan>
+<tspan x="10" y="22874">    at Timeout.onError [as _onTimeout] (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_mod\</tspan>
+<tspan x="10" y="22890">ules/utility2/lib.utility2.js:5387:42)</tspan>
+<tspan x="10" y="22906">    at ontimeout (timers.js:380:14)</tspan>
+<tspan x="10" y="22922">    at tryOnTimeout (timers.js:244:5)</tspan>
+<tspan x="10" y="22938">    at Timer.listOnTimeout (timers.js:214:5)</tspan>
+<tspan x="10" y="22954">------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="22970">File                          |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="22986">------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="23002">   node-npmdoc-azure-cli/     |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="23018">      example.js              |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="23034">      lib.npmdoc_azure_cli.js |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="23050">      test.js                 |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="23066">------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="23082">All files                     |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="23098">------------------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="23114"></tspan>
+<tspan x="10" y="23130">created coverage file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/coverage.html/\</tspan>
+<tspan x="10" y="23146">index.html</tspan>
+<tspan x="10" y="23162">merging file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/test-report.json to tes\</tspan>
+<tspan x="10" y="23178">t-report</tspan>
+<tspan x="10" y="23194">&gt; server listening on http-port 35673</tspan>
+<tspan x="10" y="23210"> account clear</tspan>
+<tspan x="10" y="23226"> account env add</tspan>
+<tspan x="10" y="23242"> account env delete</tspan>
+<tspan x="10" y="23258"> account env list</tspan>
+<tspan x="10" y="23274"> account env set</tspan>
+<tspan x="10" y="23290"> account env show</tspan>
+<tspan x="10" y="23306"> account list</tspan>
+<tspan x="10" y="23322"> account set</tspan>
+<tspan x="10" y="23338"> account show</tspan>
+<tspan x="10" y="23354"> acs config agent-pool-profiles delete</tspan>
+<tspan x="10" y="23370"> acs config agent-pool-profiles set</tspan>
+<tspan x="10" y="23386"> acs config container-service delete</tspan>
+<tspan x="10" y="23402"> acs config container-service set</tspan>
+<tspan x="10" y="23418"> acs config create</tspan>
+<tspan x="10" y="23434"> acs config custom-profile delete</tspan>
+<tspan x="10" y="23450"> acs config custom-profile set</tspan>
+<tspan x="10" y="23466"> acs config diagnostics-profile delete</tspan>
+<tspan x="10" y="23482"> acs config diagnostics-profile set</tspan>
+<tspan x="10" y="23498"> acs config linux-profile delete</tspan>
+<tspan x="10" y="23514"> acs config linux-profile set</tspan>
+<tspan x="10" y="23530"> acs config master-profile delete</tspan>
+<tspan x="10" y="23546"> acs config master-profile set</tspan>
+<tspan x="10" y="23562"> acs config orchestrator-profile delete</tspan>
+<tspan x="10" y="23578"> acs config orchestrator-profile set</tspan>
+<tspan x="10" y="23594"> acs config patch</tspan>
+<tspan x="10" y="23610"> acs config public-keys delete</tspan>
+<tspan x="10" y="23626"> acs config public-keys set</tspan>
+<tspan x="10" y="23642"> acs config service-principal-profile delete</tspan>
+<tspan x="10" y="23658"> acs config service-principal-profile set</tspan>
+<tspan x="10" y="23674"> acs config ssh delete</tspan>
+<tspan x="10" y="23690"> acs config ssh set</tspan>
+<tspan x="10" y="23706"> acs config vm-diagnostics delete</tspan>
+<tspan x="10" y="23722"> acs config vm-diagnostics set</tspan>
+<tspan x="10" y="23738"> acs config windows-profile delete</tspan>
+<tspan x="10" y="23754"> acs config windows-profile set</tspan>
+<tspan x="10" y="23770"> acs create</tspan>
+<tspan x="10" y="23786"> acs delete</tspan>
+<tspan x="10" y="23802"> acs list</tspan>
+<tspan x="10" y="23818"> acs scale</tspan>
+<tspan x="10" y="23834"> acs show</tspan>
+<tspan x="10" y="23850"> ad app create</tspan>
+<tspan x="10" y="23866"> ad app delete</tspan>
+<tspan x="10" y="23882"> ad app list</tspan>
+<tspan x="10" y="23898"> ad app set</tspan>
+<tspan x="10" y="23914"> ad app show</tspan>
+<tspan x="10" y="23930"> ad group create</tspan>
+<tspan x="10" y="23946"> ad group delete</tspan>
+<tspan x="10" y="23962"> ad group list</tspan>
+<tspan x="10" y="23978"> ad group member add</tspan>
+<tspan x="10" y="23994"> ad group member check</tspan>
+<tspan x="10" y="24010"> ad group member delete</tspan>
+<tspan x="10" y="24026"> ad group member list</tspan>
+<tspan x="10" y="24042"> ad group show</tspan>
+<tspan x="10" y="24058"> ad sp create</tspan>
+<tspan x="10" y="24074"> ad sp delete</tspan>
+<tspan x="10" y="24090"> ad sp list</tspan>
+<tspan x="10" y="24106"> ad sp set</tspan>
+<tspan x="10" y="24122"> ad sp show</tspan>
+<tspan x="10" y="24138"> ad user create</tspan>
+<tspan x="10" y="24154"> ad user delete</tspan>
+<tspan x="10" y="24170"> ad user list</tspan>
+<tspan x="10" y="24186"> ad user memberGroups list</tspan>
+<tspan x="10" y="24202"> ad user set</tspan>
+<tspan x="10" y="24218"> ad user show</tspan>
+<tspan x="10" y="24234"> appserviceplan create</tspan>
+<tspan x="10" y="24250"> appserviceplan delete</tspan>
+<tspan x="10" y="24266"> appserviceplan list</tspan>
+<tspan x="10" y="24282"> appserviceplan set</tspan>
+<tspan x="10" y="24298"> appserviceplan show</tspan>
+<tspan x="10" y="24314"> availset config availability-set delete</tspan>
+<tspan x="10" y="24330"> availset config availability-set set</tspan>
+<tspan x="10" y="24346"> availset config create</tspan>
+<tspan x="10" y="24362"> availset config patch</tspan>
+<tspan x="10" y="24378"> availset config sku delete</tspan>
+<tspan x="10" y="24394"> availset config sku set</tspan>
+<tspan x="10" y="24410"> availset config statuses delete</tspan>
+<tspan x="10" y="24426"> availset config statuses set</tspan>
+<tspan x="10" y="24442"> availset config virtual-machines delete</tspan>
+<tspan x="10" y="24458"> availset config virtual-machines set</tspan>
+<tspan x="10" y="24474"> availset create</tspan>
+<tspan x="10" y="24490"> availset create-or-update</tspan>
+<tspan x="10" y="24506"> availset delete</tspan>
+<tspan x="10" y="24522"> availset list</tspan>
+<tspan x="10" y="24538"> availset list-available-sizes</tspan>
+<tspan x="10" y="24554"> availset show</tspan>
+<tspan x="10" y="24570"> batch account create</tspan>
+<tspan x="10" y="24586"> batch account delete</tspan>
+<tspan x="10" y="24602"> batch account keys list</tspan>
+<tspan x="10" y="24618"> batch account keys renew</tspan>
+<tspan x="10" y="24634"> batch account list</tspan>
+<tspan x="10" y="24650"> batch account set</tspan>
+<tspan x="10" y="24666"> batch account show</tspan>
+<tspan x="10" y="24682"> batch account sync-autostorage-keys</tspan>
+<tspan x="10" y="24698"> batch application create</tspan>
+<tspan x="10" y="24714"> batch application delete</tspan>
+<tspan x="10" y="24730"> batch application list</tspan>
+<tspan x="10" y="24746"> batch application list-summary</tspan>
+<tspan x="10" y="24762"> batch application package activate</tspan>
+<tspan x="10" y="24778"> batch application package create</tspan>
+<tspan x="10" y="24794"> batch application package delete</tspan>
+<tspan x="10" y="24810"> batch application package show</tspan>
+<tspan x="10" y="24826"> batch application set</tspan>
+<tspan x="10" y="24842"> batch application show</tspan>
+<tspan x="10" y="24858"> batch application show-summary</tspan>
+<tspan x="10" y="24874"> batch certificate create</tspan>
+<tspan x="10" y="24890"> batch certificate delete</tspan>
+<tspan x="10" y="24906"> batch certificate list</tspan>
+<tspan x="10" y="24922"> batch certificate show</tspan>
+<tspan x="10" y="24938"> batch job create</tspan>
+<tspan x="10" y="24954"> batch job delete</tspan>
+<tspan x="10" y="24970"> batch job disable</tspan>
+<tspan x="10" y="24986"> batch job enable</tspan>
+<tspan x="10" y="25002"> batch job list</tspan>
+<tspan x="10" y="25018"> batch job prep-release-status list</tspan>
+<tspan x="10" y="25034"> batch job set</tspan>
+<tspan x="10" y="25050"> batch job show</tspan>
+<tspan x="10" y="25066"> batch job stop</tspan>
+<tspan x="10" y="25082"> batch job-schedule create</tspan>
+<tspan x="10" y="25098"> batch job-schedule delete</tspan>
+<tspan x="10" y="25114"> batch job-schedule disable</tspan>
+<tspan x="10" y="25130"> batch job-schedule enable</tspan>
+<tspan x="10" y="25146"> batch job-schedule list</tspan>
+<tspan x="10" y="25162"> batch job-schedule set</tspan>
+<tspan x="10" y="25178"> batch job-schedule show</tspan>
+<tspan x="10" y="25194"> batch job-schedule stop</tspan>
+<tspan x="10" y="25210"> batch location quotas show</tspan>
+<tspan x="10" y="25226"> batch node delete</tspan>
+<tspan x="10" y="25242"> batch node list</tspan>
+<tspan x="10" y="25258"> batch node reboot</tspan>
+<tspan x="10" y="25274"> batch node reimage</tspan>
+<tspan x="10" y="25290"> batch node remote-desktop show</tspan>
+<tspan x="10" y="25306"> batch node remote-login-settings show</tspan>
+<tspan x="10" y="25322"> batch node scheduling disable</tspan>
+<tspan x="10" y="25338"> batch node scheduling enable</tspan>
+<tspan x="10" y="25354"> batch node show</tspan>
+<tspan x="10" y="25370"> batch node-file delete</tspan>
+<tspan x="10" y="25386"> batch node-file download</tspan>
+<tspan x="10" y="25402"> batch node-file list</tspan>
+<tspan x="10" y="25418"> batch node-file show</tspan>
+<tspan x="10" y="25434"> batch node-user create</tspan>
+<tspan x="10" y="25450"> batch node-user delete</tspan>
+<tspan x="10" y="25466"> batch node-user set</tspan>
+<tspan x="10" y="25482"> batch pool all-stats show</tspan>
+<tspan x="10" y="25498"> batch pool autoscale disable</tspan>
+<tspan x="10" y="25514"> batch pool autoscale enable</tspan>
+<tspan x="10" y="25530"> batch pool autoscale evaluate</tspan>
+<tspan x="10" y="25546"> batch pool create</tspan>
+<tspan x="10" y="25562"> batch pool delete</tspan>
+<tspan x="10" y="25578"> batch pool list</tspan>
+<tspan x="10" y="25594"> batch pool node-agent-skus list</tspan>
+<tspan x="10" y="25610"> batch pool resize</tspan>
+<tspan x="10" y="25626"> batch pool set</tspan>
+<tspan x="10" y="25642"> batch pool show</tspan>
+<tspan x="10" y="25658"> batch pool usage-metrics list</tspan>
+<tspan x="10" y="25674"> batch task create</tspan>
+<tspan x="10" y="25690"> batch task delete</tspan>
+<tspan x="10" y="25706"> batch task list</tspan>
+<tspan x="10" y="25722"> batch task reactivate</tspan>
+<tspan x="10" y="25738"> batch task set</tspan>
+<tspan x="10" y="25754"> batch task show</tspan>
+<tspan x="10" y="25770"> batch task stop</tspan>
+<tspan x="10" y="25786"> batch task-file delete</tspan>
+<tspan x="10" y="25802"> batch task-file download</tspan>
+<tspan x="10" y="25818"> batch task-file list</tspan>
+<tspan x="10" y="25834"> batch task-file show</tspan>
+<tspan x="10" y="25850"> cdn customDomain create</tspan>
+<tspan x="10" y="25866"> cdn customDomain delete</tspan>
+<tspan x="10" y="25882"> cdn customDomain disableHttps</tspan>
+<tspan x="10" y="25898"> cdn customDomain enableHttps</tspan>
+<tspan x="10" y="25914"> cdn customDomain list</tspan>
+<tspan x="10" y="25930"> cdn customDomain show</tspan>
+<tspan x="10" y="25946"> cdn customDomain validate</tspan>
+<tspan x="10" y="25962"> cdn edgeNode list</tspan>
+<tspan x="10" y="25978"> cdn endpoint check</tspan>
+<tspan x="10" y="25994"> cdn endpoint checkUsage</tspan>
+<tspan x="10" y="26010"> cdn endpoint create</tspan>
+<tspan x="10" y="26026"> cdn endpoint delete</tspan>
+<tspan x="10" y="26042"> cdn endpoint list</tspan>
+<tspan x="10" y="26058"> cdn endpoint load</tspan>
+<tspan x="10" y="26074"> cdn endpoint purge</tspan>
+<tspan x="10" y="26090"> cdn endpoint set</tspan>
+<tspan x="10" y="26106"> cdn endpoint show</tspan>
+<tspan x="10" y="26122"> cdn endpoint start</tspan>
+<tspan x="10" y="26138"> cdn endpoint stop</tspan>
+<tspan x="10" y="26154"> cdn geofilter add</tspan>
+<tspan x="10" y="26170"> cdn geofilter delete</tspan>
+<tspan x="10" y="26186"> cdn geofilter list</tspan>
+<tspan x="10" y="26202"> cdn geofilter set</tspan>
+<tspan x="10" y="26218"> cdn origin set</tspan>
+<tspan x="10" y="26234"> cdn origin show</tspan>
+<tspan x="10" y="26250"> cdn profile checkUsage</tspan>
+<tspan x="10" y="26266"> cdn profile create</tspan>
+<tspan x="10" y="26282"> cdn profile delete</tspan>
+<tspan x="10" y="26298"> cdn profile list</tspan>
+<tspan x="10" y="26314"> cdn profile set</tspan>
+<tspan x="10" y="26330"> cdn profile show</tspan>
+<tspan x="10" y="26346"> cdn ssouri create</tspan>
+<tspan x="10" y="26362"> cdn usage list</tspan>
+<tspan x="10" y="26378"> config delete</tspan>
+<tspan x="10" y="26394"> config list</tspan>
+<tspan x="10" y="26410"> config mode</tspan>
+<tspan x="10" y="26426"> config set</tspan>
+<tspan x="10" y="26442"> datalake analytics account create</tspan>
+<tspan x="10" y="26458"> datalake analytics account datasource add</tspan>
+<tspan x="10" y="26474"> datalake analytics account datasource delete</tspan>
+<tspan x="10" y="26490"> datalake analytics account datasource set</tspan>
+<tspan x="10" y="26506"> datalake analytics account delete</tspan>
+<tspan x="10" y="26522"> datalake analytics account list</tspan>
+<tspan x="10" y="26538"> datalake analytics account set</tspan>
+<tspan x="10" y="26554"> datalake analytics account show</tspan>
+<tspan x="10" y="26570"> datalake analytics catalog credential create</tspan>
+<tspan x="10" y="26586"> datalake analytics catalog credential delete</tspan>
+<tspan x="10" y="26602"> datalake analytics catalog credential set</tspan>
+<tspan x="10" y="26618"> datalake analytics catalog list</tspan>
+<tspan x="10" y="26634"> datalake analytics catalog secret create</tspan>
+<tspan x="10" y="26650"> datalake analytics catalog secret delete</tspan>
+<tspan x="10" y="26666"> datalake analytics catalog secret set</tspan>
+<tspan x="10" y="26682"> datalake analytics job cancel</tspan>
+<tspan x="10" y="26698"> datalake analytics job create</tspan>
+<tspan x="10" y="26714"> datalake analytics job list</tspan>
+<tspan x="10" y="26730"> datalake analytics job show</tspan>
+<tspan x="10" y="26746"> datalake analytics job wait</tspan>
+<tspan x="10" y="26762"> datalake store account create</tspan>
+<tspan x="10" y="26778"> datalake store account delete</tspan>
+<tspan x="10" y="26794"> datalake store account list</tspan>
+<tspan x="10" y="26810"> datalake store account set</tspan>
+<tspan x="10" y="26826"> datalake store account show</tspan>
+<tspan x="10" y="26842"> datalake store filesystem addcontent</tspan>
+<tspan x="10" y="26858"> datalake store filesystem concat</tspan>
+<tspan x="10" y="26874"> datalake store filesystem create</tspan>
+<tspan x="10" y="26890"> datalake store filesystem delete</tspan>
+<tspan x="10" y="26906"> datalake store filesystem expiry set</tspan>
+<tspan x="10" y="26922"> datalake store filesystem export</tspan>
+<tspan x="10" y="26938"> datalake store filesystem import</tspan>
+<tspan x="10" y="26954"> datalake store filesystem list</tspan>
+<tspan x="10" y="26970"> datalake store filesystem move</tspan>
+<tspan x="10" y="26986"> datalake store filesystem read</tspan>
+<tspan x="10" y="27002"> datalake store filesystem show</tspan>
+<tspan x="10" y="27018"> datalake store firewall create</tspan>
+<tspan x="10" y="27034"> datalake store firewall delete</tspan>
+<tspan x="10" y="27050"> datalake store firewall list</tspan>
+<tspan x="10" y="27066"> datalake store firewall set</tspan>
+<tspan x="10" y="27082"> datalake store firewall show</tspan>
+<tspan x="10" y="27098"> datalake store permissions delete</tspan>
+<tspan x="10" y="27114"> datalake store permissions entry delete</tspan>
+<tspan x="10" y="27130"> datalake store permissions entry set</tspan>
+<tspan x="10" y="27146"> datalake store permissions set</tspan>
+<tspan x="10" y="27162"> datalake store permissions show</tspan>
+<tspan x="10" y="27178"> datalake store provider create</tspan>
+<tspan x="10" y="27194"> datalake store provider delete</tspan>
+<tspan x="10" y="27210"> datalake store provider list</tspan>
+<tspan x="10" y="27226"> datalake store provider set</tspan>
+<tspan x="10" y="27242"> datalake store provider show</tspan>
+<tspan x="10" y="27258"> feature list</tspan>
+<tspan x="10" y="27274"> feature register</tspan>
+<tspan x="10" y="27290"> feature show</tspan>
+<tspan x="10" y="27306"> group create</tspan>
+<tspan x="10" y="27322"> group delete</tspan>
+<tspan x="10" y="27338"> group deployment create</tspan>
+<tspan x="10" y="27354"> group deployment delete</tspan>
+<tspan x="10" y="27370"> group deployment list</tspan>
+<tspan x="10" y="27386"> group deployment operation list</tspan>
+<tspan x="10" y="27402"> group deployment show</tspan>
+<tspan x="10" y="27418"> group deployment stop</tspan>
+<tspan x="10" y="27434"> group deployment template download</tspan>
+<tspan x="10" y="27450"> group export</tspan>
+<tspan x="10" y="27466"> group list</tspan>
+<tspan x="10" y="27482"> group log show</tspan>
+<tspan x="10" y="27498"> group set</tspan>
+<tspan x="10" y="27514"> group show</tspan>
+<tspan x="10" y="27530"> group template download</tspan>
+<tspan x="10" y="27546"> group template list</tspan>
+<tspan x="10" y="27562"> group template show</tspan>
+<tspan x="10" y="27578"> group template validate</tspan>
+<tspan x="10" y="27594"> hdinsight cluster create</tspan>
+<tspan x="10" y="27610"> hdinsight cluster delete</tspan>
+<tspan x="10" y="27626"> hdinsight cluster disable-http-access</tspan>
+<tspan x="10" y="27642"> hdinsight cluster disable-rdp-access</tspan>
+<tspan x="10" y="27658"> hdinsight cluster enable-http-access</tspan>
+<tspan x="10" y="27674"> hdinsight cluster enable-rdp-access</tspan>
+<tspan x="10" y="27690"> hdinsight cluster list</tspan>
+<tspan x="10" y="27706"> hdinsight cluster resize</tspan>
+<tspan x="10" y="27722"> hdinsight cluster show</tspan>
+<tspan x="10" y="27738"> hdinsight config add-config-values</tspan>
+<tspan x="10" y="27754"> hdinsight config add-script-action</tspan>
+<tspan x="10" y="27770"> hdinsight config create</tspan>
+<tspan x="10" y="27786"> hdinsight script-action create</tspan>
+<tspan x="10" y="27802"> hdinsight script-action history list</tspan>
+<tspan x="10" y="27818"> hdinsight script-action history show</tspan>
+<tspan x="10" y="27834"> hdinsight script-action persisted delete</tspan>
+<tspan x="10" y="27850"> hdinsight script-action persisted list</tspan>
+<tspan x="10" y="27866"> hdinsight script-action persisted set</tspan>
+<tspan x="10" y="27882"> hdinsight script-action persisted show</tspan>
+<tspan x="10" y="27898"> help</tspan>
+<tspan x="10" y="27914"> insights alerts actions email create</tspan>
+<tspan x="10" y="27930"> insights alerts actions webhook create</tspan>
+<tspan x="10" y="27946"> insights alerts list</tspan>
+<tspan x="10" y="27962"> insights alerts rule delete</tspan>
+<tspan x="10" y="27978"> insights alerts rule list</tspan>
+<tspan x="10" y="27994"> insights alerts rule log set</tspan>
+<tspan x="10" y="28010"> insights alerts rule metric set</tspan>
+<tspan x="10" y="28026"> insights alerts rule webtest set</tspan>
+<tspan x="10" y="28042"> insights autoscale list</tspan>
+<tspan x="10" y="28058"> insights autoscale notifications create</tspan>
+<tspan x="10" y="28074"> insights autoscale notifications webhook create</tspan>
+<tspan x="10" y="28090"> insights autoscale profile create</tspan>
+<tspan x="10" y="28106"> insights autoscale rule create</tspan>
+<tspan x="10" y="28122"> insights autoscale setting delete</tspan>
+<tspan x="10" y="28138"> insights autoscale setting list</tspan>
+<tspan x="10" y="28154"> insights autoscale setting set</tspan>
+<tspan x="10" y="28170"> insights diagnostic get</tspan>
+<tspan x="10" y="28186"> insights diagnostic set</tspan>
+<tspan x="10" y="28202"> insights logprofile add</tspan>
+<tspan x="10" y="28218"> insights logprofile delete</tspan>
+<tspan x="10" y="28234"> insights logprofile get</tspan>
+<tspan x="10" y="28250"> insights logprofile list</tspan>
+<tspan x="10" y="28266"> insights logs list</tspan>
+<tspan x="10" y="28282"> insights metrics definition list</tspan>
+<tspan x="10" y="28298"> insights metrics list</tspan>
+<tspan x="10" y="28314"> insights usage list</tspan>
+<tspan x="10" y="28330"> iothub cloud-to-device-properties set</tspan>
+<tspan x="10" y="28346"> iothub connectionstring show</tspan>
+<tspan x="10" y="28362"> iothub create</tspan>
+<tspan x="10" y="28378"> iothub delete</tspan>
+<tspan x="10" y="28394"> iothub device export</tspan>
+<tspan x="10" y="28410"> iothub device import</tspan>
+<tspan x="10" y="28426"> iothub device-to-cloud-properties set</tspan>
+<tspan x="10" y="28442"> iothub ehconsumergroup create</tspan>
+<tspan x="10" y="28458"> iothub ehconsumergroup delete</tspan>
+<tspan x="10" y="28474"> iothub ehconsumergroup list</tspan>
+<tspan x="10" y="28490"> iothub file-upload-properties set</tspan>
+<tspan x="10" y="28506"> iothub ipfilter-rules list</tspan>
+<tspan x="10" y="28522"> iothub ipfilter-rules set</tspan>
+<tspan x="10" y="28538"> iothub job list</tspan>
+<tspan x="10" y="28554"> iothub job show</tspan>
+<tspan x="10" y="28570"> iothub key create</tspan>
+<tspan x="10" y="28586"> iothub key delete</tspan>
+<tspan x="10" y="28602"> iothub key list</tspan>
+<tspan x="10" y="28618"> iothub key show</tspan>
+<tspan x="10" y="28634"> iothub list</tspan>
+<tspan x="10" y="28650"> iothub opmon set</tspan>
+<tspan x="10" y="28666"> iothub opmon show</tspan>
+<tspan x="10" y="28682"> iothub show</tspan>
+<tspan x="10" y="28698"> iothub show-quota-metrics</tspan>
+<tspan x="10" y="28714"> iothub show-registry-stats</tspan>
+<tspan x="10" y="28730"> iothub sku list</tspan>
+<tspan x="10" y="28746"> iothub sku set</tspan>
+<tspan x="10" y="28762"> iothub sku show</tspan>
+<tspan x="10" y="28778"> iothub tags set</tspan>
+<tspan x="10" y="28794"> keyvault certificate administrator create</tspan>
+<tspan x="10" y="28810"> keyvault certificate contact add</tspan>
+<tspan x="10" y="28826"> keyvault certificate contact delete</tspan>
+<tspan x="10" y="28842"> keyvault certificate contact list</tspan>
+<tspan x="10" y="28858"> keyvault certificate create</tspan>
+<tspan x="10" y="28874"> keyvault certificate delete</tspan>
+<tspan x="10" y="28890"> keyvault certificate get</tspan>
+<tspan x="10" y="28906"> keyvault certificate import</tspan>
+<tspan x="10" y="28922"> keyvault certificate issuer create</tspan>
+<tspan x="10" y="28938"> keyvault certificate issuer delete</tspan>
+<tspan x="10" y="28954"> keyvault certificate issuer list</tspan>
+<tspan x="10" y="28970"> keyvault certificate issuer show</tspan>
+<tspan x="10" y="28986"> keyvault certificate list</tspan>
+<tspan x="10" y="29002"> keyvault certificate list-versions</tspan>
+<tspan x="10" y="29018"> keyvault certificate merge</tspan>
+<tspan x="10" y="29034"> keyvault certificate operation cancel</tspan>
+<tspan x="10" y="29050"> keyvault certificate operation delete</tspan>
+<tspan x="10" y="29066"> keyvault certificate operation show</tspan>
+<tspan x="10" y="29082"> keyvault certificate organization create</tspan>
+<tspan x="10" y="29098"> keyvault certificate policy create</tspan>
+<tspan x="10" y="29114"> keyvault certificate policy get</tspan>
+<tspan x="10" y="29130"> keyvault certificate policy set</tspan>
+<tspan x="10" y="29146"> keyvault certificate policy show</tspan>
+<tspan x="10" y="29162"> keyvault certificate set-attributes</tspan>
+<tspan x="10" y="29178"> keyvault certificate show</tspan>
+<tspan x="10" y="29194"> keyvault create</tspan>
+<tspan x="10" y="29210"> keyvault delete</tspan>
+<tspan x="10" y="29226"> keyvault delete-policy</tspan>
+<tspan x="10" y="29242"> keyvault key backup</tspan>
+<tspan x="10" y="29258"> keyvault key create</tspan>
+<tspan x="10" y="29274"> keyvault key delete</tspan>
+<tspan x="10" y="29290"> keyvault key import</tspan>
+<tspan x="10" y="29306"> keyvault key list</tspan>
+<tspan x="10" y="29322"> keyvault key list-versions</tspan>
+<tspan x="10" y="29338"> keyvault key restore</tspan>
+<tspan x="10" y="29354"> keyvault key set-attributes</tspan>
+<tspan x="10" y="29370"> keyvault key show</tspan>
+<tspan x="10" y="29386"> keyvault list</tspan>
+<tspan x="10" y="29402"> keyvault secret delete</tspan>
+<tspan x="10" y="29418"> keyvault secret get</tspan>
+<tspan x="10" y="29434"> keyvault secret list</tspan>
+<tspan x="10" y="29450"> keyvault secret list-versions</tspan>
+<tspan x="10" y="29466"> keyvault secret set</tspan>
+<tspan x="10" y="29482"> keyvault secret set-attributes</tspan>
+<tspan x="10" y="29498"> keyvault secret show</tspan>
+<tspan x="10" y="29514"> keyvault set-attributes</tspan>
+<tspan x="10" y="29530"> keyvault set-policy</tspan>
+<tspan x="10" y="29546"> keyvault show</tspan>
+<tspan x="10" y="29562"> lab auto-shutdown-policy delete</tspan>
+<tspan x="10" y="29578"> lab auto-shutdown-policy set</tspan>
+<tspan x="10" y="29594"> lab auto-shutdown-policy show</tspan>
+<tspan x="10" y="29610"> lab auto-start-policy delete</tspan>
+<tspan x="10" y="29626"> lab auto-start-policy set</tspan>
+<tspan x="10" y="29642"> lab auto-start-policy show</tspan>
+<tspan x="10" y="29658"> lab vm-size-policy delete</tspan>
+<tspan x="10" y="29674"> lab vm-size-policy set</tspan>
+<tspan x="10" y="29690"> lab vm-size-policy show</tspan>
+<tspan x="10" y="29706"> lab vms-per-lab-policy delete</tspan>
+<tspan x="10" y="29722"> lab vms-per-lab-policy set</tspan>
+<tspan x="10" y="29738"> lab vms-per-lab-policy show</tspan>
+<tspan x="10" y="29754"> lab vms-per-user-policy delete</tspan>
+<tspan x="10" y="29770"> lab vms-per-user-policy set</tspan>
+<tspan x="10" y="29786"> lab vms-per-user-policy show</tspan>
+<tspan x="10" y="29802"> location list</tspan>
+<tspan x="10" y="29818"> login</tspan>
+<tspan x="10" y="29834"> logout</tspan>
+<tspan x="10" y="29850"> managed-disk config create</tspan>
+<tspan x="10" y="29866"> managed-disk config creation-data delete</tspan>
+<tspan x="10" y="29882"> managed-disk config creation-data set</tspan>
+<tspan x="10" y="29898"> managed-disk config disk delete</tspan>
+<tspan x="10" y="29914"> managed-disk config disk set</tspan>
+<tspan x="10" y="29930"> managed-disk config disk-encryption-key delete</tspan>
+<tspan x="10" y="29946"> managed-disk config disk-encryption-key set</tspan>
+<tspan x="10" y="29962"> managed-disk config encryption-settings delete</tspan>
+<tspan x="10" y="29978"> managed-disk config encryption-settings set</tspan>
+<tspan x="10" y="29994"> managed-disk config image-reference delete</tspan>
+<tspan x="10" y="30010"> managed-disk config image-reference set</tspan>
+<tspan x="10" y="30026"> managed-disk config key-encryption-key delete</tspan>
+<tspan x="10" y="30042"> managed-disk config key-encryption-key set</tspan>
+<tspan x="10" y="30058"> managed-disk config patch</tspan>
+<tspan x="10" y="30074"> managed-disk config source-vault delete</tspan>
+<tspan x="10" y="30090"> managed-disk config source-vault set</tspan>
+<tspan x="10" y="30106"> managed-disk create</tspan>
+<tspan x="10" y="30122"> managed-disk delete</tspan>
+<tspan x="10" y="30138"> managed-disk grant-access</tspan>
+<tspan x="10" y="30154"> managed-disk grant-access-parameters create</tspan>
+<tspan x="10" y="30170"> managed-disk grant-access-parameters grant-access-data delete</tspan>
+<tspan x="10" y="30186"> managed-disk grant-access-parameters grant-access-data set</tspan>
+<tspan x="10" y="30202"> managed-disk grant-access-parameters patch</tspan>
+<tspan x="10" y="30218"> managed-disk list</tspan>
+<tspan x="10" y="30234"> managed-disk revoke-access</tspan>
+<tspan x="10" y="30250"> managed-disk show</tspan>
+<tspan x="10" y="30266"> managed-disk update</tspan>
+<tspan x="10" y="30282"> managed-disk update-parameters create</tspan>
+<tspan x="10" y="30298"> managed-disk update-parameters creation-data delete</tspan>
+<tspan x="10" y="30314"> managed-disk update-parameters creation-data set</tspan>
+<tspan x="10" y="30330"> managed-disk update-parameters disk-encryption-key delete</tspan>
+<tspan x="10" y="30346"> managed-disk update-parameters disk-encryption-key set</tspan>
+<tspan x="10" y="30362"> managed-disk update-parameters disk-update delete</tspan>
+<tspan x="10" y="30378"> managed-disk update-parameters disk-update set</tspan>
+<tspan x="10" y="30394"> managed-disk update-parameters encryption-settings delete</tspan>
+<tspan x="10" y="30410"> managed-disk update-parameters encryption-settings set</tspan>
+<tspan x="10" y="30426"> managed-disk update-parameters image-reference delete</tspan>
+<tspan x="10" y="30442"> managed-disk update-parameters image-reference set</tspan>
+<tspan x="10" y="30458"> managed-disk update-parameters key-encryption-key delete</tspan>
+<tspan x="10" y="30474"> managed-disk update-parameters key-encryption-key set</tspan>
+<tspan x="10" y="30490"> managed-disk update-parameters patch</tspan>
+<tspan x="10" y="30506"> managed-disk update-parameters source-vault delete</tspan>
+<tspan x="10" y="30522"> managed-disk update-parameters source-vault set</tspan>
+<tspan x="10" y="30538"> managed-image config create</tspan>
+<tspan x="10" y="30554"> managed-image config data-disks delete</tspan>
+<tspan x="10" y="30570"> managed-image config data-disks set</tspan>
+<tspan x="10" y="30586"> managed-image config image delete</tspan>
+<tspan x="10" y="30602"> managed-image config image set</tspan>
+<tspan x="10" y="30618"> managed-image config managed-disk delete</tspan>
+<tspan x="10" y="30634"> managed-image config managed-disk set</tspan>
+<tspan x="10" y="30650"> managed-image config os-disk delete</tspan>
+<tspan x="10" y="30666"> managed-image config os-disk set</tspan>
+<tspan x="10" y="30682"> managed-image config patch</tspan>
+<tspan x="10" y="30698"> managed-image config snapshot delete</tspan>
+<tspan x="10" y="30714"> managed-image config snapshot set</tspan>
+<tspan x="10" y="30730"> managed-image config source-virtual-machine delete</tspan>
+<tspan x="10" y="30746"> managed-image config source-virtual-machine set</tspan>
+<tspan x="10" y="30762"> managed-image config storage-profile delete</tspan>
+<tspan x="10" y="30778"> managed-image config storage-profile set</tspan>
+<tspan x="10" y="30794"> managed-image create</tspan>
+<tspan x="10" y="30810"> managed-image delete</tspan>
+<tspan x="10" y="30826"> managed-image list</tspan>
+<tspan x="10" y="30842"> managed-image show</tspan>
+<tspan x="10" y="30858"> managed-snapshot config create</tspan>
+<tspan x="10" y="30874"> managed-snapshot config creation-data delete</tspan>
+<tspan x="10" y="30890"> managed-snapshot config creation-data set</tspan>
+<tspan x="10" y="30906"> managed-snapshot config disk-encryption-key delete</tspan>
+<tspan x="10" y="30922"> managed-snapshot config disk-encryption-key set</tspan>
+<tspan x="10" y="30938"> managed-snapshot config encryption-settings delete</tspan>
+<tspan x="10" y="30954"> managed-snapshot config encryption-settings set</tspan>
+<tspan x="10" y="30970"> managed-snapshot config image-reference delete</tspan>
+<tspan x="10" y="30986"> managed-snapshot config image-reference set</tspan>
+<tspan x="10" y="31002"> managed-snapshot config key-encryption-key delete</tspan>
+<tspan x="10" y="31018"> managed-snapshot config key-encryption-key set</tspan>
+<tspan x="10" y="31034"> managed-snapshot config patch</tspan>
+<tspan x="10" y="31050"> managed-snapshot config snapshot delete</tspan>
+<tspan x="10" y="31066"> managed-snapshot config snapshot set</tspan>
+<tspan x="10" y="31082"> managed-snapshot config source-vault delete</tspan>
+<tspan x="10" y="31098"> managed-snapshot config source-vault set</tspan>
+<tspan x="10" y="31114"> managed-snapshot create</tspan>
+<tspan x="10" y="31130"> managed-snapshot delete</tspan>
+<tspan x="10" y="31146"> managed-snapshot grant-access</tspan>
+<tspan x="10" y="31162"> managed-snapshot grant-access-parameters create</tspan>
+<tspan x="10" y="31178"> managed-snapshot grant-access-parameters grant-access-data delete</tspan>
+<tspan x="10" y="31194"> managed-snapshot grant-access-parameters grant-access-data set</tspan>
+<tspan x="10" y="31210"> managed-snapshot grant-access-parameters patch</tspan>
+<tspan x="10" y="31226"> managed-snapshot list</tspan>
+<tspan x="10" y="31242"> managed-snapshot revoke-access</tspan>
+<tspan x="10" y="31258"> managed-snapshot show</tspan>
+<tspan x="10" y="31274"> managed-snapshot update</tspan>
+<tspan x="10" y="31290"> managed-snapshot update-parameters create</tspan>
+<tspan x="10" y="31306"> managed-snapshot update-parameters creation-data delete</tspan>
+<tspan x="10" y="31322"> managed-snapshot update-parameters creation-data set</tspan>
+<tspan x="10" y="31338"> managed-snapshot update-parameters disk-encryption-key delete</tspan>
+<tspan x="10" y="31354"> managed-snapshot update-parameters disk-encryption-key set</tspan>
+<tspan x="10" y="31370"> managed-snapshot update-parameters encryption-settings delete</tspan>
+<tspan x="10" y="31386"> managed-snapshot update-parameters encryption-settings set</tspan>
+<tspan x="10" y="31402"> managed-snapshot update-parameters image-reference delete</tspan>
+<tspan x="10" y="31418"> managed-snapshot update-parameters image-reference set</tspan>
+<tspan x="10" y="31434"> managed-snapshot update-parameters key-encryption-key delete</tspan>
+<tspan x="10" y="31450"> managed-snapshot update-parameters key-encryption-key set</tspan>
+<tspan x="10" y="31466"> managed-snapshot update-parameters patch</tspan>
+<tspan x="10" y="31482"> managed-snapshot update-parameters snapshot-update delete</tspan>
+<tspan x="10" y="31498"> managed-snapshot update-parameters snapshot-update set</tspan>
+<tspan x="10" y="31514"> managed-snapshot update-parameters source-vault delete</tspan>
+<tspan x="10" y="31530"> managed-snapshot update-parameters source-vault set</tspan>
+<tspan x="10" y="31546"> network application-gateway address-pool create</tspan>
+<tspan x="10" y="31562"> network application-gateway address-pool delete</tspan>
+<tspan x="10" y="31578"> network application-gateway address-pool list</tspan>
+<tspan x="10" y="31594"> network application-gateway address-pool set</tspan>
+<tspan x="10" y="31610"> network application-gateway address-pool show</tspan>
+<tspan x="10" y="31626"> network application-gateway auth-cert create</tspan>
+<tspan x="10" y="31642"> network application-gateway auth-cert delete</tspan>
+<tspan x="10" y="31658"> network application-gateway auth-cert list</tspan>
+<tspan x="10" y="31674"> network application-gateway auth-cert set</tspan>
+<tspan x="10" y="31690"> network application-gateway auth-cert show</tspan>
+<tspan x="10" y="31706"> network application-gateway backend-health show</tspan>
+<tspan x="10" y="31722"> network application-gateway create</tspan>
+<tspan x="10" y="31738"> network application-gateway delete</tspan>
+<tspan x="10" y="31754"> network application-gateway frontend-ip create</tspan>
+<tspan x="10" y="31770"> network application-gateway frontend-ip delete</tspan>
+<tspan x="10" y="31786"> network application-gateway frontend-ip list</tspan>
+<tspan x="10" y="31802"> network application-gateway frontend-ip set</tspan>
+<tspan x="10" y="31818"> network application-gateway frontend-ip show</tspan>
+<tspan x="10" y="31834"> network application-gateway frontend-port create</tspan>
+<tspan x="10" y="31850"> network application-gateway frontend-port delete</tspan>
+<tspan x="10" y="31866"> network application-gateway frontend-port list</tspan>
+<tspan x="10" y="31882"> network application-gateway frontend-port set</tspan>
+<tspan x="10" y="31898"> network application-gateway frontend-port show</tspan>
+<tspan x="10" y="31914"> network application-gateway http-listener create</tspan>
+<tspan x="10" y="31930"> network application-gateway http-listener delete</tspan>
+<tspan x="10" y="31946"> network application-gateway http-listener list</tspan>
+<tspan x="10" y="31962"> network application-gateway http-listener set</tspan>
+<tspan x="10" y="31978"> network application-gateway http-listener show</tspan>
+<tspan x="10" y="31994"> network application-gateway http-settings create</tspan>
+<tspan x="10" y="32010"> network application-gateway http-settings delete</tspan>
+<tspan x="10" y="32026"> network application-gateway http-settings list</tspan>
+<tspan x="10" y="32042"> network application-gateway http-settings set</tspan>
+<tspan x="10" y="32058"> network application-gateway http-settings show</tspan>
+<tspan x="10" y="32074"> network application-gateway list</tspan>
+<tspan x="10" y="32090"> network application-gateway probe create</tspan>
+<tspan x="10" y="32106"> network application-gateway probe delete</tspan>
+<tspan x="10" y="32122"> network application-gateway probe list</tspan>
+<tspan x="10" y="32138"> network application-gateway probe set</tspan>
+<tspan x="10" y="32154"> network application-gateway probe show</tspan>
+<tspan x="10" y="32170"> network application-gateway rule create</tspan>
+<tspan x="10" y="32186"> network application-gateway rule delete</tspan>
+<tspan x="10" y="32202"> network application-gateway rule list</tspan>
+<tspan x="10" y="32218"> network application-gateway rule set</tspan>
+<tspan x="10" y="32234"> network application-gateway rule show</tspan>
+<tspan x="10" y="32250"> network application-gateway set</tspan>
+<tspan x="10" y="32266"> network application-gateway show</tspan>
+<tspan x="10" y="32282"> network application-gateway ssl-cert create</tspan>
+<tspan x="10" y="32298"> network application-gateway ssl-cert delete</tspan>
+<tspan x="10" y="32314"> network application-gateway ssl-cert list</tspan>
+<tspan x="10" y="32330"> network application-gateway ssl-cert set</tspan>
+<tspan x="10" y="32346"> network application-gateway ssl-cert show</tspan>
+<tspan x="10" y="32362"> network application-gateway ssl-policy create</tspan>
+<tspan x="10" y="32378"> network application-gateway ssl-policy delete</tspan>
+<tspan x="10" y="32394"> network application-gateway ssl-policy show</tspan>
+<tspan x="10" y="32410"> network application-gateway start</tspan>
+<tspan x="10" y="32426"> network application-gateway stop</tspan>
+<tspan x="10" y="32442"> network application-gateway url-path-map create</tspan>
+<tspan x="10" y="32458"> network application-gateway url-path-map delete</tspan>
+<tspan x="10" y="32474"> network application-gateway url-path-map list</tspan>
+<tspan x="10" y="32490"> network application-gateway url-path-map rule create</tspan>
+<tspan x="10" y="32506"> network application-gateway url-path-map rule delete</tspan>
+<tspan x="10" y="32522"> network application-gateway url-path-map rule list</tspan>
+<tspan x="10" y="32538"> network application-gateway url-path-map rule set</tspan>
+<tspan x="10" y="32554"> network application-gateway url-path-map rule show</tspan>
+<tspan x="10" y="32570"> network application-gateway url-path-map set</tspan>
+<tspan x="10" y="32586"> network application-gateway url-path-map show</tspan>
+<tspan x="10" y="32602"> network application-gateway waf-config create</tspan>
+<tspan x="10" y="32618"> network application-gateway waf-config delete</tspan>
+<tspan x="10" y="32634"> network application-gateway waf-config show</tspan>
+<tspan x="10" y="32650"> network dns record-set add-record</tspan>
+<tspan x="10" y="32666"> network dns record-set create</tspan>
+<tspan x="10" y="32682"> network dns record-set delete</tspan>
+<tspan x="10" y="32698"> network dns record-set delete-record</tspan>
+<tspan x="10" y="32714"> network dns record-set list</tspan>
+<tspan x="10" y="32730"> network dns record-set set</tspan>
+<tspan x="10" y="32746"> network dns record-set set-soa-record</tspan>
+<tspan x="10" y="32762"> network dns record-set show</tspan>
+<tspan x="10" y="32778"> network dns zone clear</tspan>
+<tspan x="10" y="32794"> network dns zone create</tspan>
+<tspan x="10" y="32810"> network dns zone delete</tspan>
+<tspan x="10" y="32826"> network dns zone export</tspan>
+<tspan x="10" y="32842"> network dns zone import</tspan>
+<tspan x="10" y="32858"> network dns zone list</tspan>
+<tspan x="10" y="32874"> network dns zone set</tspan>
+<tspan x="10" y="32890"> network dns zone show</tspan>
+<tspan x="10" y="32906"> network express-route authorization create</tspan>
+<tspan x="10" y="32922"> network express-route authorization delete</tspan>
+<tspan x="10" y="32938"> network express-route authorization list</tspan>
+<tspan x="10" y="32954"> network express-route authorization set</tspan>
+<tspan x="10" y="32970"> network express-route authorization show</tspan>
+<tspan x="10" y="32986"> network express-route circuit create</tspan>
+<tspan x="10" y="33002"> network express-route circuit delete</tspan>
+<tspan x="10" y="33018"> network express-route circuit list</tspan>
+<tspan x="10" y="33034"> network express-route circuit set</tspan>
+<tspan x="10" y="33050"> network express-route circuit show</tspan>
+<tspan x="10" y="33066"> network express-route peering create</tspan>
+<tspan x="10" y="33082"> network express-route peering delete</tspan>
+<tspan x="10" y="33098"> network express-route peering list</tspan>
+<tspan x="10" y="33114"> network express-route peering set</tspan>
+<tspan x="10" y="33130"> network express-route peering show</tspan>
+<tspan x="10" y="33146"> network express-route provider list</tspan>
+<tspan x="10" y="33162"> network lb address-pool create</tspan>
+<tspan x="10" y="33178"> network lb address-pool delete</tspan>
+<tspan x="10" y="33194"> network lb address-pool list</tspan>
+<tspan x="10" y="33210"> network lb create</tspan>
+<tspan x="10" y="33226"> network lb delete</tspan>
+<tspan x="10" y="33242"> network lb frontend-ip create</tspan>
+<tspan x="10" y="33258"> network lb frontend-ip delete</tspan>
+<tspan x="10" y="33274"> network lb frontend-ip list</tspan>
+<tspan x="10" y="33290"> network lb frontend-ip set</tspan>
+<tspan x="10" y="33306"> network lb inbound-nat-pool create</tspan>
+<tspan x="10" y="33322"> network lb inbound-nat-pool delete</tspan>
+<tspan x="10" y="33338"> network lb inbound-nat-pool list</tspan>
+<tspan x="10" y="33354"> network lb inbound-nat-pool set</tspan>
+<tspan x="10" y="33370"> network lb inbound-nat-rule create</tspan>
+<tspan x="10" y="33386"> network lb inbound-nat-rule delete</tspan>
+<tspan x="10" y="33402"> network lb inbound-nat-rule list</tspan>
+<tspan x="10" y="33418"> network lb inbound-nat-rule set</tspan>
+<tspan x="10" y="33434"> network lb list</tspan>
+<tspan x="10" y="33450"> network lb probe create</tspan>
+<tspan x="10" y="33466"> network lb probe delete</tspan>
+<tspan x="10" y="33482"> network lb probe list</tspan>
+<tspan x="10" y="33498"> network lb probe set</tspan>
+<tspan x="10" y="33514"> network lb rule create</tspan>
+<tspan x="10" y="33530"> network lb rule delete</tspan>
+<tspan x="10" y="33546"> network lb rule list</tspan>
+<tspan x="10" y="33562"> network lb rule set</tspan>
+<tspan x="10" y="33578"> network lb set</tspan>
+<tspan x="10" y="33594"> network lb show</tspan>
+<tspan x="10" y="33610"> network local-gateway create</tspan>
+<tspan x="10" y="33626"> network local-gateway delete</tspan>
+<tspan x="10" y="33642"> network local-gateway list</tspan>
+<tspan x="10" y="33658"> network local-gateway set</tspan>
+<tspan x="10" y="33674"> network local-gateway show</tspan>
+<tspan x="10" y="33690"> network nic create</tspan>
+<tspan x="10" y="33706"> network nic delete</tspan>
+<tspan x="10" y="33722"> network nic effective-nsg list</tspan>
+<tspan x="10" y="33738"> network nic effective-route-table show</tspan>
+<tspan x="10" y="33754"> network nic ip-config address-pool create</tspan>
+<tspan x="10" y="33770"> network nic ip-config address-pool delete</tspan>
+<tspan x="10" y="33786"> network nic ip-config create</tspan>
+<tspan x="10" y="33802"> network nic ip-config delete</tspan>
+<tspan x="10" y="33818"> network nic ip-config inbound-nat-rule create</tspan>
+<tspan x="10" y="33834"> network nic ip-config inbound-nat-rule delete</tspan>
+<tspan x="10" y="33850"> network nic ip-config list</tspan>
+<tspan x="10" y="33866"> network nic ip-config set</tspan>
+<tspan x="10" y="33882"> network nic ip-config show</tspan>
+<tspan x="10" y="33898"> network nic list</tspan>
+<tspan x="10" y="33914"> network nic set</tspan>
+<tspan x="10" y="33930"> network nic show</tspan>
+<tspan x="10" y="33946"> network nsg create</tspan>
+<tspan x="10" y="33962"> network nsg delete</tspan>
+<tspan x="10" y="33978"> network nsg list</tspan>
+<tspan x="10" y="33994"> network nsg rule create</tspan>
+<tspan x="10" y="34010"> network nsg rule delete</tspan>
+<tspan x="10" y="34026"> network nsg rule list</tspan>
+<tspan x="10" y="34042"> network nsg rule set</tspan>
+<tspan x="10" y="34058"> network nsg rule show</tspan>
+<tspan x="10" y="34074"> network nsg set</tspan>
+<tspan x="10" y="34090"> network nsg show</tspan>
+<tspan x="10" y="34106"> network public-ip create</tspan>
+<tspan x="10" y="34122"> network public-ip delete</tspan>
+<tspan x="10" y="34138"> network public-ip list</tspan>
+<tspan x="10" y="34154"> network public-ip set</tspan>
+<tspan x="10" y="34170"> network public-ip show</tspan>
+<tspan x="10" y="34186"> network route-table create</tspan>
+<tspan x="10" y="34202"> network route-table delete</tspan>
+<tspan x="10" y="34218"> network route-table list</tspan>
+<tspan x="10" y="34234"> network route-table route create</tspan>
+<tspan x="10" y="34250"> network route-table route delete</tspan>
+<tspan x="10" y="34266"> network route-table route list</tspan>
+<tspan x="10" y="34282"> network route-table route set</tspan>
+<tspan x="10" y="34298"> network route-table route show</tspan>
+<tspan x="10" y="34314"> network route-table set</tspan>
+<tspan x="10" y="34330"> network route-table show</tspan>
+<tspan x="10" y="34346"> network traffic-manager endpoint create</tspan>
+<tspan x="10" y="34362"> network traffic-manager endpoint delete</tspan>
+<tspan x="10" y="34378"> network traffic-manager endpoint set</tspan>
+<tspan x="10" y="34394"> network traffic-manager endpoint show</tspan>
+<tspan x="10" y="34410"> network traffic-manager profile create</tspan>
+<tspan x="10" y="34426"> network traffic-manager profile delete</tspan>
+<tspan x="10" y="34442"> network traffic-manager profile is-dns-available</tspan>
+<tspan x="10" y="34458"> network traffic-manager profile list</tspan>
+<tspan x="10" y="34474"> network traffic-manager profile set</tspan>
+<tspan x="10" y="34490"> network traffic-manager profile show</tspan>
+<tspan x="10" y="34506"> network usage list</tspan>
+<tspan x="10" y="34522"> network vnet create</tspan>
+<tspan x="10" y="34538"> network vnet delete</tspan>
+<tspan x="10" y="34554"> network vnet list</tspan>
+<tspan x="10" y="34570"> network vnet peering create</tspan>
+<tspan x="10" y="34586"> network vnet peering delete</tspan>
+<tspan x="10" y="34602"> network vnet peering list</tspan>
+<tspan x="10" y="34618"> network vnet peering set</tspan>
+<tspan x="10" y="34634"> network vnet peering show</tspan>
+<tspan x="10" y="34650"> network vnet set</tspan>
+<tspan x="10" y="34666"> network vnet show</tspan>
+<tspan x="10" y="34682"> network vnet subnet create</tspan>
+<tspan x="10" y="34698"> network vnet subnet delete</tspan>
+<tspan x="10" y="34714"> network vnet subnet list</tspan>
+<tspan x="10" y="34730"> network vnet subnet set</tspan>
+<tspan x="10" y="34746"> network vnet subnet show</tspan>
+<tspan x="10" y="34762"> network vpn-connection create</tspan>
+<tspan x="10" y="34778"> network vpn-connection delete</tspan>
+<tspan x="10" y="34794"> network vpn-connection list</tspan>
+<tspan x="10" y="34810"> network vpn-connection set</tspan>
+<tspan x="10" y="34826"> network vpn-connection shared-key reset</tspan>
+<tspan x="10" y="34842"> network vpn-connection shared-key set</tspan>
+<tspan x="10" y="34858"> network vpn-connection shared-key show</tspan>
+<tspan x="10" y="34874"> network vpn-connection show</tspan>
+<tspan x="10" y="34890"> network vpn-gateway create</tspan>
+<tspan x="10" y="34906"> network vpn-gateway delete</tspan>
+<tspan x="10" y="34922"> network vpn-gateway list</tspan>
+<tspan x="10" y="34938"> network vpn-gateway revoked-cert create</tspan>
+<tspan x="10" y="34954"> network vpn-gateway revoked-cert delete</tspan>
+<tspan x="10" y="34970"> network vpn-gateway root-cert create</tspan>
+<tspan x="10" y="34986"> network vpn-gateway root-cert delete</tspan>
+<tspan x="10" y="35002"> network vpn-gateway set</tspan>
+<tspan x="10" y="35018"> network vpn-gateway show</tspan>
+<tspan x="10" y="35034"> network watcher configure-flow-log</tspan>
+<tspan x="10" y="35050"> network watcher create</tspan>
+<tspan x="10" y="35066"> network watcher delete</tspan>
+<tspan x="10" y="35082"> network watcher flow-log-status</tspan>
+<tspan x="10" y="35098"> network watcher ip-flow-verify</tspan>
+<tspan x="10" y="35114"> network watcher list</tspan>
+<tspan x="10" y="35130"> network watcher next-hop</tspan>
+<tspan x="10" y="35146"> network watcher packet-capture create</tspan>
+<tspan x="10" y="35162"> network watcher packet-capture delete</tspan>
+<tspan x="10" y="35178"> network watcher packet-capture list</tspan>
+<tspan x="10" y="35194"> network watcher packet-capture show</tspan>
+<tspan x="10" y="35210"> network watcher packet-capture status</tspan>
+<tspan x="10" y="35226"> network watcher packet-capture stop</tspan>
+<tspan x="10" y="35242"> network watcher security-group-view</tspan>
+<tspan x="10" y="35258"> network watcher show</tspan>
+<tspan x="10" y="35274"> network watcher topology</tspan>
+<tspan x="10" y="35290"> network watcher troubleshoot</tspan>
+<tspan x="10" y="35306"> network watcher troubleshoot-result</tspan>
+<tspan x="10" y="35322"> policy assignment create</tspan>
+<tspan x="10" y="35338"> policy assignment delete</tspan>
+<tspan x="10" y="35354"> policy assignment list</tspan>
+<tspan x="10" y="35370"> policy assignment set</tspan>
+<tspan x="10" y="35386"> policy assignment show</tspan>
+<tspan x="10" y="35402"> policy definition create</tspan>
+<tspan x="10" y="35418"> policy definition delete</tspan>
+<tspan x="10" y="35434"> policy definition list</tspan>
+<tspan x="10" y="35450"> policy definition set</tspan>
+<tspan x="10" y="35466"> policy definition show</tspan>
+<tspan x="10" y="35482"> portal</tspan>
+<tspan x="10" y="35498"> powerbi create</tspan>
+<tspan x="10" y="35514"> powerbi keys list</tspan>
+<tspan x="10" y="35530"> powerbi keys renew</tspan>
+<tspan x="10" y="35546"> powerbi list</tspan>
+<tspan x="10" y="35562"> powerbi workspaces list</tspan>
+<tspan x="10" y="35578"> provider list</tspan>
+<tspan x="10" y="35594"> provider operations show</tspan>
+<tspan x="10" y="35610"> provider register</tspan>
+<tspan x="10" y="35626"> provider show</tspan>
+<tspan x="10" y="35642"> provider unregister</tspan>
+<tspan x="10" y="35658"> quotas show</tspan>
+<tspan x="10" y="35674"> rediscache create</tspan>
+<tspan x="10" y="35690"> rediscache delete</tspan>
+<tspan x="10" y="35706"> rediscache delete-diagnostics</tspan>
+<tspan x="10" y="35722"> rediscache export</tspan>
+<tspan x="10" y="35738"> rediscache import</tspan>
+<tspan x="10" y="35754"> rediscache list</tspan>
+<tspan x="10" y="35770"> rediscache list-keys</tspan>
+<tspan x="10" y="35786"> rediscache renew-key</tspan>
+<tspan x="10" y="35802"> rediscache reset</tspan>
+<tspan x="10" y="35818"> rediscache set</tspan>
+<tspan x="10" y="35834"> rediscache set-diagnostics</tspan>
+<tspan x="10" y="35850"> rediscache show</tspan>
+<tspan x="10" y="35866"> resource create</tspan>
+<tspan x="10" y="35882"> resource delete</tspan>
+<tspan x="10" y="35898"> resource list</tspan>
+<tspan x="10" y="35914"> resource move</tspan>
+<tspan x="10" y="35930"> resource set</tspan>
+<tspan x="10" y="35946"> resource show</tspan>
+<tspan x="10" y="35962"> role assignment changelog list</tspan>
+<tspan x="10" y="35978"> role assignment create</tspan>
+<tspan x="10" y="35994"> role assignment delete</tspan>
+<tspan x="10" y="36010"> role assignment list</tspan>
+<tspan x="10" y="36026"> role create</tspan>
+<tspan x="10" y="36042"> role delete</tspan>
+<tspan x="10" y="36058"> role list</tspan>
+<tspan x="10" y="36074"> role set</tspan>
+<tspan x="10" y="36090"> role show</tspan>
+<tspan x="10" y="36106"> servermanagement gateway create</tspan>
+<tspan x="10" y="36122"> servermanagement gateway delete</tspan>
+<tspan x="10" y="36138"> servermanagement gateway list</tspan>
+<tspan x="10" y="36154"> servermanagement gateway show</tspan>
+<tspan x="10" y="36170"> servermanagement node create</tspan>
+<tspan x="10" y="36186"> servermanagement node delete</tspan>
+<tspan x="10" y="36202"> servermanagement node list</tspan>
+<tspan x="10" y="36218"> servermanagement node show</tspan>
+<tspan x="10" y="36234"> servermanagement powershell create</tspan>
+<tspan x="10" y="36250"> servermanagement powershell invoke</tspan>
+<tspan x="10" y="36266"> servermanagement session create</tspan>
+<tspan x="10" y="36282"> servermanagement session delete</tspan>
+<tspan x="10" y="36298"> servermanagement session show</tspan>
+<tspan x="10" y="36314"> servicefabric application create</tspan>
+<tspan x="10" y="36330"> servicefabric application delete</tspan>
+<tspan x="10" y="36346"> servicefabric application deployed health send</tspan>
+<tspan x="10" y="36362"> servicefabric application deployed health show</tspan>
+<tspan x="10" y="36378"> servicefabric application deployed show</tspan>
+<tspan x="10" y="36394"> servicefabric application health send</tspan>
+<tspan x="10" y="36410"> servicefabric application health show</tspan>
+<tspan x="10" y="36426"> servicefabric application manifest show</tspan>
+<tspan x="10" y="36442"> servicefabric application package copy</tspan>
+<tspan x="10" y="36458"> servicefabric application show</tspan>
+<tspan x="10" y="36474"> servicefabric application type register</tspan>
+<tspan x="10" y="36490"> servicefabric application type show</tspan>
+<tspan x="10" y="36506"> servicefabric application type unregister</tspan>
+<tspan x="10" y="36522"> servicefabric application upgrade resume</tspan>
+<tspan x="10" y="36538"> servicefabric application upgrade rollback</tspan>
+<tspan x="10" y="36554"> servicefabric application upgrade show</tspan>
+<tspan x="10" y="36570"> servicefabric application upgrade start</tspan>
+<tspan x="10" y="36586"> servicefabric application upgrade update</tspan>
+<tspan x="10" y="36602"> servicefabric cluster connect</tspan>
+<tspan x="10" y="36618"> servicefabric cluster health send</tspan>
+<tspan x="10" y="36634"> servicefabric cluster health show</tspan>
+<tspan x="10" y="36650"> servicefabric cluster load show</tspan>
+<tspan x="10" y="36666"> servicefabric cluster manifest show</tspan>
+<tspan x="10" y="36682"> servicefabric cluster show</tspan>
+<tspan x="10" y="36698"> servicefabric cluster upgrade show</tspan>
+<tspan x="10" y="36714"> servicefabric code package deployed show</tspan>
+<tspan x="10" y="36730"> servicefabric node disable</tspan>
+<tspan x="10" y="36746"> servicefabric node enable</tspan>
+<tspan x="10" y="36762"> servicefabric node health send</tspan>
+<tspan x="10" y="36778"> servicefabric node health show</tspan>
+<tspan x="10" y="36794"> servicefabric node load show</tspan>
+<tspan x="10" y="36810"> servicefabric node show</tspan>
+<tspan x="10" y="36826"> servicefabric node state delete</tspan>
+<tspan x="10" y="36842"> servicefabric partition health send</tspan>
+<tspan x="10" y="36858"> servicefabric partition health show</tspan>
+<tspan x="10" y="36874"> servicefabric partition load reset</tspan>
+<tspan x="10" y="36890"> servicefabric partition load show</tspan>
+<tspan x="10" y="36906"> servicefabric partition repair</tspan>
+<tspan x="10" y="36922"> servicefabric partition show</tspan>
+<tspan x="10" y="36938"> servicefabric replica deployed detail</tspan>
+<tspan x="10" y="36954"> servicefabric replica deployed show</tspan>
+<tspan x="10" y="36970"> servicefabric replica health send</tspan>
+<tspan x="10" y="36986"> servicefabric replica health show</tspan>
+<tspan x="10" y="37002"> servicefabric replica load show</tspan>
+<tspan x="10" y="37018"> servicefabric replica show</tspan>
+<tspan x="10" y="37034"> servicefabric service create</tspan>
+<tspan x="10" y="37050"> servicefabric service delete</tspan>
+<tspan x="10" y="37066"> servicefabric service description show</tspan>
+<tspan x="10" y="37082"> servicefabric service group create</tspan>
+<tspan x="10" y="37098"> servicefabric service group delete</tspan>
+<tspan x="10" y="37114"> servicefabric service group description show</tspan>
+<tspan x="10" y="37130"> servicefabric service group member show</tspan>
+<tspan x="10" y="37146"> servicefabric service group template create</tspan>
+<tspan x="10" y="37162"> servicefabric service group update</tspan>
+<tspan x="10" y="37178"> servicefabric service health send</tspan>
+<tspan x="10" y="37194"> servicefabric service health show</tspan>
+<tspan x="10" y="37210"> servicefabric service manifest show</tspan>
+<tspan x="10" y="37226"> servicefabric service package deployed health send</tspan>
+<tspan x="10" y="37242"> servicefabric service package deployed health show</tspan>
+<tspan x="10" y="37258"> servicefabric service package deployed show</tspan>
+<tspan x="10" y="37274"> servicefabric service resolve</tspan>
+<tspan x="10" y="37290"> servicefabric service show</tspan>
+<tspan x="10" y="37306"> servicefabric service template create</tspan>
+<tspan x="10" y="37322"> servicefabric service type deployed show</tspan>
+<tspan x="10" y="37338"> servicefabric service type show</tspan>
+<tspan x="10" y="37354"> servicefabric service update</tspan>
+<tspan x="10" y="37370"> storage account check</tspan>
+<tspan x="10" y="37386"> storage account connectionstring show</tspan>
+<tspan x="10" y="37402"> storage account create</tspan>
+<tspan x="10" y="37418"> storage account delete</tspan>
+<tspan x="10" y="37434"> storage account keys list</tspan>
+<tspan x="10" y="37450"> storage account keys renew</tspan>
+<tspan x="10" y="37466"> storage account list</tspan>
+<tspan x="10" y="37482"> storage account sas create</tspan>
+<tspan x="10" y="37498"> storage account set</tspan>
+<tspan x="10" y="37514"> storage account show</tspan>
+<tspan x="10" y="37530"> storage account usage show</tspan>
+<tspan x="10" y="37546"> storage blob copy show</tspan>
+<tspan x="10" y="37562"> storage blob copy start</tspan>
+<tspan x="10" y="37578"> storage blob copy stop</tspan>
+<tspan x="10" y="37594"> storage blob delete</tspan>
+<tspan x="10" y="37610"> storage blob download</tspan>
+<tspan x="10" y="37626"> storage blob lease acquire</tspan>
+<tspan x="10" y="37642"> storage blob lease break</tspan>
+<tspan x="10" y="37658"> storage blob lease change</tspan>
+<tspan x="10" y="37674"> storage blob lease release</tspan>
+<tspan x="10" y="37690"> storage blob lease renew</tspan>
+<tspan x="10" y="37706"> storage blob list</tspan>
+<tspan x="10" y="37722"> storage blob sas create</tspan>
+<tspan x="10" y="37738"> storage blob show</tspan>
+<tspan x="10" y="37754"> storage blob snapshot</tspan>
+<tspan x="10" y="37770"> storage blob update</tspan>
+<tspan x="10" y="37786"> storage blob upload</tspan>
+<tspan x="10" y="37802"> storage container create</tspan>
+<tspan x="10" y="37818"> storage container delete</tspan>
+<tspan x="10" y="37834"> storage container lease acquire</tspan>
+<tspan x="10" y="37850"> storage container lease break</tspan>
+<tspan x="10" y="37866"> storage container lease change</tspan>
+<tspan x="10" y="37882"> storage container lease release</tspan>
+<tspan x="10" y="37898"> storage container lease renew</tspan>
+<tspan x="10" y="37914"> storage container list</tspan>
+<tspan x="10" y="37930"> storage container policy create</tspan>
+<tspan x="10" y="37946"> storage container policy delete</tspan>
+<tspan x="10" y="37962"> storage container policy list</tspan>
+<tspan x="10" y="37978"> storage container policy set</tspan>
+<tspan x="10" y="37994"> storage container policy show</tspan>
+<tspan x="10" y="38010"> storage container sas create</tspan>
+<tspan x="10" y="38026"> storage container set</tspan>
+<tspan x="10" y="38042"> storage container show</tspan>
+<tspan x="10" y="38058"> storage cors delete</tspan>
+<tspan x="10" y="38074"> storage cors set</tspan>
+<tspan x="10" y="38090"> storage cors show</tspan>
+<tspan x="10" y="38106"> storage directory create</tspan>
+<tspan x="10" y="38122"> storage directory delete</tspan>
+<tspan x="10" y="38138"> storage file copy show</tspan>
+<tspan x="10" y="38154"> storage file copy start</tspan>
+<tspan x="10" y="38170"> storage file copy stop</tspan>
+<tspan x="10" y="38186"> storage file delete</tspan>
+<tspan x="10" y="38202"> storage file download</tspan>
+<tspan x="10" y="38218"> storage file list</tspan>
+<tspan x="10" y="38234"> storage file sas create</tspan>
+<tspan x="10" y="38250"> storage file upload</tspan>
+<tspan x="10" y="38266"> storage logging set</tspan>
+<tspan x="10" y="38282"> storage logging show</tspan>
+<tspan x="10" y="38298"> storage metrics set</tspan>
+<tspan x="10" y="38314"> storage metrics show</tspan>
+<tspan x="10" y="38330"> storage queue create</tspan>
+<tspan x="10" y="38346"> storage queue delete</tspan>
+<tspan x="10" y="38362"> storage queue list</tspan>
+<tspan x="10" y="38378"> storage queue policy create</tspan>
+<tspan x="10" y="38394"> storage queue policy delete</tspan>
+<tspan x="10" y="38410"> storage queue policy list</tspan>
+<tspan x="10" y="38426"> storage queue policy set</tspan>
+<tspan x="10" y="38442"> storage queue policy show</tspan>
+<tspan x="10" y="38458"> storage queue sas create</tspan>
+<tspan x="10" y="38474"> storage queue show</tspan>
+<tspan x="10" y="38490"> storage share create</tspan>
+<tspan x="10" y="38506"> storage share delete</tspan>
+<tspan x="10" y="38522"> storage share list</tspan>
+<tspan x="10" y="38538"> storage share policy create</tspan>
+<tspan x="10" y="38554"> storage share policy delete</tspan>
+<tspan x="10" y="38570"> storage share policy list</tspan>
+<tspan x="10" y="38586"> storage share policy set</tspan>
+<tspan x="10" y="38602"> storage share policy show</tspan>
+<tspan x="10" y="38618"> storage share sas create</tspan>
+<tspan x="10" y="38634"> storage share set</tspan>
+<tspan x="10" y="38650"> storage share show</tspan>
+<tspan x="10" y="38666"> storage table create</tspan>
+<tspan x="10" y="38682"> storage table delete</tspan>
+<tspan x="10" y="38698"> storage table list</tspan>
+<tspan x="10" y="38714"> storage table policy create</tspan>
+<tspan x="10" y="38730"> storage table policy delete</tspan>
+<tspan x="10" y="38746"> storage table policy list</tspan>
+<tspan x="10" y="38762"> storage table policy set</tspan>
+<tspan x="10" y="38778"> storage table policy show</tspan>
+<tspan x="10" y="38794"> storage table sas create</tspan>
+<tspan x="10" y="38810"> storage table show</tspan>
+<tspan x="10" y="38826"> tag create</tspan>
+<tspan x="10" y="38842"> tag delete</tspan>
+<tspan x="10" y="38858"> tag list</tspan>
+<tspan x="10" y="38874"> tag show</tspan>
+<tspan x="10" y="38890"> telemetry</tspan>
+<tspan x="10" y="38906"> usage list</tspan>
+<tspan x="10" y="38922"> vm capture</tspan>
+<tspan x="10" y="38938"> vm config additional-unattend-content delete</tspan>
+<tspan x="10" y="38954"> vm config additional-unattend-content set</tspan>
+<tspan x="10" y="38970"> vm config availability-set delete</tspan>
+<tspan x="10" y="38986"> vm config availability-set set</tspan>
+<tspan x="10" y="39002"> vm config boot-diagnostics delete</tspan>
+<tspan x="10" y="39018"> vm config boot-diagnostics set</tspan>
+<tspan x="10" y="39034"> vm config create</tspan>
+<tspan x="10" y="39050"> vm config data-disks delete</tspan>
+<tspan x="10" y="39066"> vm config data-disks set</tspan>
+<tspan x="10" y="39082"> vm config diagnostics-profile delete</tspan>
+<tspan x="10" y="39098"> vm config diagnostics-profile set</tspan>
+<tspan x="10" y="39114"> vm config disk-encryption-key delete</tspan>
+<tspan x="10" y="39130"> vm config disk-encryption-key set</tspan>
+<tspan x="10" y="39146"> vm config disks delete</tspan>
+<tspan x="10" y="39162"> vm config disks set</tspan>
+<tspan x="10" y="39178"> vm config encryption-settings delete</tspan>
+<tspan x="10" y="39194"> vm config encryption-settings set</tspan>
+<tspan x="10" y="39210"> vm config extension-handlers delete</tspan>
+<tspan x="10" y="39226"> vm config extension-handlers set</tspan>
+<tspan x="10" y="39242"> vm config extensions delete</tspan>
+<tspan x="10" y="39258"> vm config extensions set</tspan>
+<tspan x="10" y="39274"> vm config hardware-profile delete</tspan>
+<tspan x="10" y="39290"> vm config hardware-profile set</tspan>
+<tspan x="10" y="39306"> vm config image delete</tspan>
+<tspan x="10" y="39322"> vm config image-reference delete</tspan>
+<tspan x="10" y="39338"> vm config image-reference set</tspan>
+<tspan x="10" y="39354"> vm config instance-view delete</tspan>
+<tspan x="10" y="39370"> vm config instance-view set</tspan>
+<tspan x="10" y="39386"> vm config key-encryption-key delete</tspan>
+<tspan x="10" y="39402"> vm config key-encryption-key set</tspan>
+<tspan x="10" y="39418"> vm config linux-configuration delete</tspan>
+<tspan x="10" y="39434"> vm config linux-configuration set</tspan>
+<tspan x="10" y="39450"> vm config listeners delete</tspan>
+<tspan x="10" y="39466"> vm config listeners set</tspan>
+<tspan x="10" y="39482"> vm config managed-disk delete</tspan>
+<tspan x="10" y="39498"> vm config managed-disk set</tspan>
+<tspan x="10" y="39514"> vm config network-interfaces delete</tspan>
+<tspan x="10" y="39530"> vm config network-interfaces set</tspan>
+<tspan x="10" y="39546"> vm config network-profile delete</tspan>
+<tspan x="10" y="39562"> vm config network-profile set</tspan>
+<tspan x="10" y="39578"> vm config os-disk delete</tspan>
+<tspan x="10" y="39594"> vm config os-disk set</tspan>
+<tspan x="10" y="39610"> vm config os-profile delete</tspan>
+<tspan x="10" y="39626"> vm config os-profile set</tspan>
+<tspan x="10" y="39642"> vm config patch</tspan>
+<tspan x="10" y="39658"> vm config plan delete</tspan>
+<tspan x="10" y="39674"> vm config plan set</tspan>
+<tspan x="10" y="39690"> vm config public-keys delete</tspan>
+<tspan x="10" y="39706"> vm config public-keys set</tspan>
+<tspan x="10" y="39722"> vm config resources delete</tspan>
+<tspan x="10" y="39738"> vm config resources set</tspan>
+<tspan x="10" y="39754"> vm config secrets delete</tspan>
+<tspan x="10" y="39770"> vm config secrets set</tspan>
+<tspan x="10" y="39786"> vm config source-vault delete</tspan>
+<tspan x="10" y="39802"> vm config source-vault set</tspan>
+<tspan x="10" y="39818"> vm config ssh delete</tspan>
+<tspan x="10" y="39834"> vm config ssh set</tspan>
+<tspan x="10" y="39850"> vm config status delete</tspan>
+<tspan x="10" y="39866"> vm config status set</tspan>
+<tspan x="10" y="39882"> vm config statuses delete</tspan>
+<tspan x="10" y="39898"> vm config statuses set</tspan>
+<tspan x="10" y="39914"> vm config storage-profile delete</tspan>
+<tspan x="10" y="39930"> vm config storage-profile set</tspan>
+<tspan x="10" y="39946"> vm config substatuses delete</tspan>
+<tspan x="10" y="39962"> vm config substatuses set</tspan>
+<tspan x="10" y="39978"> vm config vault-certificates delete</tspan>
+<tspan x="10" y="39994"> vm config vault-certificates set</tspan>
+<tspan x="10" y="40010"> vm config vhd delete</tspan>
+<tspan x="10" y="40026"> vm config vhd set</tspan>
+<tspan x="10" y="40042"> vm config virtual-machine delete</tspan>
+<tspan x="10" y="40058"> vm config virtual-machine set</tspan>
+<tspan x="10" y="40074"> vm config vm-agent delete</tspan>
+<tspan x="10" y="40090"> vm config vm-agent set</tspan>
+<tspan x="10" y="40106"> vm config win-rm delete</tspan>
+<tspan x="10" y="40122"> vm config win-rm set</tspan>
+<tspan x="10" y="40138"> vm config windows-configuration delete</tspan>
+<tspan x="10" y="40154"> vm config windows-configuration set</tspan>
+<tspan x="10" y="40170"> vm convert-to-managed-disks</tspan>
+<tspan x="10" y="40186"> vm create</tspan>
+<tspan x="10" y="40202"> vm create-or-update</tspan>
+<tspan x="10" y="40218"> vm deallocate</tspan>
+<tspan x="10" y="40234"> vm delete</tspan>
+<tspan x="10" y="40250"> vm delete-backup</tspan>
+<tspan x="10" y="40266"> vm disable-disk-encryption</tspan>
+<tspan x="10" y="40282"> vm disk attach</tspan>
+<tspan x="10" y="40298"> vm disk attach-new</tspan>
+<tspan x="10" y="40314"> vm disk detach</tspan>
+<tspan x="10" y="40330"> vm disk list</tspan>
+<tspan x="10" y="40346"> vm docker create</tspan>
+<tspan x="10" y="40362"> vm enable-aem</tspan>
+<tspan x="10" y="40378"> vm enable-diag</tspan>
+<tspan x="10" y="40394"> vm enable-disk-encryption</tspan>
+<tspan x="10" y="40410"> vm extension get</tspan>
+<tspan x="10" y="40426"> vm extension get-chef</tspan>
+<tspan x="10" y="40442"> vm extension set</tspan>
+<tspan x="10" y="40458"> vm extension set-chef</tspan>
+<tspan x="10" y="40474"> vm extension-image list</tspan>
+<tspan x="10" y="40490"> vm extension-image list-publishers</tspan>
+<tspan x="10" y="40506"> vm extension-image list-types</tspan>
+<tspan x="10" y="40522"> vm extension-image list-versions</tspan>
+<tspan x="10" y="40538"> vm extension-image show</tspan>
+<tspan x="10" y="40554"> vm generalize</tspan>
+<tspan x="10" y="40570"> vm get-instance-view</tspan>
+<tspan x="10" y="40586"> vm get-serial-output</tspan>
+<tspan x="10" y="40602"> vm image list</tspan>
+<tspan x="10" y="40618"> vm image list-offers</tspan>
+<tspan x="10" y="40634"> vm image list-publishers</tspan>
+<tspan x="10" y="40650"> vm image list-skus</tspan>
+<tspan x="10" y="40666"> vm image show</tspan>
+<tspan x="10" y="40682"> vm list</tspan>
+<tspan x="10" y="40698"> vm list-ip-address</tspan>
+<tspan x="10" y="40714"> vm list-usage</tspan>
+<tspan x="10" y="40730"> vm quick-create</tspan>
+<tspan x="10" y="40746"> vm redeploy</tspan>
+<tspan x="10" y="40762"> vm reset-access</tspan>
+<tspan x="10" y="40778"> vm restart</tspan>
+<tspan x="10" y="40794"> vm secret add</tspan>
+<tspan x="10" y="40810"> vm secret delete</tspan>
+<tspan x="10" y="40826"> vm set</tspan>
+<tspan x="10" y="40842"> vm show</tspan>
+<tspan x="10" y="40858"> vm show-disk-encryption-status</tspan>
+<tspan x="10" y="40874"> vm sizes</tspan>
+<tspan x="10" y="40890"> vm start</tspan>
+<tspan x="10" y="40906"> vm stop</tspan>
+<tspan x="10" y="40922"> vmss config additional-unattend-content delete</tspan>
+<tspan x="10" y="40938"> vmss config additional-unattend-content set</tspan>
+<tspan x="10" y="40954"> vmss config application-gateway-backend-address-pools delete</tspan>
+<tspan x="10" y="40970"> vmss config application-gateway-backend-address-pools set</tspan>
+<tspan x="10" y="40986"> vmss config create</tspan>
+<tspan x="10" y="41002"> vmss config data-disks delete</tspan>
+<tspan x="10" y="41018"> vmss config data-disks set</tspan>
+<tspan x="10" y="41034"> vmss config extension-profile delete</tspan>
+<tspan x="10" y="41050"> vmss config extension-profile set</tspan>
+<tspan x="10" y="41066"> vmss config extensions delete</tspan>
+<tspan x="10" y="41082"> vmss config extensions set</tspan>
+<tspan x="10" y="41098"> vmss config image delete</tspan>
+<tspan x="10" y="41114"> vmss config image set</tspan>
+<tspan x="10" y="41130"> vmss config image-reference delete</tspan>
+<tspan x="10" y="41146"> vmss config image-reference set</tspan>
+<tspan x="10" y="41162"> vmss config ip-configurations delete</tspan>
+<tspan x="10" y="41178"> vmss config ip-configurations set</tspan>
+<tspan x="10" y="41194"> vmss config linux-configuration delete</tspan>
+<tspan x="10" y="41210"> vmss config linux-configuration set</tspan>
+<tspan x="10" y="41226"> vmss config listeners delete</tspan>
+<tspan x="10" y="41242"> vmss config listeners set</tspan>
+<tspan x="10" y="41258"> vmss config load-balancer-backend-address-pools delete</tspan>
+<tspan x="10" y="41274"> vmss config load-balancer-backend-address-pools set</tspan>
+<tspan x="10" y="41290"> vmss config load-balancer-inbound-nat-pools delete</tspan>
+<tspan x="10" y="41306"> vmss config load-balancer-inbound-nat-pools set</tspan>
+<tspan x="10" y="41322"> vmss config managed-disk delete</tspan>
+<tspan x="10" y="41338"> vmss config managed-disk set</tspan>
+<tspan x="10" y="41354"> vmss config network-interface-configurations delete</tspan>
+<tspan x="10" y="41370"> vmss config network-interface-configurations set</tspan>
+<tspan x="10" y="41386"> vmss config network-profile delete</tspan>
+<tspan x="10" y="41402"> vmss config network-profile set</tspan>
+<tspan x="10" y="41418"> vmss config os-disk delete</tspan>
+<tspan x="10" y="41434"> vmss config os-disk set</tspan>
+<tspan x="10" y="41450"> vmss config os-profile delete</tspan>
+<tspan x="10" y="41466"> vmss config os-profile set</tspan>
+<tspan x="10" y="41482"> vmss config patch</tspan>
+<tspan x="10" y="41498"> vmss config plan delete</tspan>
+<tspan x="10" y="41514"> vmss config plan set</tspan>
+<tspan x="10" y="41530"> vmss config public-keys delete</tspan>
+<tspan x="10" y="41546"> vmss config public-keys set</tspan>
+<tspan x="10" y="41562"> vmss config secrets delete</tspan>
+<tspan x="10" y="41578"> vmss config secrets set</tspan>
+<tspan x="10" y="41594"> vmss config sku delete</tspan>
+<tspan x="10" y="41610"> vmss config sku set</tspan>
+<tspan x="10" y="41626"> vmss config source-vault delete</tspan>
+<tspan x="10" y="41642"> vmss config source-vault set</tspan>
+<tspan x="10" y="41658"> vmss config ssh delete</tspan>
+<tspan x="10" y="41674"> vmss config ssh set</tspan>
+<tspan x="10" y="41690"> vmss config storage-profile delete</tspan>
+<tspan x="10" y="41706"> vmss config storage-profile set</tspan>
+<tspan x="10" y="41722"> vmss config subnet delete</tspan>
+<tspan x="10" y="41738"> vmss config subnet set</tspan>
+<tspan x="10" y="41754"> vmss config upgrade-policy delete</tspan>
+<tspan x="10" y="41770"> vmss config upgrade-policy set</tspan>
+<tspan x="10" y="41786"> vmss config vault-certificates delete</tspan>
+<tspan x="10" y="41802"> vmss config vault-certificates set</tspan>
+<tspan x="10" y="41818"> vmss config vhd-containers delete</tspan>
+<tspan x="10" y="41834"> vmss config vhd-containers set</tspan>
+<tspan x="10" y="41850"> vmss config virtual-machine-profile delete</tspan>
+<tspan x="10" y="41866"> vmss config virtual-machine-profile set</tspan>
+<tspan x="10" y="41882"> vmss config virtual-machine-scale-set delete</tspan>
+<tspan x="10" y="41898"> vmss config virtual-machine-scale-set set</tspan>
+<tspan x="10" y="41914"> vmss config win-rm delete</tspan>
+<tspan x="10" y="41930"> vmss config win-rm set</tspan>
+<tspan x="10" y="41946"> vmss config windows-configuration delete</tspan>
+<tspan x="10" y="41962"> vmss config windows-configuration set</tspan>
+<tspan x="10" y="41978"> vmss create</tspan>
+<tspan x="10" y="41994"> vmss deallocate</tspan>
+<tspan x="10" y="42010"> vmss delete</tspan>
+<tspan x="10" y="42026"> vmss delete-instances</tspan>
+<tspan x="10" y="42042"> vmss get-instance-view</tspan>
+<tspan x="10" y="42058"> vmss list</tspan>
+<tspan x="10" y="42074"> vmss list-skus</tspan>
+<tspan x="10" y="42090"> vmss power-off</tspan>
+<tspan x="10" y="42106"> vmss quick-create</tspan>
+<tspan x="10" y="42122"> vmss reimage</tspan>
+<tspan x="10" y="42138"> vmss reimage-all</tspan>
+<tspan x="10" y="42154"> vmss restart</tspan>
+<tspan x="10" y="42170"> vmss scale</tspan>
+<tspan x="10" y="42186"> vmss show</tspan>
+<tspan x="10" y="42202"> vmss start</tspan>
+<tspan x="10" y="42218"> vmss update-instances</tspan>
+<tspan x="10" y="42234"> vmssvm deallocate</tspan>
+<tspan x="10" y="42250"> vmssvm delete</tspan>
+<tspan x="10" y="42266"> vmssvm get-instance-view</tspan>
+<tspan x="10" y="42282"> vmssvm list</tspan>
+<tspan x="10" y="42298"> vmssvm power-off</tspan>
+<tspan x="10" y="42314"> vmssvm reimage</tspan>
+<tspan x="10" y="42330"> vmssvm reimage-all</tspan>
+<tspan x="10" y="42346"> vmssvm restart</tspan>
+<tspan x="10" y="42362"> vmssvm show</tspan>
+<tspan x="10" y="42378"> vmssvm start</tspan>
+<tspan x="10" y="42394"> webapp config appsettings delete</tspan>
+<tspan x="10" y="42410"> webapp config appsettings list</tspan>
+<tspan x="10" y="42426"> webapp config appsettings set</tspan>
+<tspan x="10" y="42442"> webapp config container delete</tspan>
+<tspan x="10" y="42458"> webapp config container list</tspan>
+<tspan x="10" y="42474"> webapp config container set</tspan>
+<tspan x="10" y="42490"> webapp config hostnames add</tspan>
+<tspan x="10" y="42506"> webapp config hostnames delete</tspan>
+<tspan x="10" y="42522"> webapp config hostnames list</tspan>
+<tspan x="10" y="42538"> webapp config set</tspan>
+<tspan x="10" y="42554"> webapp config show</tspan>
+<tspan x="10" y="42570"> webapp create</tspan>
+<tspan x="10" y="42586"> webapp delete</tspan>
+<tspan x="10" y="42602"> webapp list</tspan>
+<tspan x="10" y="42618"> webapp publishingprofile show</tspan>
+<tspan x="10" y="42634"> webapp restart</tspan>
+<tspan x="10" y="42650"> webapp show</tspan>
+<tspan x="10" y="42666"> webapp start</tspan>
+<tspan x="10" y="42682"> webapp stop</tspan>
+<tspan x="10" y="42698">created apidoc file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="42714"></tspan>
+<tspan x="10" y="42730"></tspan>
+<tspan x="10" y="42746">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/el\</tspan>
+<tspan x="10" y="42762">ectron.15b40a4edb60.bcced97b9267a.html</tspan>
+<tspan x="10" y="42778"></tspan>
+<tspan x="10" y="42794">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="42810">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="42826">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="42842">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="42858"></tspan>
+<tspan x="10" y="42874">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/el\</tspan>
+<tspan x="10" y="42890">ectron.15b40a4eec50.5691602c9d855.html</tspan>
+<tspan x="10" y="42906"></tspan>
+<tspan x="10" y="42922">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="42938">merging file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/test-report.json to tes\</tspan>
+<tspan x="10" y="42954">t-report</tspan>
+<tspan x="10" y="42970">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="42986">merging file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/test-report.json to tes\</tspan>
+<tspan x="10" y="43002">t-report</tspan>
+<tspan x="10" y="43018">[5101:0406/002323:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="43034">[5101:0406/002323:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="43050">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="43066">[5117:0406/002324:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="43082">[5117:0406/002324:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="43098">[5153:0406/002324:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="43114">in process gpu-process. </tspan>
+<tspan x="10" y="43130">[5137:0406/002324:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="43146">in process gpu-process. </tspan>
+<tspan x="10" y="43162">[5101:0406/002324:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="43178">[5117:0406/002324:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="43194">npm ERR! Linux 4.4.0-51-generic</tspan>
+<tspan x="10" y="43210">npm ERR! argv "/home/travis/.nvm/versions/node/v6.10.2/bin/node" "/home/travis/.nvm/versions/nod\</tspan>
+<tspan x="10" y="43226">e/v6.10.2/bin/npm" "link" "../azure-sdk-for-node/lib/common"</tspan>
+<tspan x="10" y="43242">npm ERR! node v6.10.2</tspan>
+<tspan x="10" y="43258">npm ERR! npm  v3.10.10</tspan>
+<tspan x="10" y="43274">npm ERR! code EINVALIDTYPE</tspan>
+<tspan x="10" y="43290"></tspan>
+<tspan x="10" y="43306">npm ERR! typeerror Error: Argument #2: Expected array but got string</tspan>
+<tspan x="10" y="43322">npm ERR! typeerror     at EventEmitter.install (/home/travis/.nvm/versions/node/v6.10.2/lib/node\</tspan>
+<tspan x="10" y="43338">_modules/npm/lib/install.js:181:3)</tspan>
+<tspan x="10" y="43354">npm ERR! typeerror     at Object.commandCache.(anonymous function) (/home/travis/.nvm/versions/n\</tspan>
+<tspan x="10" y="43370">ode/v6.10.2/lib/node_modules/npm/lib/npm.js:124:13)</tspan>
+<tspan x="10" y="43386">npm ERR! typeerror     at /home/travis/.nvm/versions/node/v6.10.2/lib/node_modules/npm/lib/link.\</tspan>
+<tspan x="10" y="43402">js:93:24</tspan>
+<tspan x="10" y="43418">npm ERR! typeerror     at /home/travis/.nvm/versions/node/v6.10.2/lib/node_modules/npm/node_modu\</tspan>
+<tspan x="10" y="43434">les/graceful-fs/polyfills.js:264:29</tspan>
+<tspan x="10" y="43450">npm ERR! typeerror     at FSReqWrap.oncomplete (fs.js:123:15)</tspan>
+<tspan x="10" y="43466">npm ERR! typeerror This is an error with npm itself. Please report this error at:</tspan>
+<tspan x="10" y="43482">npm ERR! typeerror     &lt;https://github.com/npm/npm/issues&gt;</tspan>
+<tspan x="10" y="43498"></tspan>
+<tspan x="10" y="43514">npm ERR! Please include the following file with any support request:</tspan>
+<tspan x="10" y="43530">npm ERR!     /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/azure-cli/npm-debug.lo\</tspan>
+<tspan x="10" y="43546">g</tspan>
+<tspan x="10" y="43562"></tspan>
+<tspan x="10" y="43578">{ Error: Command failed: npm link ../azure-sdk-for-node/lib/common</tspan>
+<tspan x="10" y="43594">npm ERR! Linux 4.4.0-51-generic</tspan>
+<tspan x="10" y="43610">npm ERR! argv "/home/travis/.nvm/versions/node/v6.10.2/bin/node" "/home/travis/.nvm/versions/nod\</tspan>
+<tspan x="10" y="43626">e/v6.10.2/bin/npm" "link" "../azure-sdk-for-node/lib/common"</tspan>
+<tspan x="10" y="43642">npm ERR! node v6.10.2</tspan>
+<tspan x="10" y="43658">npm ERR! npm  v3.10.10</tspan>
+<tspan x="10" y="43674">npm ERR! code EINVALIDTYPE</tspan>
+<tspan x="10" y="43690"></tspan>
+<tspan x="10" y="43706">npm ERR! typeerror Error: Argument #2: Expected array but got string</tspan>
+<tspan x="10" y="43722">npm ERR! typeerror     at EventEmitter.install (/home/travis/.nvm/versions/node/v6.10.2/lib/node\</tspan>
+<tspan x="10" y="43738">_modules/npm/lib/install.js:181:3)</tspan>
+<tspan x="10" y="43754">npm ERR! typeerror     at Object.commandCache.(anonymous function) (/home/travis/.nvm/versions/n\</tspan>
+<tspan x="10" y="43770">ode/v6.10.2/lib/node_modules/npm/lib/npm.js:124:13)</tspan>
+<tspan x="10" y="43786">npm ERR! typeerror     at /home/travis/.nvm/versions/node/v6.10.2/lib/node_modules/npm/lib/link.\</tspan>
+<tspan x="10" y="43802">js:93:24</tspan>
+<tspan x="10" y="43818">npm ERR! typeerror     at /home/travis/.nvm/versions/node/v6.10.2/lib/node_modules/npm/node_modu\</tspan>
+<tspan x="10" y="43834">les/graceful-fs/polyfills.js:264:29</tspan>
+<tspan x="10" y="43850">npm ERR! typeerror     at FSReqWrap.oncomplete (fs.js:123:15)</tspan>
+<tspan x="10" y="43866">npm ERR! typeerror This is an error with npm itself. Please report this error at:</tspan>
+<tspan x="10" y="43882">npm ERR! typeerror     &lt;https://github.com/npm/npm/issues&gt;</tspan>
+<tspan x="10" y="43898"></tspan>
+<tspan x="10" y="43914">npm ERR! Please include the following file with any support request:</tspan>
+<tspan x="10" y="43930">npm ERR!     /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/azure-cli/npm-debug.lo\</tspan>
+<tspan x="10" y="43946">g</tspan>
+<tspan x="10" y="43962"></tspan>
+<tspan x="10" y="43978">    at ChildProcess.exithandler (child_process.js:204:12)</tspan>
+<tspan x="10" y="43994">    at emitTwo (events.js:106:13)</tspan>
+<tspan x="10" y="44010">    at ChildProcess.emit (events.js:191:7)</tspan>
+<tspan x="10" y="44026">    at maybeClose (internal/child_process.js:886:16)</tspan>
+<tspan x="10" y="44042">    at Socket.&lt;anonymous&gt; (internal/child_process.js:342:11)</tspan>
+<tspan x="10" y="44058">    at emitOne (events.js:96:13)</tspan>
+<tspan x="10" y="44074">    at Socket.emit (events.js:188:7)</tspan>
+<tspan x="10" y="44090">    at Pipe._handle.close [as _onclose] (net.js:501:12)</tspan>
+<tspan x="10" y="44106">  killed: false,</tspan>
+<tspan x="10" y="44122">  code: 1,</tspan>
+<tspan x="10" y="44138">  signal: null,</tspan>
+<tspan x="10" y="44154">  cmd: 'npm link ../azure-sdk-for-node/lib/common' }</tspan>
+<tspan x="10" y="44170">TypeError: Bad argument</tspan>
+<tspan x="10" y="44186">    at TypeError (native)</tspan>
+<tspan x="10" y="44202">    at ChildProcess.spawn (internal/child_process.js:294:26)</tspan>
+<tspan x="10" y="44218">    at Object.exports.spawn (child_process.js:378:9)</tspan>
+<tspan x="10" y="44234">    at Object.local.processSpawnWithTimeout (/home/travis/build/npmdoc/node-npmdoc-azure-cli/nod\</tspan>
+<tspan x="10" y="44250">e_modules/utility2/lib.utility2.js:4154:54)</tspan>
+<tspan x="10" y="44266">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:252\</tspan>
+<tspan x="10" y="44282">5:23</tspan>
+<tspan x="10" y="44298">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:395\</tspan>
+<tspan x="10" y="44314">1:17</tspan>
+<tspan x="10" y="44330">    at onParallel (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.uti\</tspan>
+<tspan x="10" y="44346">lity2.js:4027:21)</tspan>
+<tspan x="10" y="44362">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:250\</tspan>
+<tspan x="10" y="44378">8:21</tspan>
+<tspan x="10" y="44394">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:395\</tspan>
+<tspan x="10" y="44410">1:17</tspan>
+<tspan x="10" y="44426">    at xhr.onEvent (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.ut\</tspan>
+<tspan x="10" y="44442">ility2.js:1748:21)</tspan>
+<tspan x="10" y="44458"></tspan>
+<tspan x="10" y="44474">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="44490"></tspan>
+<tspan x="10" y="44506"></tspan>
+<tspan x="10" y="44522">browserTest - opened url http://127.0.0.1:35673?modeTest=1</tspan>
+<tspan x="10" y="44538"></tspan>
+<tspan x="10" y="44554"></tspan>
+<tspan x="10" y="44570">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/b\</tspan>
+<tspan x="10" y="44586">uild/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-azure-cli_2Ft\</tspan>
+<tspan x="10" y="44602">mp_2Fbuild_2Fapidoc.html.png</tspan>
+<tspan x="10" y="44618"></tspan>
+<tspan x="10" y="44634">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/b\</tspan>
+<tspan x="10" y="44650">uild/screenCapture.npmTest.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-azure-cli_2Ft\</tspan>
+<tspan x="10" y="44666">mp_2Fbuild_2Fapidoc.html.html</tspan>
+<tspan x="10" y="44682"></tspan>
+<tspan x="10" y="44698">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/apidoc.htm\</tspan>
+<tspan x="10" y="44714">l</tspan>
+<tspan x="10" y="44730"></tspan>
+<tspan x="10" y="44746"></tspan>
+<tspan x="10" y="44762">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/b\</tspan>
+<tspan x="10" y="44778">uild/screenCapture.npmTest.browser..png</tspan>
+<tspan x="10" y="44794"></tspan>
+<tspan x="10" y="44810">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/b\</tspan>
+<tspan x="10" y="44826">uild/screenCapture.npmTest.browser..html</tspan>
+<tspan x="10" y="44842"></tspan>
+<tspan x="10" y="44858">browserTest - exit-code 0 - http://127.0.0.1:35673?modeTest=1</tspan>
+<tspan x="10" y="44874"></tspan>
+<tspan x="10" y="44890"></tspan>
+<tspan x="10" y="44906">browserTest - merged coverage from /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/coverage.\</tspan>
+<tspan x="10" y="44922">npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="44938"></tspan>
+<tspan x="10" y="44954"></tspan>
+<tspan x="10" y="44970">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/test-\</tspan>
+<tspan x="10" y="44986">report.npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="45002"></tspan>
+<tspan x="10" y="45018">[node test-case 4 of 6 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="45034"></tspan>
+<tspan x="10" y="45050">testCase testCase_buildApidoc_default failed</tspan>
+<tspan x="10" y="45066">onTimeout - timeout-error - 30000 ms - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="45082">Error: onTimeout - timeout-error - 30000 ms - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="45098">    at Timeout._onTimeout (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2\</tspan>
+<tspan x="10" y="45114">/lib.utility2.js:4139:25)</tspan>
+<tspan x="10" y="45130">    at ontimeout (timers.js:380:14)</tspan>
+<tspan x="10" y="45146">    at tryOnTimeout (timers.js:244:5)</tspan>
+<tspan x="10" y="45162">    at Timer.listOnTimeout (timers.js:214:5)</tspan>
+<tspan x="10" y="45178">Error</tspan>
+<tspan x="10" y="45194">    at Object.local.onTimeout (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/util\</tspan>
+<tspan x="10" y="45210">ity2/lib.utility2.js:4136:29)</tspan>
+<tspan x="10" y="45226">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:542\</tspan>
+<tspan x="10" y="45242">3:38</tspan>
+<tspan x="10" y="45258">    at onEach2 (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utilit\</tspan>
+<tspan x="10" y="45274">y2.js:4051:21)</tspan>
+<tspan x="10" y="45290">    at Object.local.onParallelList (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules\</tspan>
+<tspan x="10" y="45306">/utility2/lib.utility2.js:4077:13)</tspan>
+<tspan x="10" y="45322">    at Object.local.testRunDefault (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules\</tspan>
+<tspan x="10" y="45338">/utility2/lib.utility2.js:5378:19)</tspan>
+<tspan x="10" y="45354">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:531\</tspan>
+<tspan x="10" y="45370">9:35</tspan>
+<tspan x="10" y="45386">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:395\</tspan>
+<tspan x="10" y="45402">1:17</tspan>
+<tspan x="10" y="45418">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:480\</tspan>
+<tspan x="10" y="45434">4:29</tspan>
+<tspan x="10" y="45450">    at Array.forEach (native)</tspan>
+<tspan x="10" y="45466">[node test-case 5 of 6 failed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="45482"></tspan>
+<tspan x="10" y="45498">testCase testCase_buildApp_default failed</tspan>
+<tspan x="10" y="45514">onTimeout - timeout-error - 30000 ms - testCase_buildApp_default</tspan>
+<tspan x="10" y="45530">Error: onTimeout - timeout-error - 30000 ms - testCase_buildApp_default</tspan>
+<tspan x="10" y="45546">    at Timeout._onTimeout (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2\</tspan>
+<tspan x="10" y="45562">/lib.utility2.js:4139:25)</tspan>
+<tspan x="10" y="45578">    at ontimeout (timers.js:380:14)</tspan>
+<tspan x="10" y="45594">    at tryOnTimeout (timers.js:244:5)</tspan>
+<tspan x="10" y="45610">    at Timer.listOnTimeout (timers.js:214:5)</tspan>
+<tspan x="10" y="45626">Error</tspan>
+<tspan x="10" y="45642">    at Object.local.onTimeout (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/util\</tspan>
+<tspan x="10" y="45658">ity2/lib.utility2.js:4136:29)</tspan>
+<tspan x="10" y="45674">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:542\</tspan>
+<tspan x="10" y="45690">3:38</tspan>
+<tspan x="10" y="45706">    at onEach2 (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utilit\</tspan>
+<tspan x="10" y="45722">y2.js:4051:21)</tspan>
+<tspan x="10" y="45738">    at Object.local.onParallelList (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules\</tspan>
+<tspan x="10" y="45754">/utility2/lib.utility2.js:4077:13)</tspan>
+<tspan x="10" y="45770">    at Object.local.testRunDefault (/home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules\</tspan>
+<tspan x="10" y="45786">/utility2/lib.utility2.js:5378:19)</tspan>
+<tspan x="10" y="45802">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:531\</tspan>
+<tspan x="10" y="45818">9:35</tspan>
+<tspan x="10" y="45834">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:395\</tspan>
+<tspan x="10" y="45850">1:17</tspan>
+<tspan x="10" y="45866">    at /home/travis/build/npmdoc/node-npmdoc-azure-cli/node_modules/utility2/lib.utility2.js:480\</tspan>
+<tspan x="10" y="45882">4:29</tspan>
+<tspan x="10" y="45898">    at Array.forEach (native)</tspan>
+<tspan x="10" y="45914">[node test-case 6 of 6 failed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="45930">merging file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/test-report.json to tes\</tspan>
+<tspan x="10" y="45946">t-report</tspan>
+<tspan x="10" y="45962"></tspan>
+<tspan x="10" y="45978">-------------------------------------------------------</tspan>
+<tspan x="10" y="45994">| test-report - buildNpmdoc - node - linux v6.10.2 - 2017-04-06T00:22:25.900Z</tspan>
+<tspan x="10" y="46010">|   85026 ms            2 failed        4 passed      |</tspan>
+<tspan x="10" y="46026">-------------------------------------------------------</tspan>
+<tspan x="10" y="46042"></tspan>
+<tspan x="10" y="46058">created test-report file:///home/travis/build/npmdoc/node-npmdoc-azure-cli/tmp/build/test-report\</tspan>
+<tspan x="10" y="46074">.html</tspan>
+<tspan x="10" y="46090"></tspan>
+<tspan x="10" y="46106"></tspan>
+<tspan x="10" y="46122">npmTest - 2 failed tests</tspan>
+<tspan x="10" y="46138"></tspan>
+<tspan x="10" y="46154"></tspan>
+<tspan x="10" y="46170">[MODE_BUILD=npmTest] - 2017-04-06T00:23:53Z - EXIT_CODE - 2</tspan>
+<tspan x="10" y="46186"></tspan>
+<tspan x="10" y="46202">npm ERR! Test failed.  See above for more details.</tspan>
+</text>
+</svg>
